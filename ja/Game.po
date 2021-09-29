@@ -1,0 +1,2962 @@
+﻿# Game Japanese translation.
+# Copyright Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2021-09-29 06:20\n"
+"PO-Revision-Date: 2021-09-29 06:20\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Key:	0009551D4CC458ABC484C18C8849EC79
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_1_footL.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_1_footL.Text
+msgctxt ",0009551D4CC458ABC484C18C8849EC79"
+msgid "1"
+msgstr ""
+
+#. Key:	00B4B2064EC49D46680BC9A8DE939DFC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ExtrinsicCalibrationSaveButton.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ExtrinsicCalibrationSaveButton.ToolTipText
+msgctxt ",00B4B2064EC49D46680BC9A8DE939DFC"
+msgid "Save calibration result"
+msgstr "カメラ校正結果を保存"
+
+#. Key:	014EB83E4365DC39D19AD98E3E036BC4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_17.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_17.Text
+msgctxt ",014EB83E4365DC39D19AD98E3E036BC4"
+msgid "Knee R"
+msgstr "左膝"
+
+#. Key:	01E650B74F18DD5FC64C918919D4295E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.IntrinsicCalibrationSaveButton_1.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.IntrinsicCalibrationSaveButton_1.ToolTipText
+msgctxt ",01E650B74F18DD5FC64C918919D4295E"
+msgid "Save calibration result"
+msgstr "カメラ校正結果を保存"
+
+#. Key:	0280B8B546856E0083A2AB8CF6FBB6E4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_66.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_66.Text
+msgctxt ",0280B8B546856E0083A2AB8CF6FBB6E4"
+msgid "Priority on"
+msgstr "実行モード"
+
+#. Key:	028749294CA8B0EA943814804389F5E3
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_53.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_53.ToolTipText
+msgctxt ",028749294CA8B0EA943814804389F5E3"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	0289E6944CC15042D109E8BF4EE43EA1
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_94.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_94.Text
+msgctxt ",0289E6944CC15042D109E8BF4EE43EA1"
+msgid "Specify facial morph target names"
+msgstr "表情のモーフターゲット名を指定"
+
+#. Key:	028EF34B450BE73E9843D8911FE549A6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_97.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_97.Text
+msgctxt ",028EF34B450BE73E9843D8911FE549A6"
+msgid "Jaw open"
+msgstr "口を開く"
+
+#. Key:	02D6648C42AA59EAFA8D0589D62E6CC3
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",02D6648C42AA59EAFA8D0589D62E6CC3"
+msgid "720"
+msgstr ""
+
+#. Key:	032F87F04A1AC5FDDB85FAA2E54358A2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_106.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_106.ToolTipText
+msgctxt ",032F87F04A1AC5FDDB85FAA2E54358A2"
+msgid "Whether to correct the positions and orientations of the detected markers.\r\nIf the difference of orientations between the markers is within 30 degrees, it is assumed that they are in the same plane and the positions and orientations of the markers are corrected.\r\nNearly horizontal markers get snapped to the floor. Nearly vertical markers' orientations are corrected to be vertical."
+msgstr "検出されたマーカーの位置と向きを修正するかどうか。\r\nマーカ間の向きの差が30度以内なら、同じ平面内にあるとしてマーカの位置と回転を補正します。ほぼ水平のマーカは床面に対してスナップされます。ほぼ垂直のマーカは、垂直になるよう補正されます。"
+
+#. Key:	04C0FB3D4F6E7662DB646DA50870FB8A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_CalibrationSaveDialogue.WBP_CalibrationSaveDialogue_C:WidgetTree.TextBlock_1.Text
+#: /MultiWebcam3dPose/UI/WBP_CalibrationSaveDialogue.WBP_CalibrationSaveDialogue_C:WidgetTree.TextBlock_1.Text
+msgctxt ",04C0FB3D4F6E7662DB646DA50870FB8A"
+msgid "X"
+msgstr ""
+
+#. Key:	04E1BD944C0DC3E8B5385891D5C2F60A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Calibration [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Calibration [Script Bytecode]
+msgctxt ",04E1BD944C0DC3E8B5385891D5C2F60A"
+msgid "Not ready"
+msgstr "要設定"
+
+#. Key:	07050454465C4D7BF3A1B48F754B4ED0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_DialogueSaveBvh.WBP_DialogueSaveBvh_C:WidgetTree.WBP_FileDialogue.Button Title
+#: /MultiWebcam3dPose/UI/WBP_DialogueSaveBvh.WBP_DialogueSaveBvh_C:WidgetTree.WBP_FileDialogue.Button Title
+msgctxt ",07050454465C4D7BF3A1B48F754B4ED0"
+msgid "Start recording"
+msgstr "記録開始"
+
+#. Key:	070EFC874E7A8F3ECAFAE4815C056B8C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_71.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_71.Text
+msgctxt ",070EFC874E7A8F3ECAFAE4815C056B8C"
+msgid "Send bones  "
+msgstr "ボーンを送信"
+
+#. Key:	0768D7DE4F9120DD388DA987B3FD6921
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_3.Text
+#: /MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_3.Text
+msgctxt ",0768D7DE4F9120DD388DA987B3FD6921"
+msgid "MocapForAll End User License Agreement"
+msgstr ""
+
+#. Key:	0812D758459B7F19BFFDE48B1C01FDF7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_12.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_12.Text
+msgctxt ",0812D758459B7F19BFFDE48B1C01FDF7"
+msgid "Load"
+msgstr "ロード"
+
+#. Key:	0816BACF4A300BD4970B95B98AE7DAE0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_MakerSize_charuco.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_MakerSize_charuco.Text
+msgctxt ",0816BACF4A300BD4970B95B98AE7DAE0"
+msgid "0.04275"
+msgstr ""
+
+#. Key:	0B523E5141F7E790B034CCA46D7E4C53
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_0.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_0.Text
+msgctxt ",0B523E5141F7E790B034CCA46D7E4C53"
+msgid "Use main thread"
+msgstr "メインスレッドを使用"
+
+#. Key:	0B8FA050444E330E0145F59AEC6FBD88
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.Text
+msgctxt ",0B8FA050444E330E0145F59AEC6FBD88"
+msgid "Language / 言語"
+msgstr ""
+
+#. Key:	0BB388A1400447724EE7DF87C8F36B79
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_11.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_11.ToolTipText
+msgctxt ",0BB388A1400447724EE7DF87C8F36B79"
+msgid "The crop size of the image used to capture your hands."
+msgstr "手をキャプチャするために使用される画像のトリミングサイズ"
+
+#. Key:	0BE40F0D495399152DC7C98D732B13BB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Image_100.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Image_100.ToolTipText
+msgctxt ",0BE40F0D495399152DC7C98D732B13BB"
+msgid "Rotate the image"
+msgstr "画像を回転"
+
+#. Key:	0CC0A58747256CEBCC8C839833AA6AF3
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",0CC0A58747256CEBCC8C839833AA6AF3"
+msgid "3840"
+msgstr ""
+
+#. Key:	0DD3C5DE47F34EB80BE16F8B425AD961
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:setWarningMessage [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:setWarningMessage [Script Bytecode]
+msgctxt ",0DD3C5DE47F34EB80BE16F8B425AD961"
+msgid "- The difference between fx and fy is over 20%."
+msgstr "・fxとfyの間に20%以上の差があります。"
+
+#. Key:	0F7831684BA220A3A44D7AB8D2CF8DCA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_VrmLoadMode.WBP_VrmLoadMode_C:WidgetTree.TextBlock_70.Text
+#: /MultiWebcam3dPose/UI/WBP_VrmLoadMode.WBP_VrmLoadMode_C:WidgetTree.TextBlock_70.Text
+msgctxt ",0F7831684BA220A3A44D7AB8D2CF8DCA"
+msgid "Load VRM model"
+msgstr "VRMモデルのロード"
+
+#. Key:	1034E1C04C6BF1AEAE5F1C8BE6EF4C32
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+msgctxt ",1034E1C04C6BF1AEAE5F1C8BE6EF4C32"
+msgid "fx"
+msgstr ""
+
+#. Key:	1088D21D4503493B2CAEC7B6C054DE2E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_112.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_112.Text
+msgctxt ",1088D21D4503493B2CAEC7B6C054DE2E"
+msgid "GPU: "
+msgstr ""
+
+#. Key:	11D3389D489F86A6F971B39B3EDD18C7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_eyeMorphName_L.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_eyeMorphName_L.Text
+msgctxt ",11D3389D489F86A6F971B39B3EDD18C7"
+msgid "Face.M_F00_000_00_Fcl_EYE_Close_L"
+msgstr ""
+
+#. Key:	125E7CC44AECE9EB379661916D1FD5B2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_77.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_77.Text
+msgctxt ",125E7CC44AECE9EB379661916D1FD5B2"
+msgid "Show frame rate"
+msgstr "フレームレートを表示"
+
+#. Key:	128021964A05ACAE66E127943F5B9FE8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_72.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_72.Text
+msgctxt ",128021964A05ACAE66E127943F5B9FE8"
+msgid "Port:"
+msgstr "ポート:"
+
+#. Key:	1316302F4FB11FF1B9E10890C5F49B30
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic12_1.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic12_1.Text
+msgctxt ",1316302F4FB11FF1B9E10890C5F49B30"
+msgid "0"
+msgstr ""
+
+#. Key:	1325A1FA473D3E858F221ABDA7A21173
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_25.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_25.Text
+msgctxt ",1325A1FA473D3E858F221ABDA7A21173"
+msgid "Facial"
+msgstr "顔"
+
+#. Key:	1523406C40A598C8D1791791EE05262C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_130.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_130.Text
+msgctxt ",1523406C40A598C8D1791791EE05262C"
+msgid "Manual"
+msgstr "マニュアル"
+
+#. Key:	15FB125F4F16798B02F94D95B5043D9D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_38.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_38.Text
+msgctxt ",15FB125F4F16798B02F94D95B5043D9D"
+msgid "Feet"
+msgstr "足"
+
+#. Key:	16138BFC4E80A830C51C239057717F32
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",16138BFC4E80A830C51C239057717F32"
+msgid "r32"
+msgstr ""
+
+#. Key:	1794765646D83D2921A2B1868496396F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_0.Text
+#: /MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_0.Text
+msgctxt ",1794765646D83D2921A2B1868496396F"
+msgid "私は利用規約を読み、内容を理解しました。"
+msgstr ""
+
+#. Key:	1804EF484F33A25E6A5A06B3BCC171B8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_CalibrationSaveFile.WBP_CalibrationSaveFile_C:WidgetTree.TextBlock_90.Text
+#: /MultiWebcam3dPose/UI/WBP_CalibrationSaveFile.WBP_CalibrationSaveFile_C:WidgetTree.TextBlock_90.Text
+msgctxt ",1804EF484F33A25E6A5A06B3BCC171B8"
+msgid "Delete"
+msgstr "削除"
+
+#. Key:	1826B5BF44FD16D254920E86EE683116
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock.ToolTipText
+msgctxt ",1826B5BF44FD16D254920E86EE683116"
+msgid "You can turn on/off the smoothing of the captured motion, and specify the smoothing intensity.\r\nTo make motions smoother, decrease the values. For quick motions, increase the values.\r\n(See https://cristal.univ-lille.fr/~casiez/1euro/ for more information of the parameters)"
+msgstr "キャプチャしたモーションのスムージングのオン/オフと、スムージングの強度を指定できます。\r\nモーションを滑らかにするには、小さな値を指定します。素早い動きの場合は、値を大きくしてください。\r\n(パラメーターの詳細については、https://cristal.univ-lille.fr/~casiez/1euro/ を参照してください)"
+
+#. Key:	1883A8EB450C6C0E2BEBCF8D2610EC28
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_5_hipL.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_5_hipL.Text
+msgctxt ",1883A8EB450C6C0E2BEBCF8D2610EC28"
+msgid "5"
+msgstr ""
+
+#. Key:	19C5F11C40C8E51676B6C4BCC6F25318
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_VrmLoadMode.WBP_VrmLoadMode_C:WidgetTree.TextBlock_1.Text
+#: /MultiWebcam3dPose/UI/WBP_VrmLoadMode.WBP_VrmLoadMode_C:WidgetTree.TextBlock_1.Text
+msgctxt ",19C5F11C40C8E51676B6C4BCC6F25318"
+msgid "X"
+msgstr ""
+
+#. Key:	1A5F6CAC4AC7A06444BC9F9927EA35AB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_DialogueOpenVideo.WBP_DialogueOpenVideo_C:WidgetTree.WBP_FileDialogue.Windows Title
+#: /MultiWebcam3dPose/UI/WBP_DialogueOpenVideo.WBP_DialogueOpenVideo_C:WidgetTree.WBP_FileDialogue.Windows Title
+msgctxt ",1A5F6CAC4AC7A06444BC9F9927EA35AB"
+msgid "Open video file"
+msgstr "動画ファイルを開く"
+
+#. Key:	1AFCF2934B1D011B1BD9DCBD33690B0F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",1AFCF2934B1D011B1BD9DCBD33690B0F"
+msgid "640"
+msgstr ""
+
+#. Key:	1B41DFBA4684721E4C8EFE8ABB03BA67
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",1B41DFBA4684721E4C8EFE8ABB03BA67"
+msgid "Currently, BVH recording is supported only on VRM models.\r\nChanging \"Character\" to \"VRM runtime load\".\r\n\r\nIf you do not own VRM models, you can just leave \r\n\"Character\" as \"VRM runtime load\" without actually loading any model.\r\n(A dummy VRM model runs in background.)"
+msgstr "現在、BVHファイルへの保存はVRMモデルにのみ対応しています。\r\n「キャラクター」が「VRM runtime load」に自動的に変更されました。\r\n\r\nVRMモデルを持っていない場合は、実際にモデルをロードせず、\r\n「キャラクター」は「VRM runtime load」のままにしてください。\r\n（裏でダミーのVRMモデルが動いています）"
+
+#. Key:	1B7934984817B316E0ACB4A56989F2E0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+msgctxt ",1B7934984817B316E0ACB4A56989F2E0"
+msgid "Not calibrated"
+msgstr "要カメラ校正"
+
+#. Key:	1BA1F2DA47110D3C045551AB600DB922
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.TextBlock_-.Text
+#: /MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.TextBlock_-.Text
+msgctxt ",1BA1F2DA47110D3C045551AB600DB922"
+msgid "<"
+msgstr ""
+
+#. Key:	1BEF828F4B82FF5C0276F796AE8D5A6E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_82.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_82.Text
+msgctxt ",1BEF828F4B82FF5C0276F796AE8D5A6E"
+msgid "Smoothing on finger"
+msgstr "指の動きのスムージング"
+
+#. Key:	1C3C3B8547F193FC2D5372A531679290
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_69.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_69.Text
+msgctxt ",1C3C3B8547F193FC2D5372A531679290"
+msgid "Hand R"
+msgstr "右手"
+
+#. Key:	1C99B8D641EAB3D12D6D79887DE8C2FA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumVmt.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumVmt.Text
+msgctxt ",1C99B8D641EAB3D12D6D79887DE8C2FA"
+msgid "39570"
+msgstr ""
+
+#. Key:	1CB4AF55413C3059573CAD96A7CC3314
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_99.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_99.Text
+msgctxt ",1CB4AF55413C3059573CAD96A7CC3314"
+msgid "Brow down"
+msgstr "眉下げる"
+
+#. Key:	1CC51CA441DD5DDDB58145A4845734FD
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_35.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_35.Text
+msgctxt ",1CC51CA441DD5DDDB58145A4845734FD"
+msgid "Send bones  "
+msgstr "ボーンを送信"
+
+#. Key:	1D45F32F4946493AF5964CB9E668C64A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic22.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic22.Text
+msgctxt ",1D45F32F4946493AF5964CB9E668C64A"
+msgid "r22"
+msgstr ""
+
+#. Key:	1F16EB78459A8440F03899B9123276E9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_versionNum.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_versionNum.Text
+msgctxt ",1F16EB78459A8440F03899B9123276E9"
+msgid "1.12"
+msgstr ""
+
+#. Key:	1F2909384231B47739708286D7D8467F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock.Text
+msgctxt ",1F2909384231B47739708286D7D8467F"
+msgid "Smoothing on body"
+msgstr "体の動きのスムージング"
+
+#. Key:	1F6F47B74A1B8DACBCF2E8BDB3534ED5
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.StartCalibGroundButton.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.StartCalibGroundButton.ToolTipText
+msgctxt ",1F6F47B74A1B8DACBCF2E8BDB3534ED5"
+msgid "Starts automatic adjustment of floor level.\r\nWalk around on the floor where the cameras can see your whole body after pressing this."
+msgstr "地面の向き・位置の自動調整を開始します。\r\nこれを押した後、各カメラから全身が映る床の上を歩き回ってください。"
+
+#. Key:	1F72C20F4F9971C352FEC59182B93E42
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic23_cy.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic23_cy.Text
+msgctxt ",1F72C20F4F9971C352FEC59182B93E42"
+msgid "cy"
+msgstr ""
+
+#. Key:	1FC164144BBB1ACEFE821CAEB3A197FE
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_BatchBvhProgress.WBP_BatchBvhProgress_C:WidgetTree.TextBlock_filemode.Text
+#: /MultiWebcam3dPose/UI/WBP_BatchBvhProgress.WBP_BatchBvhProgress_C:WidgetTree.TextBlock_filemode.Text
+msgctxt ",1FC164144BBB1ACEFE821CAEB3A197FE"
+msgid "Recording to BVH file..."
+msgstr "BVHファイルに保存中..."
+
+#. Key:	2001B97C401993B31C6641BBAA7DF49D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_98.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_98.Text
+msgctxt ",2001B97C401993B31C6641BBAA7DF49D"
+msgid "Brow raise"
+msgstr "眉上げる"
+
+#. Key:	20B6FA1246B40ED8A57A91A484E42121
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_SaveAllCameras.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_SaveAllCameras.ToolTipText
+msgctxt ",20B6FA1246B40ED8A57A91A484E42121"
+msgid "Save all camera settings including:\r\n- Number of cameras\r\n- Index of opened camera\r\n- Image size, orientation\r\n- Calibration results\r\nNote that you can save only one state. Pressing this overwrites previous save data."
+msgstr "全てのカメラについて下記の設定を保存します。\r\n-カメラの数\r\n-開いたカメラのインデックス\r\n-画像サイズ、向き\r\n-キャリブレーション結果\r\n保存できる設定は1つだけであることに注意してください。これを押すと、以前の保存データが上書きされます。"
+
+#. Key:	21B9E2854893A47291B5AFA55DA6A53A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_129.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_129.Text
+msgctxt ",21B9E2854893A47291B5AFA55DA6A53A"
+msgid "Shoulder R"
+msgstr "右肩"
+
+#. Key:	22113EC24202B73F8BCB289A5AE95391
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_81.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_81.ToolTipText
+msgctxt ",22113EC24202B73F8BCB289A5AE95391"
+msgid "\"Empty\": No character drawn. This is recommended to use to achieve the best performance.\r\n\"MetaHuman Sex_Height_Weight\": Simple character which has Epic games' MetaHuman bone. Note that facial capture is not supported on this model.\r\n\tSex: male(M) or female(F)\r\n\tHeight: tall(tal), medium(Med), or short(Srt)\r\n\tWeitht: underweight(Unw), normal(Nrm), overweight(Ovw)\r\n\"MetaHuman Sample\": A character created by Epic games' MetaHuman Creator. \"Appendix3_MetaHuman_character\" needs to be installed. See 2 of \"How to install\" section.\r\n\"VRM runtime load\": Automatically selected when using VRM model. To use your VRM model, simply drag and drop the VRM file into the app's window. (This is an experimental feature. There is no warranty that all VRM files work properly.)"
+msgstr "「Empty」：キャラクターを描画しません。パフォーマンス最適化のために使用することをお勧めします。\r\n「MetaHuman 性別_身長_体重」: Epic Games の MetaHuman ボーンを持つシンプルなキャラクター。\r\n\t性別: 男male(M), 女female(F)\r\n\t身長: 高tall(tal), 中medium(Med), 低short(Srt)\r\n\t体重: 瘦せ型underweight(Unw), 普通normal(Nrm), 肥満overweight(Ovw)\r\n「MetaHuman Sample」: Epic Games の MetaHuman Creator によって作成されたキャラクター。「Appendix3_MetaHuman_character」をインストールする必要があります。 「インストール方法」セクションの2を参照してください。\r\n「VRM runtime load」：VRMモデル使用時に自動で選択されます。 VRMモデルを使用するには、VRMファイルをアプリのウィンドウにドラッグ&ドロップしてください。（実験的機能です。全てのVRMファイルに対応することを保証するものではありません）"
+
+#. Key:	229BB26C4FD1486980F0118EAE6167E4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",229BB26C4FD1486980F0118EAE6167E4"
+msgid "[Free Trial] Data export stops after: "
+msgstr "【無料版】データ送信停止まで:"
+
+#. Key:	253C70B74ADEC011468B0BAE7CC2487D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceBboxSpacingRatio.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceBboxSpacingRatio.Text
+msgctxt ",253C70B74ADEC011468B0BAE7CC2487D"
+msgid "1.4"
+msgstr ""
+
+#. Key:	258114604AF46704AD428EAE1BEC8974
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_42.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_42.Text
+msgctxt ",258114604AF46704AD428EAE1BEC8974"
+msgid "R: "
+msgstr "右:"
+
+#. Key:	25DE2FDB47838D3D504A6B9ADA5A7177
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_3.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_3.Text
+msgctxt ",25DE2FDB47838D3D504A6B9ADA5A7177"
+msgid "x"
+msgstr ""
+
+#. Key:	269972D443AC25B5ADDEDE8C50EBDF79
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_8.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_8.Text
+msgctxt ",269972D443AC25B5ADDEDE8C50EBDF79"
+msgid "Run DNN on"
+msgstr "DNNの実行環境"
+
+#. Key:	26A215C24A1851338EEC42A28371A745
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_24.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_24.Text
+msgctxt ",26A215C24A1851338EEC42A28371A745"
+msgid "Scales"
+msgstr "スケール"
+
+#. Key:	26A8B6C143323DB2F4B19EB825DBD269
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceBboxInterpolateRation.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceBboxInterpolateRation.Text
+msgctxt ",26A8B6C143323DB2F4B19EB825DBD269"
+msgid "0.38"
+msgstr ""
+
+#. Key:	26D1026F4510870D71D3E1A3C8D15CE7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_78.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_78.Text
+msgctxt ",26D1026F4510870D71D3E1A3C8D15CE7"
+msgid "Performance"
+msgstr "性能"
+
+#. Key:	271F7396450CEE436ED09B876835D9ED
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_1.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_1.Text
+msgctxt ",271F7396450CEE436ED09B876835D9ED"
+msgid "X"
+msgstr ""
+
+#. Key:	289569A04F6C7A473EF998961181468B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_34.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_34.ToolTipText
+msgctxt ",289569A04F6C7A473EF998961181468B"
+msgid "When checked, inverse kinematics are used to control the positions of the feet so that they do not float in the air or sink into the floor."
+msgstr "IKを使って足の位置を制御し、足が床から浮いていたり床に沈みこんだりしないようにします。"
+
+#. Key:	28BC05D54EF1D9FC50C6AABCD72BA1C7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_IpAddress.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_IpAddress.Text
+msgctxt ",28BC05D54EF1D9FC50C6AABCD72BA1C7"
+msgid "127.0.0.1"
+msgstr ""
+
+#. Key:	29109A4542FBEB1EBBA89A9ABB3A6A54
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:ExecuteUbergraph_WBP_Camera [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:ExecuteUbergraph_WBP_Camera [Script Bytecode]
+msgctxt ",29109A4542FBEB1EBBA89A9ABB3A6A54"
+msgid "Calibrated"
+msgstr "カメラ校正済"
+
+#. Key:	291B73BF4B034EE3788685A6078A98E7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_82.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_82.ToolTipText
+msgctxt ",291B73BF4B034EE3788685A6078A98E7"
+msgid "You can turn on/off the smoothing of the captured motion, and specify the smoothing intensity.\r\nTo make motions smoother, decrease the values. For quick motions, increase the values.\r\n(See https://cristal.univ-lille.fr/~casiez/1euro/ for more information of the parameters)"
+msgstr "キャプチャしたモーションのスムージングのオン/オフと、スムージングの強度を指定できます。\r\nモーションを滑らかにするには、小さな値を指定します。素早い動きの場合は、値を大きくしてください。\r\n(パラメーターの詳細については、https://cristal.univ-lille.fr/~casiez/1euro/ を参照してください)"
+
+#. Key:	29C9638A49C42805D5899F80297B4E4B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_81.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_81.Text
+msgctxt ",29C9638A49C42805D5899F80297B4E4B"
+msgid "Character:"
+msgstr "キャラクター:"
+
+#. Key:	2A65285F47804FB63F7924A7EA3AAAFC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",2A65285F47804FB63F7924A7EA3AAAFC"
+msgid "1920"
+msgstr ""
+
+#. Key:	2AD2373642CC94E22137D0AE6C3F3A40
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",2AD2373642CC94E22137D0AE6C3F3A40"
+msgid "Currently, BVH recording is supported only on VRM models.\r\nTurning off \"Record to BVH file\" in \"Data Export\".\r\n\r\nIf you do not own VRM models, just leave \r\n\"Character\" as \"VRM runtime load\" without actually loading a model\r\nin order to record motion to BVH files.\r\n(A dummy VRM model runs in background.)"
+msgstr "現在、BVHファイルへの保存はVRMモデルにのみ対応しています。\r\n「BVHファイルに保存」オプションが自動的にオフになりました。\r\n\r\nVRMモデルを持っていない場合は、BVHファイルへの保存を実行するには、\r\n「キャラクター」は「VRM runtime load」のままにしてください。\r\n（裏でダミーのVRMモデルが動いています）"
+
+#. Key:	2BB566FA48EC1BCF9172C282F71AA88C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_96.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_96.Text
+msgctxt ",2BB566FA48EC1BCF9172C282F71AA88C"
+msgid "Mouth corner depress"
+msgstr "口角 下げる"
+
+#. Key:	2C01CD7D48295F2F33D413902F513C2B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Image.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Image.ToolTipText
+msgctxt ",2C01CD7D48295F2F33D413902F513C2B"
+msgid "Flip the image horizontally"
+msgstr "画像を左右反転"
+
+#. Key:	2D101B19481F998A295CA787D55107A3
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_Error.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_Error.Text
+msgctxt ",2D101B19481F998A295CA787D55107A3"
+msgid "Failed to switch to GPU mode.\r\nFall back to CPU mode."
+msgstr "GPUモードへの切り替えに失敗。CPUモードにフォールバックします。"
+
+#. Key:	2E0C88134E850421CB9C838E0E94ECF3
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_358.Text
+#: /MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_358.Text
+msgctxt ",2E0C88134E850421CB9C838E0E94ECF3"
+msgid "I agree and accept the terms and conditions."
+msgstr ""
+
+#. Key:	2E960F2F47F4B18A63A6FDB2098F756F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_88.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_88.Text
+msgctxt ",2E960F2F47F4B18A63A6FDB2098F756F"
+msgid "Smoothing on facial expression"
+msgstr "表情のスムージング"
+
+#. Key:	2EE69C704AB7ECB97ACBD9AE42C6BBBD
+#. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+#: /MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+msgctxt ",2EE69C704AB7ECB97ACBD9AE42C6BBBD"
+msgid "Face.M_F00_000_00_Fcl_EYE_Close_R"
+msgstr ""
+
+#. Key:	2EF5204A4E6DAB518E1296ABD7454802
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName_4.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName_4.Text
+msgctxt ",2EF5204A4E6DAB518E1296ABD7454802"
+msgid "Face.M_F00_000_00_Fcl_BRW_Sorrow"
+msgstr ""
+
+#. Key:	2F92FEBC4A16201761B2DD9BFF02E65D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_10.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_10.ToolTipText
+msgctxt ",2F92FEBC4A16201761B2DD9BFF02E65D"
+msgid "Apply the image size.\r\nSomtimes it fails to change the image size. In that case, please close camera, wait for a moment, and try again."
+msgstr "画像サイズの変更を適用します。\r\n画像サイズの変更に失敗する場合があります。その場合は、カメラを閉じてしばらく待ってから、もう一度お試しください。"
+
+#. Key:	2FA7F40049329ABD462241ACD2E9D8D3
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.TextBlock_+.Text
+#: /MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.TextBlock_+.Text
+msgctxt ",2FA7F40049329ABD462241ACD2E9D8D3"
+msgid ">"
+msgstr ""
+
+#. Key:	2FD6EB384CFBA8CC386FDA8963B34BDB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_101.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_101.Text
+msgctxt ",2FD6EB384CFBA8CC386FDA8963B34BDB"
+msgid "Eye Blink R"
+msgstr "瞬き 右"
+
+#. Key:	2FE88005457DEAD53E1895989B745AAA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",2FE88005457DEAD53E1895989B745AAA"
+msgid "960"
+msgstr ""
+
+#. Key:	30ACA85542E9F7BE875A4499E6B1C450
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_coordCalib.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_coordCalib.ToolTipText
+msgctxt ",30ACA85542E9F7BE875A4499E6B1C450"
+msgid "Automatically align the MocapForAll's coordinates to SteamVR.\r\nRequires VMT installed. Wear  HMD connected to SteamVR on your head and move around where your motion can be captured by MocapForAll."
+msgstr "MocapForAllの座標をSteamVRに自動的に合わせます。\r\nMocapForAll向けに改造されたバージョンのVMTがインストールされている必要があります。頭にSteamVRに接続されたHMDを装着し、MocapForAllでモーションをキャプチャできる場所を歩き回ってください。"
+
+#. Key:	30CB09E442918B36F14D08999475E6F8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_121.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_121.ToolTipText
+msgctxt ",30CB09E442918B36F14D08999475E6F8"
+msgid "Used when \"Extrinsic calibration method\" is \"Human motion\".\r\nMeasure your height of your body in meters and put the value here."
+msgstr "カメラ外部パラメータの求め方が「Human motion」の場合に使用されます。\r\n身長を測定し、メートル単位で値を入力します。"
+
+#. Key:	3100E79240A3674D057F938F6D0DBC94
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+msgctxt ",3100E79240A3674D057F938F6D0DBC94"
+msgid "fy"
+msgstr ""
+
+#. Key:	310B77154AFECE722F9016820BB32C8F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_MakerSize_diamond.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_MakerSize_diamond.Text
+msgctxt ",310B77154AFECE722F9016820BB32C8F"
+msgid "0.04275"
+msgstr ""
+
+#. Key:	3119770643B8E83AEFE4FE8BFF5AE094
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_49.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_49.ToolTipText
+msgctxt ",3119770643B8E83AEFE4FE8BFF5AE094"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	32759EEC4F32DADFEF37EDB7DE08EE65
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_114.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_114.Text
+msgctxt ",32759EEC4F32DADFEF37EDB7DE08EE65"
+msgid "Save All Cameras"
+msgstr "全カメラ設定を保存"
+
+#. Key:	3464CD7D4AC03BC43172A4AE026DA1AF
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_ExtrinsicTx.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_ExtrinsicTx.Text
+msgctxt ",3464CD7D4AC03BC43172A4AE026DA1AF"
+msgid "tx"
+msgstr ""
+
+#. Key:	34D23411454F6E8C1E49C1BE5147F912
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_71.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_71.ToolTipText
+msgctxt ",34D23411454F6E8C1E49C1BE5147F912"
+msgid "Check this to send bone transforms which is acting in this app. (This does not work with runtime-loaded VRM models.)\r\nThis is used to replicate the exact result of animation of this app to another app."
+msgstr "このアプリ上でリターゲットされたボーンの動きを送信します。（これは、VRMモデルでは機能しません。）\r\nこれは、このアプリのアニメーションの結果をそのまま別アプリに複製するために使用されます。"
+
+#. Key:	358DA2CB4810C800E0F660882FE4F852
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_32.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_32.ToolTipText
+msgctxt ",358DA2CB4810C800E0F660882FE4F852"
+msgid "If you send data to the app running on the same PC, set this value to \"127.0.0.1\".\r\nIf you send data to the app running on other PC, set this value to the IP adress of that PC."
+msgstr "同一PC上で動作するアプリにデータを送信する場合は、「127.0.0.1」に設定してください。\r\n他のPCで動作しているアプリにデータを送信する場合は、そのPCのIPアドレスを設定します。"
+
+#. Key:	35B8BF6B4361DAE50013B996C88C706D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_126.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_126.Text
+msgctxt ",35B8BF6B4361DAE50013B996C88C706D"
+msgid "Lower body"
+msgstr "下半身"
+
+#. Key:	364A733449EA9CE50EDECCB9DAA7634A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_saveIntrinsec.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_saveIntrinsec.Text
+msgctxt ",364A733449EA9CE50EDECCB9DAA7634A"
+msgid "Save"
+msgstr "保存"
+
+#. Key:	3779325846EFF5A36304B595DF504ECA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_purchase.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_purchase.Text
+msgctxt ",3779325846EFF5A36304B595DF504ECA"
+msgid "Purchase"
+msgstr "購入"
+
+#. Key:	37B16118432C316D4B6E659BB8563678
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_ExtrinsicTz.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_ExtrinsicTz.Text
+msgctxt ",37B16118432C316D4B6E659BB8563678"
+msgid "tz"
+msgstr ""
+
+#. Key:	389664DE4496DCE84AD1EE8951D1128F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_110.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_110.Text
+msgctxt ",389664DE4496DCE84AD1EE8951D1128F"
+msgid "Diamond marker [m]"
+msgstr "Diamondマーカ [m]"
+
+#. Key:	38E384254CDE4CA8C1F463BA928748C4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+msgctxt ",38E384254CDE4CA8C1F463BA928748C4"
+msgid "cx"
+msgstr ""
+
+#. Key:	38E9AEE04BE05649D13F0B86DD37C15F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_width.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_width.Text
+msgctxt ",38E9AEE04BE05649D13F0B86DD37C15F"
+msgid "640"
+msgstr ""
+
+#. Key:	396EBBD84A2146E8C4AD438B0ACC2E03
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_19.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_19.Text
+msgctxt ",396EBBD84A2146E8C4AD438B0ACC2E03"
+msgid "Frequency 1 euro filter"
+msgstr "1ユーロフィルタの周波数"
+
+#. Key:	39941F614FE7D546C87C90A49D4F85BB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_BatchBvhProgress.WBP_BatchBvhProgress_C:WidgetTree.TextBlock_1.Text
+#: /MultiWebcam3dPose/UI/WBP_BatchBvhProgress.WBP_BatchBvhProgress_C:WidgetTree.TextBlock_1.Text
+msgctxt ",39941F614FE7D546C87C90A49D4F85BB"
+msgid "X"
+msgstr ""
+
+#. Key:	39C120F042B98EAD75937192EA917F91
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_37.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_37.ToolTipText
+msgctxt ",39C120F042B98EAD75937192EA917F91"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	3A5424434D24AD634C571C8F2D715621
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.StartEvalButton.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.StartEvalButton.ToolTipText
+msgctxt ",3A5424434D24AD634C571C8F2D715621"
+msgid "Start/Stop motion capture.\r\nTo record motion to a BVH file, you need to press this button to start and stop recording."
+msgstr "モーションキャプチャを開始/停止します。\r\nモーションをBVHファイルに記録するには、記録開始および停止する際にこのボタンを押す必要があります。"
+
+#. Key:	3A8595E24EBD7EE373361B9654F7596A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_65.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_65.Text
+msgctxt ",3A8595E24EBD7EE373361B9654F7596A"
+msgid "VMT index: 16-53 (fixed)"
+msgstr "VMT番号: 16-53(固定)"
+
+#. Key:	3AA78E91421B89F7EC6E58AEEBA91714
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_46.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_46.ToolTipText
+msgctxt ",3AA78E91421B89F7EC6E58AEEBA91714"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	3B2A391C417A1F11CBA004A326113FCC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_35.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_35.ToolTipText
+msgctxt ",3B2A391C417A1F11CBA004A326113FCC"
+msgid "Check this to send bone transforms via VMC protocol.\r\nAlso, facial morphs are sent when \"Receive facial morphs\" is turned on and morph data is received."
+msgstr "VMCプロトコルでボーンのトランスフォームを送信します。\r\n「表情モーフを受信」がオンで他のアプリから表情モーフを受信した際、その表情モーフの情報がそのまま送信されます。"
+
+#. Key:	3B6F122A47081D6DFFAF60B33D61BC4C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_ScreenPercentage.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_ScreenPercentage.Text
+msgctxt ",3B6F122A47081D6DFFAF60B33D61BC4C"
+msgid "100"
+msgstr ""
+
+#. Key:	3B8D8CF64D20A3FA1988258A7F830C41
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_resetMarkers.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_resetMarkers.ToolTipText
+msgctxt ",3B8D8CF64D20A3FA1988258A7F830C41"
+msgid "Delete all detected ArUco or Diamond markers. Use this if the markers are in the wrong positions."
+msgstr "検出済みの全てのArUcoマーカとDiamondマーカを削除します。マーカ位置がまちがっている場合にこれを使用します。"
+
+#. Key:	3C25FEBF47567EFCDCD511B2570888F4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ExtrinsicCalibrationStartButton.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ExtrinsicCalibrationStartButton.ToolTipText
+msgctxt ",3C25FEBF47567EFCDCD511B2570888F4"
+msgid "Start/Stop calibration of extrinsic parameters."
+msgstr "カメラ外部パラメータの校正を開始/停止します"
+
+#. Key:	3C4E9CBD453C1D062BAC8CB452D106F6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_VrmLoadMode.WBP_VrmLoadMode_C:WidgetTree.TextBlock_2.Text
+#: /MultiWebcam3dPose/UI/WBP_VrmLoadMode.WBP_VrmLoadMode_C:WidgetTree.TextBlock_2.Text
+msgctxt ",3C4E9CBD453C1D062BAC8CB452D106F6"
+msgid "Indirect mode\r\n\r\n(For models which do not work properly in direct mode.\r\n Stable on more models)"
+msgstr "間接モード\r\n\r\n(直接モードで正しく動かないモデル向け。\r\n より多くのモデルで安定動作します)"
+
+#. Key:	3C75AD0E4C40F820A340569DAD3ECE18
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_16.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_16.Text
+msgctxt ",3C75AD0E4C40F820A340569DAD3ECE18"
+msgid "Extrinsic"
+msgstr "外部パラメータ"
+
+#. Key:	3CB8262C44B7CF0F4C84349A8A68B327
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_89.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_89.Text
+msgctxt ",3CB8262C44B7CF0F4C84349A8A68B327"
+msgid "Preview)"
+msgstr "プレビュー)"
+
+#. Key:	3E24713E4A9725982D79C19F5CD4E12B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_61.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_61.ToolTipText
+msgctxt ",3E24713E4A9725982D79C19F5CD4E12B"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	3EDDFBAD43285CA8E6E3BF84A6A46E5F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_122.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_122.Text
+msgctxt ",3EDDFBAD43285CA8E6E3BF84A6A46E5F"
+msgid "As trackers (/VMC/Ext/Tra/Pos)"
+msgstr "トラッカーとして送る (/VMC/Ext/Tra/Pos)"
+
+#. Key:	3F2F80A14B6C0AA15A7E64B8E48FF157
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_76.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_76.Text
+msgctxt ",3F2F80A14B6C0AA15A7E64B8E48FF157"
+msgid "HMD serial number:"
+msgstr ""
+
+#. Key:	405DDFC4494FE8C49B8ED6BBC92F94F4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_43.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_43.ToolTipText
+msgctxt ",405DDFC4494FE8C49B8ED6BBC92F94F4"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	41D72576441EB087FCD071B07156DE44
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_2.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_2.Text
+msgctxt ",41D72576441EB087FCD071B07156DE44"
+msgid "..."
+msgstr ""
+
+#. Key:	423FE3564AB6E93EA8B321902151BD3B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_DialogueSaveBvh.WBP_DialogueSaveBvh_C:WidgetTree.WBP_FileDialogue.Windows Title
+#: /MultiWebcam3dPose/UI/WBP_DialogueSaveBvh.WBP_DialogueSaveBvh_C:WidgetTree.WBP_FileDialogue.Windows Title
+msgctxt ",423FE3564AB6E93EA8B321902151BD3B"
+msgid "Save BVH file as"
+msgstr "BVHファイルとして保存"
+
+#. Key:	4248818A4CF4F5A7A67A72942982FCCB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_123.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_123.ToolTipText
+msgctxt ",4248818A4CF4F5A7A67A72942982FCCB"
+msgid "Whether to send splited bundles or send one large bundle"
+msgstr "分割されたバンドルを送信するか、1つの大きなバンドルを送信するか"
+
+#. Key:	42680D544C0E009D6046BF9458741790
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_53.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_53.Text
+msgctxt ",42680D544C0E009D6046BF9458741790"
+msgid "Head"
+msgstr "頭"
+
+#. Key:	427AB2234175768C4A46199BCCBAA07A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_0_spine.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_0_spine.Text
+msgctxt ",427AB2234175768C4A46199BCCBAA07A"
+msgid "0"
+msgstr ""
+
+#. Key:	42DDCD484934375EC0B34C939CB1A8D4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:setWarningMessage [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:setWarningMessage [Script Bytecode]
+msgctxt ",42DDCD484934375EC0B34C939CB1A8D4"
+msgid "- The detected camera position is below the floor."
+msgstr "・検出されたカメラの位置が床より下になっています。"
+
+#. Key:	444713C94C085A68611E7EA601E59BF1
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_1.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_1.Text
+msgctxt ",444713C94C085A68611E7EA601E59BF1"
+msgid "  Reset markers  "
+msgstr " マーカをリセット "
+
+#. Key:	453E494A4422E46D43644CBD1D7AB778
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_107.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_107.Text
+msgctxt ",453E494A4422E46D43644CBD1D7AB778"
+msgid "Marker size (affects to coord. scale)"
+msgstr "マーカーサイズ (座標系のスケールに影響)"
+
+#. Key:	459CE54A4EEC9A186473BA95C06B258B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_68.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_68.Text
+msgctxt ",459CE54A4EEC9A186473BA95C06B258B"
+msgid "Hand L"
+msgstr "左手"
+
+#. Key:	45F0651942116AD2A267038493BB311E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumVmc.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumVmc.Text
+msgctxt ",45F0651942116AD2A267038493BB311E"
+msgid "39539"
+msgstr ""
+
+#. Key:	45FD32AE4BAE6B3E921EE2B89D22D6F0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_74.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_74.Text
+msgctxt ",45FD32AE4BAE6B3E921EE2B89D22D6F0"
+msgid "FPS"
+msgstr ""
+
+#. Key:	460FF23942E4B412191AAC9B0048A8C8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ExtrinsicCalibrationLoadButton.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ExtrinsicCalibrationLoadButton.ToolTipText
+msgctxt ",460FF23942E4B412191AAC9B0048A8C8"
+msgid "Load calibration result"
+msgstr "カメラ校正結果をロード"
+
+#. Key:	472A34F645376BCBE50925A857178890
+#. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+#: /MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+msgctxt ",472A34F645376BCBE50925A857178890"
+msgid "Face.M_F00_000_00_Fcl_MTH_A"
+msgstr ""
+
+#. Key:	47360D904994E92C429115A241408C70
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_40.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_40.Text
+msgctxt ",47360D904994E92C429115A241408C70"
+msgid "VMT index"
+msgstr "VMT番号"
+
+#. Key:	4763315E4B6FB83B1E79ED8E7AE272B5
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",4763315E4B6FB83B1E79ED8E7AE272B5"
+msgid "Stop aligning coord."
+msgstr "座標位置合わせを停止"
+
+#. Key:	477D4FC24D539EF752B25A93161BDFBF
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_104.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_104.Text
+msgctxt ",477D4FC24D539EF752B25A93161BDFBF"
+msgid "Calibration"
+msgstr "カメラ校正"
+
+#. Key:	49266C614294FD31AE0FF19F6811F6B6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_3.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_3.Text
+msgctxt ",49266C614294FD31AE0FF19F6811F6B6"
+msgid "Cropping size for face"
+msgstr "顔のトリミングのサイズ"
+
+#. Key:	49A312B6470122C44A49ECA331B5DB2D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",49A312B6470122C44A49ECA331B5DB2D"
+msgid "960"
+msgstr ""
+
+#. Key:	4A4B5D984283903ADD36218A9D9AEAC9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_78.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_78.ToolTipText
+msgctxt ",4A4B5D984283903ADD36218A9D9AEAC9"
+msgid "Performance optimization"
+msgstr "最適化設定"
+
+#. Key:	4AB04F8B4279BC1289C1CE90DD9B2593
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_36.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_36.Text
+msgctxt ",4AB04F8B4279BC1289C1CE90DD9B2593"
+msgid "Port:"
+msgstr "ポート:"
+
+#. Key:	4AC63CFF4DA7F1180EC1C98052D339BE
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic13_cx.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic13_cx.Text
+msgctxt ",4AC63CFF4DA7F1180EC1C98052D339BE"
+msgid "cx"
+msgstr ""
+
+#. Key:	4BE9BAC34C496C99B3CA0589053548B7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+msgctxt ",4BE9BAC34C496C99B3CA0589053548B7"
+msgid "0"
+msgstr ""
+
+#. Key:	4C94671C41A694E379FF199966681F2A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_Height.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_Height.ToolTipText
+msgctxt ",4C94671C41A694E379FF199966681F2A"
+msgid "Image height.\r\nPress \"Apply\" after changing the value."
+msgstr "画像の高さ\r\n値変更後は「適用」を押してください。"
+
+#. Key:	4DE3718F47FEBC62D267E78EEC7A0E31
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_117.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_117.ToolTipText
+msgctxt ",4DE3718F47FEBC62D267E78EEC7A0E31"
+msgid "Settings for data sending via VMT protocol.\r\nSee \"https://gpsnmeajp.github.io/VirtualMotionTrackerDocument/api/\" for the details of the message definition."
+msgstr "VMTプロトコルを介してデータを送信するための設定。\r\nメッセージ定義の詳細については、「https://gpsnmeajp.github.io/VirtualMotionTrackerDocument/api/」を参照してください。"
+
+#. Key:	4EAC7E3040E322595727B18909C11945
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",4EAC7E3040E322595727B18909C11945"
+msgid "r31"
+msgstr ""
+
+#. Key:	501B6DAA4201F8E444F30AB59DFFD806
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+msgctxt ",501B6DAA4201F8E444F30AB59DFFD806"
+msgid "cy"
+msgstr ""
+
+#. Key:	51353F384452EA0DBD8CDAA3FB5B5192
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",51353F384452EA0DBD8CDAA3FB5B5192"
+msgid "[Free Trial] Data export restarts after: "
+msgstr "【無料版】データ送信再開まで:"
+
+#. Key:	51BC62B64D0842692599EE9B3E1185DA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_127.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_127.Text
+msgctxt ",51BC62B64D0842692599EE9B3E1185DA"
+msgid "Elbow R"
+msgstr "右肘"
+
+#. Key:	527840EB4C83B6D9187295A0375AB5A4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_512.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_512.Text
+msgctxt ",527840EB4C83B6D9187295A0375AB5A4"
+msgid "Coordinates"
+msgstr "座標系"
+
+#. Key:	53C895A7400FEC163FDCC9B73A51C518
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_79.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_79.ToolTipText
+msgctxt ",53C895A7400FEC163FDCC9B73A51C518"
+msgid "You can specify the internal resolution of the app. The smaller the value, the less CPU / GPU used."
+msgstr "アプリの内部解像度を指定できます。値が小さいほど、CPU / GPU の使用が少なくなります。"
+
+#. Key:	54008C234289711DEFD3D994E8FED385
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_DialogueSaveBvh.WBP_DialogueSaveBvh_C:WidgetTree.TextBlock_filemode.Text
+#: /MultiWebcam3dPose/UI/WBP_DialogueSaveBvh.WBP_DialogueSaveBvh_C:WidgetTree.TextBlock_filemode.Text
+msgctxt ",54008C234289711DEFD3D994E8FED385"
+msgid "Bone hierarchy: "
+msgstr "ボーン構造:"
+
+#. Key:	54866A7C47E908D32DAF1CB8378D5B66
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",54866A7C47E908D32DAF1CB8378D5B66"
+msgid "r13"
+msgstr ""
+
+#. Key:	54F611024F63FBA4CB307F8DAC2D0734
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_79.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_79.Text
+msgctxt ",54F611024F63FBA4CB307F8DAC2D0734"
+msgid "Set screen percentage to:"
+msgstr "内部解像度を設定:"
+
+#. Key:	5537C65F4867A3FF7692EEBA2ACF5C75
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimer.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimer.Text
+msgctxt ",5537C65F4867A3FF7692EEBA2ACF5C75"
+msgid "10.00"
+msgstr ""
+
+#. Key:	565D76B14F730805C1B7798F3E87F38E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_39.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_39.ToolTipText
+msgctxt ",565D76B14F730805C1B7798F3E87F38E"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	56657A10409FC8B71ABF44928008DD75
+#. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+#: /MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+msgctxt ",56657A10409FC8B71ABF44928008DD75"
+msgid "Face.M_F00_000_00_Fcl_BRW_Fun"
+msgstr ""
+
+#. Key:	594F78AE41DCA3A74B3C9CA95782953A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_115.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_115.Text
+msgctxt ",594F78AE41DCA3A74B3C9CA95782953A"
+msgid "Record to BVH file"
+msgstr "BVHファイルに保存"
+
+#. Key:	59A5FF2A4063C92E35C34DB94EFEDD15
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_14.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_14.Text
+msgctxt ",59A5FF2A4063C92E35C34DB94EFEDD15"
+msgid "handRecropSizeRatio"
+msgstr ""
+
+#. Key:	5A9EEA1D4C5F66C1448A018A8EAA0E67
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_29.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_29.ToolTipText
+msgctxt ",5A9EEA1D4C5F66C1448A018A8EAA0E67"
+msgid "Whether to show the tracking points of your body as yellowish cubes."
+msgstr "体のトラッキング位置を表示"
+
+#. Key:	5B7264294BB250BF9416179C6FE512EE
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ComboBox_resolution_mediaPlayer.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ComboBox_resolution_mediaPlayer.ToolTipText
+msgctxt ",5B7264294BB250BF9416179C6FE512EE"
+msgid "Select image size"
+msgstr "画像サイズを選択"
+
+#. Key:	5BEA31C14B0C38D16B03BA871A1CF305
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_versionFree.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_versionFree.Text
+msgctxt ",5BEA31C14B0C38D16B03BA871A1CF305"
+msgid "Free"
+msgstr ""
+
+#. Key:	5C1DF0584173DB474534F3BCC4700F1E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_94.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_94.ToolTipText
+msgctxt ",5C1DF0584173DB474534F3BCC4700F1E"
+msgid "You can specify the names of facial morph targets.\r\nThis only works when using VRM models.\r\nTo confirm the morph target names of your model, use VRM4U (https://github.com/ruyo/VRM4U) to import your model to UE4 editor and check the skeletal mesh asset.\r\n(More advanced usage: you can turn off specific morph by specifying invalid names here.)"
+msgstr "顔のモーフターゲットの名前を指定できます。\r\nこれは、VRM モデルを使用している場合にのみ機能します。\r\nモデルのモーフターゲット名を確認するには、VRM4U (https://github.com/ruyo/VRM4U) を使用してモデルを UE4 エディターにインポートし、skeletal meshを確認してください。\r\n(裏技的な使い方: ここで無効な名前を指定することで、特定のモーフをオフにすることができます。)"
+
+#. Key:	5C392FBA495F22E70A633FBB743EAB88
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",5C392FBA495F22E70A633FBB743EAB88"
+msgid "tz"
+msgstr ""
+
+#. Key:	5CA4239046513957F58B45BE54D3D3E5
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_110.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_110.ToolTipText
+msgctxt ",5CA4239046513957F58B45BE54D3D3E5"
+msgid "Used when \"Extrinsic calibration method\" is \"Diamond cluster\".\r\nSee \"Which_side_to_measure_-_Diamond_marker.png\"."
+msgstr "カメラ外部パラメータの求め方が「Diamond cluster」の場合に使用されます。\r\n「Which_side_to_measure_-_Diamond_marker.png」を参照してください。"
+
+#. Key:	5D21939E41DB91D32CF63F92FFB49952
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.ToolTipText
+msgctxt ",5D21939E41DB91D32CF63F92FFB49952"
+msgid "Used when \"Extrinsic calibration method\" is \"ArUco cluster\".\r\nSee \"Which_side_to_measure_-_ArUco_marker.png\"."
+msgstr "カメラ外部パラメータの求め方が「ArUco cluster」の場合に使用されます。\r\n「Which_side_to_measure_-_ArUco_marker.png」を参照してください。"
+
+#. Key:	5D569C2A488D8826626E20AF5F6A98F7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_MakerSize_humanHeight.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_MakerSize_humanHeight.Text
+msgctxt ",5D569C2A488D8826626E20AF5F6A98F7"
+msgid "1.70000"
+msgstr ""
+
+#. Key:	5FAEB64F490F145E874878A284E8F5B8
+#. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+#: /MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+msgctxt ",5FAEB64F490F145E874878A284E8F5B8"
+msgid "Face.M_F00_000_00_Fcl_BRW_Sorrow"
+msgstr ""
+
+#. Key:	5FAF92434B0DF76FD25F4090BAE4A06C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_7.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_7.Text
+msgctxt ",5FAF92434B0DF76FD25F4090BAE4A06C"
+msgid "Capture hand"
+msgstr "手のキャプチャ"
+
+#. Key:	5FB6B995422D6E1330B5DDBFB3F7253B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_108.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_108.ToolTipText
+msgctxt ",5FB6B995422D6E1330B5DDBFB3F7253B"
+msgid "Used when \"Extrinsic calibration method\" is \"ChArUco board (default)\".\r\nSee \"Which_side_to_measure_-_ChArUco_board_(default).png\"."
+msgstr "カメラ外部パラメータの求め方が「ChArUco board (default)」の場合に使用されます。\r\n「Which_side_to_measure_-_ChArUco_board_(default).png」を参照してください。"
+
+#. Key:	6072DD9442D6ACA76CC365B41A653C6F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_122.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_122.ToolTipText
+msgctxt ",6072DD9442D6ACA76CC365B41A653C6F"
+msgid "Check this to send bone transforms as trackers via VMC protocol.\r\nThis allows some apps such as VirtualMotionCapture to receive data from MocapForAll as trackers."
+msgstr "VMCプロトコルでトラッカーとしてボーンのトランスフォームを送信します。\r\nこれにより、VirtualMotionCaptureなどの一部のアプリがMocapForAllからトラッカとしてデータを受信できるようになります。"
+
+#. Key:	60FFA13141405CDF74200AA7B687D662
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_64.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_64.Text
+msgctxt ",60FFA13141405CDF74200AA7B687D662"
+msgid "Fingers"
+msgstr "指"
+
+#. Key:	6155882042C1520FC1879CA87248D141
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.EditableText.Text
+#: /MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.EditableText.Text
+msgctxt ",6155882042C1520FC1879CA87248D141"
+msgid "0.0"
+msgstr ""
+
+#. Key:	6158DD024A8CC9C8D33090B852C64214
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",6158DD024A8CC9C8D33090B852C64214"
+msgid "Find ground"
+msgstr "地面を自動検出"
+
+#. Key:	62D726A542C44E74D1DDEAB74F83313D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartCalib.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartCalib.Text
+msgctxt ",62D726A542C44E74D1DDEAB74F83313D"
+msgid "Start Calibration"
+msgstr "カメラ校正開始"
+
+#. Key:	63122D5C41C1309D8D7C82A7B7B845BA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_OffsetTweakVmt.WBP_OffsetTweakVmt_C:WidgetTree.TextBlock_enabled.Text
+#: /MultiWebcam3dPose/UI/WBP_OffsetTweakVmt.WBP_OffsetTweakVmt_C:WidgetTree.TextBlock_enabled.Text
+msgctxt ",63122D5C41C1309D8D7C82A7B7B845BA"
+msgid "Enable offset tweak"
+msgstr "オフセット調整を有効にする"
+
+#. Key:	634B5DB44BDBFAD23A387496857A9BAC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_1.Text
+#: /MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_1.Text
+msgctxt ",634B5DB44BDBFAD23A387496857A9BAC"
+msgid "Z: "
+msgstr ""
+
+#. Key:	6352B76E461116452E312E83E9D212ED
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_102.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_102.Text
+msgctxt ",6352B76E461116452E312E83E9D212ED"
+msgid "Foot L"
+msgstr "足 左"
+
+#. Key:	642ECEF440EA5F7CF6424EB70468407F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_88.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_88.ToolTipText
+msgctxt ",642ECEF440EA5F7CF6424EB70468407F"
+msgid "You can turn on/off the smoothing of the captured motion, and specify the smoothing intensity.\r\nTo make motions smoother, decrease the values. For quick motions, increase the values.\r\n(See https://cristal.univ-lille.fr/~casiez/1euro/ for more information of the parameters)"
+msgstr "キャプチャしたモーションのスムージングのオン/オフと、スムージングの強度を指定できます。\r\nモーションを滑らかにするには、小さな値を指定します。素早い動きの場合は、値を大きくしてください。\r\n(パラメーターの詳細については、https://cristal.univ-lille.fr/~casiez/1euro/ を参照してください)"
+
+#. Key:	6443C0114267FE9EA2DB1D99F46B8699
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.HorizontalBox_WarningExtrinsic.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.HorizontalBox_WarningExtrinsic.ToolTipText
+msgctxt ",6443C0114267FE9EA2DB1D99F46B8699"
+msgid "Calibration may be not correct. The camera is positioned below the floor."
+msgstr "カメラ校正が正しくない可能性があります。カメラ位置が床より下になっています。"
+
+#. Key:	6532BCAD46E09FFA90781AB2E443554F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_15_shoulderR.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_15_shoulderR.Text
+msgctxt ",6532BCAD46E09FFA90781AB2E443554F"
+msgid "15"
+msgstr ""
+
+#. Key:	6554D15744337DCD462841ABEFD68CFC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",6554D15744337DCD462841ABEFD68CFC"
+msgid "Not Calibrated"
+msgstr "要カメラ校正"
+
+#. Key:	656118B0483C28E6432DAA9AFCD59452
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",656118B0483C28E6432DAA9AFCD59452"
+msgid "540"
+msgstr ""
+
+#. Key:	67C42D27440F4A8831E205B2030885DE
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_DialogueSaveBvh.WBP_DialogueSaveBvh_C:WidgetTree.TextBlock_filemode_1.Text
+#: /MultiWebcam3dPose/UI/WBP_DialogueSaveBvh.WBP_DialogueSaveBvh_C:WidgetTree.TextBlock_filemode_1.Text
+msgctxt ",67C42D27440F4A8831E205B2030885DE"
+msgid "Options"
+msgstr "オプション"
+
+#. Key:	67DFF314402731A093810089F04D01A8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_118.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_118.ToolTipText
+msgctxt ",67DFF314402731A093810089F04D01A8"
+msgid "Check this to received morph data from other apps.\r\nNote that you need to load the same VRM file that you use in other apps. To load a VRM file, simply drag and drop the VRM file into the MocapForAll window."
+msgstr "他のアプリから表情モーフを受信します。\r\n他のアプリで使用しているものと同じVRMファイルをロードする必要があります。 VRMファイルをロードするには、VRMファイルをMocapForAllウィンドウにドラッグ&ドロップするだけです。"
+
+#. Key:	68ABB975430EE5E632AE1DB6E5CB551F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",68ABB975430EE5E632AE1DB6E5CB551F"
+msgid "BVH recording started."
+msgstr "BVHファイルへの保存を開始しました。"
+
+#. Key:	68F16F704880C883F530C0852BCF8061
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",68F16F704880C883F530C0852BCF8061"
+msgid "1440"
+msgstr ""
+
+#. Key:	6901A1214E7EC696AF63228D495DF9C0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_isIntrinsicCalibrated.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_isIntrinsicCalibrated.Text
+msgctxt ",6901A1214E7EC696AF63228D495DF9C0"
+msgid "Not calibrated"
+msgstr "要カメラ校正"
+
+#. Key:	69BCB4E24D217AC9420E14909869F30B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_handBboxSize.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_handBboxSize.Text
+msgctxt ",69BCB4E24D217AC9420E14909869F30B"
+msgid "0.075"
+msgstr ""
+
+#. Key:	6B4F27CE4A090C1BAC2E94AC25D0346A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval.Text
+msgctxt ",6B4F27CE4A090C1BAC2E94AC25D0346A"
+msgid "Start Capture"
+msgstr "キャプチャ開始"
+
+#. Key:	6B83F95547893BAC0C02EDA0EEDDED2A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_51.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_51.Text
+msgctxt ",6B83F95547893BAC0C02EDA0EEDDED2A"
+msgid "Neck"
+msgstr "首"
+
+#. Key:	6C6E0DA041ABCFD8971CC7A77D3A6C0B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_1.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_1.Text
+msgctxt ",6C6E0DA041ABCFD8971CC7A77D3A6C0B"
+msgid "Add camera"
+msgstr "カメラ追加"
+
+#. Key:	6D0821D84D971D5F6F049EB3CD6BCBD1
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_120.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_120.Text
+msgctxt ",6D0821D84D971D5F6F049EB3CD6BCBD1"
+msgid "From other device"
+msgstr "他デバイスから受信"
+
+#. Key:	6D947D81428499390B81439D681CB956
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_14_shoulderL.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_14_shoulderL.Text
+msgctxt ",6D947D81428499390B81439D681CB956"
+msgid "14"
+msgstr ""
+
+#. Key:	6DC5EDB1401EDC74F56C44A82FA26C87
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_46.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_46.Text
+msgctxt ",6DC5EDB1401EDC74F56C44A82FA26C87"
+msgid "Hips"
+msgstr "股関節"
+
+#. Key:	6DCB9B404F046B8EA4DCC6B775815461
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:ExecuteUbergraph_WBP_Camera [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:ExecuteUbergraph_WBP_Camera [Script Bytecode]
+msgctxt ",6DCB9B404F046B8EA4DCC6B775815461"
+msgid "Stop"
+msgstr "停止"
+
+#. Key:	6EA66DDB4BAF689C453F46BE721E2BD6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_128.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_128.Text
+msgctxt ",6EA66DDB4BAF689C453F46BE721E2BD6"
+msgid "Shoulder L"
+msgstr "左肩"
+
+#. Key:	6ED4C7424DF57F1BBAA9F8A800344624
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic32.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic32.Text
+msgctxt ",6ED4C7424DF57F1BBAA9F8A800344624"
+msgid "r23"
+msgstr ""
+
+#. Key:	70F1858242F68D99ADFE699A8DB6268D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimerExplanation.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimerExplanation.ToolTipText
+msgctxt ",70F1858242F68D99ADFE699A8DB6268D"
+msgid "In Free Trial version, data sending via VMC and VMT protocol stops and restarts every 10 seconds.\r\nTo remove this restriction, buy full version."
+msgstr "無料版では、VMCとVMTでのデータ送信は10秒ごとに停止・再開が繰り返されます。\r\nこの制約を取り除くには、フル版を購入してください。"
+
+#. Key:	712054CB467E26495534199F66A556D6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_CalibrationSaveDialogue.WBP_CalibrationSaveDialogue_C:ExecuteUbergraph_WBP_CalibrationSaveDialogue [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_CalibrationSaveDialogue.WBP_CalibrationSaveDialogue_C:ExecuteUbergraph_WBP_CalibrationSaveDialogue [Script Bytecode]
+msgctxt ",712054CB467E26495534199F66A556D6"
+msgid "Load"
+msgstr "ロード"
+
+#. Key:	71FEC0A344E1802B6A49159ED0304EF5
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic12.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic12.Text
+msgctxt ",71FEC0A344E1802B6A49159ED0304EF5"
+msgid "r21"
+msgstr ""
+
+#. Key:	7240D2044CC4DEDC9DD742A0072EA791
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:StopPositioning [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:StopPositioning [Script Bytecode]
+msgctxt ",7240D2044CC4DEDC9DD742A0072EA791"
+msgid "Scan markers"
+msgstr "マーカをスキャン"
+
+#. Key:	72A28EC9457BBF0AC4D122A1FF833ACF
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_imageSize.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_imageSize.Text
+msgctxt ",72A28EC9457BBF0AC4D122A1FF833ACF"
+msgid "Image size"
+msgstr "画面サイズ"
+
+#. Key:	757865A34B80F5615F2FAC8BA4F74B58
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",757865A34B80F5615F2FAC8BA4F74B58"
+msgid "r33"
+msgstr ""
+
+#. Key:	75D3A41D445F830D282E3F8696B3AE1C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_105.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_105.Text
+msgctxt ",75D3A41D445F830D282E3F8696B3AE1C"
+msgid "Show cameras and markers"
+msgstr "カメラとマーカを表示"
+
+#. Key:	761F2838480B6BB7C2E4DE8711F1DE1E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_handExpolateRatio.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_handExpolateRatio.Text
+msgctxt ",761F2838480B6BB7C2E4DE8711F1DE1E"
+msgid "0.3"
+msgstr ""
+
+#. Key:	76291E334B342984F3E3519E885CF771
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_fps.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_fps.Text
+msgctxt ",76291E334B342984F3E3519E885CF771"
+msgid "FPS: "
+msgstr ""
+
+#. Key:	7689CA1F47521414C2E60DB753AC71AB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_VrmLoadMode.WBP_VrmLoadMode_C:WidgetTree.TextBlock.Text
+#: /MultiWebcam3dPose/UI/WBP_VrmLoadMode.WBP_VrmLoadMode_C:WidgetTree.TextBlock.Text
+msgctxt ",7689CA1F47521414C2E60DB753AC71AB"
+msgid "Direct mode\r\n\r\n(VRoid compatible bones assumed.\r\n Better Foot IK. Less latency)"
+msgstr "直接モード\r\n\r\n(VRoidと互換性のあるボーンを前提としています。\r\n 足の接地感と遅延に優れています)"
+
+#. Key:	76CC93D3428D571975E419B251DB96DA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_55.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_55.ToolTipText
+msgctxt ",76CC93D3428D571975E419B251DB96DA"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	78BD05DF45551C613E7B4CB5804F4F3F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic13.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic13.Text
+msgctxt ",78BD05DF45551C613E7B4CB5804F4F3F"
+msgid "r31"
+msgstr ""
+
+#. Key:	78C46D4E4281B9BF2D6F41AA111087F8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_26.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_26.ToolTipText
+msgctxt ",78C46D4E4281B9BF2D6F41AA111087F8"
+msgid "\"Minimum\": Floor and poor lighting only. This is recommended to use to achieve the best performance.\r\n\"HDRI------\": Some HDRI textures from HDRI Haven (https://hdrihaven.com) are used. \"Appendix2_HDRI_maps\" needs to be installed. See 2 of \"How to install\" section of readme.\r\n\"Chroma_key\": For chroma key compositing."
+msgstr "「Minimum」: 床と低精度の照明のみ。パフォーマンス最適化のために使用することをお勧めします。\r\n「HDRI------」: HDRI Haven (https://hdrihaven.com) の HDRI テクスチャを使用したマップです。「Appendix2_HDRI_maps」をインストールする必要があります。 「インストール方法」セクションの2を参照してください。\r\n「Chroma_key」：クロマキー合成用。"
+
+#. Key:	7927805041A422ADE850AC8759EC85DA
+#. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+#: /MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+msgctxt ",7927805041A422ADE850AC8759EC85DA"
+msgid "Face.M_F00_000_00_Fcl_MTH_Sorrow"
+msgstr ""
+
+#. Key:	795F931245A4F4F9D488DAADEE6A75CC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",795F931245A4F4F9D488DAADEE6A75CC"
+msgid "r12"
+msgstr ""
+
+#. Key:	7C36132644CEB18A6E6728A6E2480805
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_3.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_3.ToolTipText
+msgctxt ",7C36132644CEB18A6E6728A6E2480805"
+msgid "The crop size of the image used to capture your face."
+msgstr "顔をキャプチャするために使用される画像のトリミングサイズ"
+
+#. Key:	7CB8FC9E4AA3DD88CF3A148ABF3ED777
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic11_fx.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic11_fx.Text
+msgctxt ",7CB8FC9E4AA3DD88CF3A148ABF3ED777"
+msgid "fx"
+msgstr ""
+
+#. Key:	7CBD5BA848A3A0526C5BC3BB05A580AC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+msgctxt ",7CBD5BA848A3A0526C5BC3BB05A580AC"
+msgid "0"
+msgstr ""
+
+#. Key:	7CF1EB1247B2BC98E94871A6BBAC23AC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_21.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_21.Text
+msgctxt ",7CF1EB1247B2BC98E94871A6BBAC23AC"
+msgid "Settings"
+msgstr "設定"
+
+#. Key:	7D23E57B40E2F1F084E1359A1E8FFB7F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_111.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_111.Text
+msgctxt ",7D23E57B40E2F1F084E1359A1E8FFB7F"
+msgid "Look at character"
+msgstr "キャラクターを注視"
+
+#. Key:	7D8C7281484CFEB851431F8DE77CC9C7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",7D8C7281484CFEB851431F8DE77CC9C7"
+msgid "1280"
+msgstr ""
+
+#. Key:	7D9643B440A0F16D37C39EBA9E00033A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceBboxSize.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceBboxSize.Text
+msgctxt ",7D9643B440A0F16D37C39EBA9E00033A"
+msgid "0.09"
+msgstr ""
+
+#. Key:	7DBA19E84E23E49202D870A87079B3BA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_7.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_7.ToolTipText
+msgctxt ",7DBA19E84E23E49202D870A87079B3BA"
+msgid "Whether to capture the movements of your fingers.\r\nNote that this is an experimental feature. The accuracy is low and CPU / GPU usage is high."
+msgstr "指の動きをキャプチャするかどうか。\r\nこれは実験的な機能であることに注意してください。精度は低く、CPU / GPUの使用率は高くなります。"
+
+#. Key:	7E0EA94B4BF398CE672ED482CEF53440
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_Framerate.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_Framerate.Text
+msgctxt ",7E0EA94B4BF398CE672ED482CEF53440"
+msgid "30"
+msgstr ""
+
+#. Key:	7E6A85AA4852A6A63EC9478536455353
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:Togle Capture [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:Togle Capture [Script Bytecode]
+msgctxt ",7E6A85AA4852A6A63EC9478536455353"
+msgid "Start capture"
+msgstr "キャプチャ開始"
+
+#. Key:	7ECEA40A4456EA564B5E67B52BCD0F2D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.TextBlock_--.Text
+#: /MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.TextBlock_--.Text
+msgctxt ",7ECEA40A4456EA564B5E67B52BCD0F2D"
+msgid "<<"
+msgstr ""
+
+#. Key:	7F443DC942CEB4345AE10D833572AC12
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_512.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_512.ToolTipText
+msgctxt ",7F443DC942CEB4345AE10D833572AC12"
+msgid "Scale, translate, and rotate the captured motion."
+msgstr "キャプチャ結果のスケーリング、位置、向きの設定"
+
+#. Key:	7F50BB6D4D8AABD15A99F198CD29AC20
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",7F50BB6D4D8AABD15A99F198CD29AC20"
+msgid "BVH recording canceled."
+msgstr "BVHファイルへの保存がキャンセルされました。"
+
+#. Key:	81F3C9DB43DB251364E1D18A175A0955
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_118.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_118.Text
+msgctxt ",81F3C9DB43DB251364E1D18A175A0955"
+msgid "Receive facial morphs  "
+msgstr "表情モーフを受信"
+
+#. Key:	8213B66F44E2473BCF07BE83E622EB12
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic33_1.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic33_1.Text
+msgctxt ",8213B66F44E2473BCF07BE83E622EB12"
+msgid "1"
+msgstr ""
+
+#. Key:	82AA23A64AEA0066A48E668D0249C0E5
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_15.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_15.Text
+msgctxt ",82AA23A64AEA0066A48E668D0249C0E5"
+msgid "Animation Post Process"
+msgstr "アニメーション加工"
+
+#. Key:	84308EA643ED7AFD138E998617C19DA8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_18.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_18.Text
+msgctxt ",84308EA643ED7AFD138E998617C19DA8"
+msgid "fc = fc0 + Beta*Speed    "
+msgstr "fc = fc0 + β * 速さ    "
+
+#. Key:	8457847A4B7288E88E765788E43BD08C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_123.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_123.Text
+msgctxt ",8457847A4B7288E88E765788E43BD08C"
+msgid "Split bundle into less than 1500 bytes"
+msgstr "バンドルを1500バイト以下に分割"
+
+#. Key:	84765CA14186E55407FFE9A970E95E48
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_95.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_95.Text
+msgctxt ",84765CA14186E55407FFE9A970E95E48"
+msgid "Mouth corner pull"
+msgstr "口角 上げる"
+
+#. Key:	84F67F774876AA1E825471AAA14CC026
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_125.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_125.Text
+msgctxt ",84F67F774876AA1E825471AAA14CC026"
+msgid "Upper body"
+msgstr "上半身"
+
+#. Key:	85C097DE46A4547253EAC0A458FDFAC9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_5.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_5.ToolTipText
+msgctxt ",85C097DE46A4547253EAC0A458FDFAC9"
+msgid "Send hand positions as dummy controllers."
+msgstr "ダミーのコントローラとして手の位置を送信"
+
+#. Key:	85CB32434F092FE994BC358B8C850D10
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_28.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_28.Text
+msgctxt ",85CB32434F092FE994BC358B8C850D10"
+msgid "Send tracking points  "
+msgstr "トラッキング位置を送信  "
+
+#. Key:	8631FCBE4B75C48D2A54218A5A9A72E9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_106.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_106.Text
+msgctxt ",8631FCBE4B75C48D2A54218A5A9A72E9"
+msgid "Snap markers to surfaces"
+msgstr "マーカ位置を平面にスナップ"
+
+#. Key:	88235A5D4FF51150FE0D98B307C7D611
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_FindGround.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_FindGround.Text
+msgctxt ",88235A5D4FF51150FE0D98B307C7D611"
+msgid "Find Ground"
+msgstr "地面を自動検出"
+
+#. Key:	88D3070D4A4B802951AC3D9D82C272AA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_147.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_147.Text
+msgctxt ",88D3070D4A4B802951AC3D9D82C272AA"
+msgid "1 euro filter settings: "
+msgstr "1ユーロフィルタ設定"
+
+#. Key:	8ABA791C4AEC9883A393AAA5F2409C98
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock.Text
+#: /MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock.Text
+msgctxt ",8ABA791C4AEC9883A393AAA5F2409C98"
+msgid "Y: "
+msgstr ""
+
+#. Key:	8D2D4991431DA090FC4D5B985D71C44B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic11.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic11.Text
+msgctxt ",8D2D4991431DA090FC4D5B985D71C44B"
+msgid "r11"
+msgstr ""
+
+#. Key:	8D39FF4D43310CE2C115E7AA8477ED47
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic22_fy.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic22_fy.Text
+msgctxt ",8D39FF4D43310CE2C115E7AA8477ED47"
+msgid "fy"
+msgstr ""
+
+#. Key:	8D8EC53A48DAEBE1A6D8B09894106C55
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_StartIntrinsic.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_StartIntrinsic.Text
+msgctxt ",8D8EC53A48DAEBE1A6D8B09894106C55"
+msgid "Start"
+msgstr "開始"
+
+#. Key:	8EBCAA804BB9B1D65675B0B676E71546
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",8EBCAA804BB9B1D65675B0B676E71546"
+msgid "[Free Trial] Data export stops after: "
+msgstr "【無料版】データ送信停止まで:"
+
+#. Key:	8EFDEE554979EA2ECFB344AC7D687AF9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_2_footR.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_2_footR.Text
+msgctxt ",8EFDEE554979EA2ECFB344AC7D687AF9"
+msgid "2"
+msgstr ""
+
+#. Key:	8F67D5C5447D8F3E07E9CFB117E264EB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName_1.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName_1.Text
+msgctxt ",8F67D5C5447D8F3E07E9CFB117E264EB"
+msgid "Face.M_F00_000_00_Fcl_MTH_Sorrow"
+msgstr ""
+
+#. Key:	901ECE904BE1D5961D33D69794D0F94D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",901ECE904BE1D5961D33D69794D0F94D"
+msgid "480"
+msgstr ""
+
+#. Key:	9044302A4298351115767881B4F8F885
+#. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllCharacterComponent.MocapForAllCharacterComponent_C:Write Bvh [Script Bytecode]
+#: /MultiWebcam3dPose/BP/MocapForAllCharacterComponent.MocapForAllCharacterComponent_C:Write Bvh [Script Bytecode]
+msgctxt ",9044302A4298351115767881B4F8F885"
+msgid "[Free Trial] BVH recording stopped. (Limited to 300 frames)"
+msgstr "【無料版】BVHファイルへの記録が停止されました。(300フレームまでに制限されています)"
+
+#. Key:	9046B9DB4FFEE035B875529C18DB5B83
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_116.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_116.ToolTipText
+msgctxt ",9046B9DB4FFEE035B875529C18DB5B83"
+msgid "Settings for data sending and receiving via VMC protocol.\r\nSee \"https://protocol.vmc.info/\" for the details of the message definition."
+msgstr "VMCプロトコルを介したデータ送受信の設定。\r\nメッセージ定義の詳細については、「https://protocol.vmc.info/」を参照してください。"
+
+#. Key:	915902F24B3CD1E0A546D780BCB850F0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ComboBox_resolution.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ComboBox_resolution.ToolTipText
+msgctxt ",915902F24B3CD1E0A546D780BCB850F0"
+msgid "Select image size.\r\nPress \"Apply\" after changing the value."
+msgstr "画像サイズを選択\r\n値変更後は「適用」を押してください。"
+
+#. Key:	92B5E56342FA1A1058F941920EDB946E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_purchase_2.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_purchase_2.Text
+msgctxt ",92B5E56342FA1A1058F941920EDB946E"
+msgid "Discord"
+msgstr ""
+
+#. Key:	94AA8A8F4AEE2F92833751AFB3CEB097
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_7_chest.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_7_chest.Text
+msgctxt ",94AA8A8F4AEE2F92833751AFB3CEB097"
+msgid "7"
+msgstr ""
+
+#. Key:	95C7DACD45646CD8B2E7CBB1F048D98E
+#. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+#: /MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+msgctxt ",95C7DACD45646CD8B2E7CBB1F048D98E"
+msgid "Face.M_F00_000_00_Fcl_EYE_Close_L"
+msgstr ""
+
+#. Key:	9660E0D048890F5E8CA676A19DE89903
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_58.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_58.Text
+msgctxt ",9660E0D048890F5E8CA676A19DE89903"
+msgid "Elbows"
+msgstr "肘"
+
+#. Key:	96729F584C5347516010BFB064CDD00A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_73.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_73.ToolTipText
+msgctxt ",96729F584C5347516010BFB064CDD00A"
+msgid "You can set the upper limit of the frame rate. The lower the value, the less CPU / GPU used."
+msgstr "フレームレートの上限を設定します。値が小さいほど、CPU / GPU の使用が少なくなります。"
+
+#. Key:	974199A54F1E74302C693B8A6959DBF3
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_22.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_22.Text
+msgctxt ",974199A54F1E74302C693B8A6959DBF3"
+msgid "General"
+msgstr "全般"
+
+#. Key:	988751374BDC78E1A966F692504345C8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_8_neck.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_8_neck.Text
+msgctxt ",988751374BDC78E1A966F692504345C8"
+msgid "8"
+msgstr ""
+
+#. Key:	995219CA41163AB32E54F889CF3136D0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",995219CA41163AB32E54F889CF3136D0"
+msgid "r21"
+msgstr ""
+
+#. Key:	9985E3144843D42E1C5E2899E756B080
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_75.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_75.Text
+msgctxt ",9985E3144843D42E1C5E2899E756B080"
+msgid "As relative position to HMD"
+msgstr "頭との相対位置を使う"
+
+#. Key:	99F1692744376B981573CF9BD775618B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_70.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_70.Text
+msgctxt ",99F1692744376B981573CF9BD775618B"
+msgid "Elbow L"
+msgstr "左肘"
+
+#. Key:	9A078D374562681DFB21D182B5C0B970
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock.Text
+#: /MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock.Text
+msgctxt ",9A078D374562681DFB21D182B5C0B970"
+msgid "I have read and understand the terms and conditions."
+msgstr ""
+
+#. Key:	9A4D269C4FC00BC57F38588989C1A67E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.TextBlock_+_1.Text
+#: /MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.TextBlock_+_1.Text
+msgctxt ",9A4D269C4FC00BC57F38588989C1A67E"
+msgid ">>"
+msgstr ""
+
+#. Key:	9BF2A0394A6D7E3D1F8C14905557E873
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimerExplanation.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimerExplanation.Text
+msgctxt ",9BF2A0394A6D7E3D1F8C14905557E873"
+msgid "[Free Trial] Data export stops after: "
+msgstr "【無料版】データ送信停止まで:"
+
+#. Key:	9C02BAD34A5CF2F33AA9A6B80065F73A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:startCapture [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:startCapture [Script Bytecode]
+msgctxt ",9C02BAD34A5CF2F33AA9A6B80065F73A"
+msgid "Stop capture"
+msgstr "キャプチャ停止"
+
+#. Key:	9C10F49743BAEA65EEF9BEBDD0EC5EB9
+#. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+#: /MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+msgctxt ",9C10F49743BAEA65EEF9BEBDD0EC5EB9"
+msgid "Face.M_F00_000_00_Fcl_MTH_Fun"
+msgstr ""
+
+#. Key:	9C88703D49B2BAB82A4D85AC55362D5D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",9C88703D49B2BAB82A4D85AC55362D5D"
+msgid "2560"
+msgstr ""
+
+#. Key:	9E4FAA124E0512CCE32AC9914829ED00
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_117.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_117.Text
+msgctxt ",9E4FAA124E0512CCE32AC9914829ED00"
+msgid "VMT protocol"
+msgstr "VMTプロトコル"
+
+#. Key:	9E6E928F4F40C7533847B49106E9A330
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_9_head.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_9_head.Text
+msgctxt ",9E6E928F4F40C7533847B49106E9A330"
+msgid "9"
+msgstr ""
+
+#. Key:	9E70F6F94AE02AE66BEF2A8FF4ECF1A6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic23.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic23.Text
+msgctxt ",9E70F6F94AE02AE66BEF2A8FF4ECF1A6"
+msgid "r32"
+msgstr ""
+
+#. Key:	9FD37F3543CACFFE58783A9A37326E39
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_30.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_30.Text
+msgctxt ",9FD37F3543CACFFE58783A9A37326E39"
+msgid "Beta (Cutoff frequency increase rate)"
+msgstr "β (カットオフ周波数の増加率)"
+
+#. Key:	9FD4C1C34DAC96C4DEEE1D9C8F7A7789
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_41.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_41.Text
+msgctxt ",9FD4C1C34DAC96C4DEEE1D9C8F7A7789"
+msgid "VMT index  L:"
+msgstr "VMT番号 左:"
+
+#. Key:	A15BC2C0413A6008A1AB4AA19EB361BE
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_34.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_34.Text
+msgctxt ",A15BC2C0413A6008A1AB4AA19EB361BE"
+msgid "Force feet grounded"
+msgstr "足の接地を強制"
+
+#. Key:	A26E41E6481218B405B09B8D42CA5C83
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_51.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_51.ToolTipText
+msgctxt ",A26E41E6481218B405B09B8D42CA5C83"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	A276DD874CAD6A02C1910D984D1F2502
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_OefCutoffFreq.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_OefCutoffFreq.Text
+msgctxt ",A276DD874CAD6A02C1910D984D1F2502"
+msgid "1"
+msgstr ""
+
+#. Key:	A2EE086B4DD90EEB660724A18E85FAFB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_26.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_26.Text
+msgctxt ",A2EE086B4DD90EEB660724A18E85FAFB"
+msgid "Map"
+msgstr "背景"
+
+#. Key:	A5B402264FF9906A775F83B611D88037
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName_2.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName_2.Text
+msgctxt ",A5B402264FF9906A775F83B611D88037"
+msgid "Face.M_F00_000_00_Fcl_MTH_A"
+msgstr ""
+
+#. Key:	A5C98C61480B985EDAB9F29E1DDBCBE1
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_5.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_5.Text
+msgctxt ",A5C98C61480B985EDAB9F29E1DDBCBE1"
+msgid "As controllers) "
+msgstr "コントローラとして)"
+
+#. Key:	A67342F644BEC1C1B51148AA9DBA2B61
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:ExecuteUbergraph_WBP_Camera [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:ExecuteUbergraph_WBP_Camera [Script Bytecode]
+msgctxt ",A67342F644BEC1C1B51148AA9DBA2B61"
+msgid "Stop scaning"
+msgstr "スキャン停止"
+
+#. Key:	A67679A3449CAD670F01268C1F41D9D6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_84.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_84.Text
+msgctxt ",A67679A3449CAD670F01268C1F41D9D6"
+msgid "Extrinsic calibration method"
+msgstr "カメラ外部パラメータの求め方"
+
+#. Key:	A6FED8E2426C9F62FF45D6A4B4F28EF0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_title.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_title.Text
+msgctxt ",A6FED8E2426C9F62FF45D6A4B4F28EF0"
+msgid "Camera:"
+msgstr "カメラ:"
+
+#. Key:	A81D89DA44187B28E21A5293065BBC07
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:ExecuteUbergraph_WBP_Camera [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:ExecuteUbergraph_WBP_Camera [Script Bytecode]
+msgctxt ",A81D89DA44187B28E21A5293065BBC07"
+msgid "Ready"
+msgstr "設定完了"
+
+#. Key:	A8E00769421750C785F1C795BC70CEFE
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_115.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_115.ToolTipText
+msgctxt ",A8E00769421750C785F1C795BC70CEFE"
+msgid "Whether to record motion to a BVH file.\r\nYou need to press \"Start capture\" and \"Stop capture\" button on the top of the windows to start and stop recording."
+msgstr "モーションをBVHファイルに記録します。\r\n記録を開始および停止するには、ウィンドウの上部にある「キャプチャ開始」および「キャプチャ停止」ボタンを押す必要があります。"
+
+#. Key:	A91737BC43A46DCF73173E8719464B37
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_8.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_8.ToolTipText
+msgctxt ",A91737BC43A46DCF73173E8719464B37"
+msgid "You can use CPU or GPU for calculation. In general, using a GPU will improve performance.\r\nIf you have multiple GPUs installed in your PC and want to change the GPU to use, click the small triangle next to the \"Run DNN on\" and select the pull down.\r\nGPU_DirectML: \r\n\tDirectML provides GPU acceleration on DirectX 12 capable GPUs. Examples of compatible hardware include:\r\n\t- NVIDIA Kepler (GTX 600 series) and above\r\n\t- AMD GCN 1st Gen (Radeon HD 7000 series) and above\r\nGPU_TensorRT:\r\n\tTensorRT provides GPU acceleration on supported NVIDIA GPUs.\r\n\tTo use this, you need to install CUDA, cuDNN, and TensorRT. See 6-10 of \"How to install\" section of readme.\r\n\tTo use this, you need to install \"Appendix4_TensorRT_mode\", too. See 2 of \"How to install\" section of readme."
+msgstr "演算にCPUかGPUのどちらを使用するか選択できます。一般に、GPUを使用するとパフォーマンスが向上します。\r\nPCに複数のGPUがインストールされている場合、使用するGPUを変更するには、この左横にある小さな三角形をクリックして、プルダウンを選択します。\r\nGPU_DriectML:\r\n\tDirectMLは、DirectX12対応GPUでGPUアクセラレーションを可能にします。使用可能なハードウェアの例は次の通りです。\r\n\tNVIDIA Kepler（GTX 600シリーズ）以降\r\n\tAMD GCN 1st Gen（Radeon HD 7000シリーズ）以降\r\nGPU_TensorRT：\r\n\tTensorRTは、サポートされているNVIDIA製GPUでGPUアクセラレーションを可能にします。\r\n\tこれを使用するには、CUDA、cuDNN、およびTensorRTをインストールする必要があります。Readmeの「インストール方法」セクションの6～10を参照してください。\r\n\tまた、これを使用するには、「Appendix4_TensorRT_mode」をインストールする必要があります。Readmeの「インストール方法」セクションの2を参照してください。"
+
+#. Key:	A96737F744A0168B8BFE76942C3BBA35
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_104.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_104.ToolTipText
+msgctxt ",A96737F744A0168B8BFE76942C3BBA35"
+msgid "Calibration method and scale metrics"
+msgstr "カメラ校正の方式とスケールの基準"
+
+#. Key:	A9D076A04E82E91F05283B903E74DFE2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",A9D076A04E82E91F05283B903E74DFE2"
+msgid "Stop calibration"
+msgstr "カメラ校正停止"
+
+#. Key:	A9D943DE4DEB1EEE4C975A9BEABA2900
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_77.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_77.ToolTipText
+msgctxt ",A9D943DE4DEB1EEE4C975A9BEABA2900"
+msgid "Whether to show the current frame rate."
+msgstr "現在のフレームレートを表示"
+
+#. Key:	AA1C069B48054143CC6B52BA80334503
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_ExtrinsicTy.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_ExtrinsicTy.Text
+msgctxt ",AA1C069B48054143CC6B52BA80334503"
+msgid "ty"
+msgstr ""
+
+#. Key:	AA55A3F0455A1CFEB717E190F89665E4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_16.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_16.Text
+msgctxt ",AA55A3F0455A1CFEB717E190F89665E4"
+msgid "Knee L"
+msgstr "右膝"
+
+#. Key:	AB51514A4608222EF5D4F982F0E7DD9B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",AB51514A4608222EF5D4F982F0E7DD9B"
+msgid "2160"
+msgstr ""
+
+#. Key:	ABDC166F488FD93712D78C9C61286910
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic32.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic32.Text
+msgctxt ",ABDC166F488FD93712D78C9C61286910"
+msgid "0"
+msgstr ""
+
+#. Key:	AC2169D24166F38AABD46FBB0780A38D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_11.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_11.Text
+msgctxt ",AC2169D24166F38AABD46FBB0780A38D"
+msgid "Cropping size for hand"
+msgstr "手のトリミングのサイズ"
+
+#. Key:	ACBA407243DA2BD3A853F7ACEA789B11
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_width.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_width.ToolTipText
+msgctxt ",ACBA407243DA2BD3A853F7ACEA789B11"
+msgid "Image width.\r\nPress \"Apply\" after changing the value."
+msgstr "画像の横幅\r\n値変更後は「適用」を押してください。"
+
+#. Key:	AD40F2294A88DF23E6714E904E90E2D4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_mspf.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_mspf.Text
+msgctxt ",AD40F2294A88DF23E6714E904E90E2D4"
+msgid "ms/frame:"
+msgstr ""
+
+#. Key:	ADDB46AE4E65BFEAD03851A83573C488
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_6_hipR.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_6_hipR.Text
+msgctxt ",ADDB46AE4E65BFEAD03851A83573C488"
+msgid "6"
+msgstr ""
+
+#. Key:	ADFCC9824161D1DF3C1177BD2629286F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.IntrinsicCalibrationLoadButton_1.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.IntrinsicCalibrationLoadButton_1.ToolTipText
+msgctxt ",ADFCC9824161D1DF3C1177BD2629286F"
+msgid "Load calibration result"
+msgstr "カメラ校正結果をロード"
+
+#. Key:	AE5D98E34CE2EF00C74FD987EEC961C6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",AE5D98E34CE2EF00C74FD987EEC961C6"
+msgid "Start calibration"
+msgstr "カメラ校正開始"
+
+#. Key:	AF050193482F93ECF22221922104D781
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_purchase_1.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_purchase_1.Text
+msgctxt ",AF050193482F93ECF22221922104D781"
+msgid "Twitter"
+msgstr ""
+
+#. Key:	AF69E58448F8837779BC1EAC1C61F8FA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_6.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_6.Text
+msgctxt ",AF69E58448F8837779BC1EAC1C61F8FA"
+msgid "About MocapForAll"
+msgstr "MocapForAllについて"
+
+#. Key:	B202E164460A217A45D81EB7F0D08CE7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_CoordCalib.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_CoordCalib.Text
+msgctxt ",B202E164460A217A45D81EB7F0D08CE7"
+msgid "Align coord. to VR"
+msgstr "座標をVRに合わせる"
+
+#. Key:	B21EB06F458923A12E79C6BCA85B9823
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_13_elbowR.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_13_elbowR.Text
+msgctxt ",B21EB06F458923A12E79C6BCA85B9823"
+msgid "13"
+msgstr ""
+
+#. Key:	B24250CC464ED3E33C2ED79BE8905CE6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_13.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_13.Text
+msgctxt ",B24250CC464ED3E33C2ED79BE8905CE6"
+msgid "handExtrapolateRatioRecrop"
+msgstr ""
+
+#. Key:	B256C3E44BB1BF542BCB59AF8818CA9A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_9.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_9.Text
+msgctxt ",B256C3E44BB1BF542BCB59AF8818CA9A"
+msgid ")"
+msgstr ""
+
+#. Key:	B359CA524C4CE9E8E51F3E8E782B4848
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_31.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_31.Text
+msgctxt ",B359CA524C4CE9E8E51F3E8E782B4848"
+msgid "fcv (Cutoff frequency for speed)"
+msgstr "fcv (速さに対するカットオフ周波数)"
+
+#. Key:	B388699E446F2A1D263CD59D5DBCB8BB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",B388699E446F2A1D263CD59D5DBCB8BB"
+msgid "r11"
+msgstr ""
+
+#. Key:	B3B271724BE974A4E2B89282E4A340ED
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_2.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_2.Text
+msgctxt ",B3B271724BE974A4E2B89282E4A340ED"
+msgid "faceBboxSpacingRatio"
+msgstr ""
+
+#. Key:	B3DDC9F240C3F9C07EA9FD8E6C008F12
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_24.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_24.ToolTipText
+msgctxt ",B3DDC9F240C3F9C07EA9FD8E6C008F12"
+msgid "Adjust the scales of the captured motion. These values depend on the marker size used in the calibration of camera extrinsic parameters."
+msgstr "キャプチャしたモーションのスケールを調整します。これらの値はカメラ外部パラメータのキャリブレーションで使用するマーカサイズに依存します。"
+
+#. Key:	B47E6B2A4F88C0D2B0AFBB81B1DE36AF
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_12_elbowL.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_12_elbowL.Text
+msgctxt ",B47E6B2A4F88C0D2B0AFBB81B1DE36AF"
+msgid "12"
+msgstr ""
+
+#. Key:	B6C30B96440676B2DF3A818B189522CF
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",B6C30B96440676B2DF3A818B189522CF"
+msgid "360"
+msgstr ""
+
+#. Key:	B731CDA04FA455F819EC33A5783A58DF
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_61.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_61.Text
+msgctxt ",B731CDA04FA455F819EC33A5783A58DF"
+msgid "Shoulders"
+msgstr "肩"
+
+#. Key:	B7A728B74F5E6D004D9BFE9DAB916F1A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_CalibrationSaveDialogue.WBP_CalibrationSaveDialogue_C:WidgetTree.TextBlock_saveLoad.Text
+#: /MultiWebcam3dPose/UI/WBP_CalibrationSaveDialogue.WBP_CalibrationSaveDialogue_C:WidgetTree.TextBlock_saveLoad.Text
+msgctxt ",B7A728B74F5E6D004D9BFE9DAB916F1A"
+msgid "Load"
+msgstr "ロード"
+
+#. Key:	B8E4AE5843214C0EB0E4699E3C04FEB6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_22.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_22.ToolTipText
+msgctxt ",B8E4AE5843214C0EB0E4699E3C04FEB6"
+msgid "AI, Character, Map, Language, etc."
+msgstr "AI、キャラクター、背景、言語等"
+
+#. Key:	B972366840728DEDB2AF37A84608CEA7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_12.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_12.Text
+msgctxt ",B972366840728DEDB2AF37A84608CEA7"
+msgid "Version:"
+msgstr "バージョン:"
+
+#. Key:	BB9848AA474A0A5F635D5B816ED56A40
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_39.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_39.Text
+msgctxt ",BB9848AA474A0A5F635D5B816ED56A40"
+msgid "Pelvis"
+msgstr "腰"
+
+#. Key:	BBC8484B411164E6CA3CAEABC7DC17E7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.CameraRemoveButton.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.CameraRemoveButton.ToolTipText
+msgctxt ",BBC8484B411164E6CA3CAEABC7DC17E7"
+msgid "Close"
+msgstr "閉じる"
+
+#. Key:	BC3FA0154A77A030B411CC9BA9EF61DD
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_10.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_10.Text
+msgctxt ",BC3FA0154A77A030B411CC9BA9EF61DD"
+msgid "Apply"
+msgstr "適用"
+
+#. Key:	BE3DAFDD45D1A14506C146A9C449DFF2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_116.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_116.Text
+msgctxt ",BE3DAFDD45D1A14506C146A9C449DFF2"
+msgid "VMC protocol"
+msgstr "VMCプロトコル"
+
+#. Key:	BEDAB71248797EE520BD1E82FB736DF9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_108.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_108.Text
+msgctxt ",BEDAB71248797EE520BD1E82FB736DF9"
+msgid "ChArUco board [m]"
+msgstr "ChArUco ボード [m]"
+
+#. Key:	BFCA66FD4DDC385F6A5391879A227C87
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_DialogueFile.WBP_DialogueFile_C:WidgetTree.TextBlock_1.Text
+#: /MultiWebcam3dPose/UI/WBP_DialogueFile.WBP_DialogueFile_C:WidgetTree.TextBlock_1.Text
+msgctxt ",BFCA66FD4DDC385F6A5391879A227C87"
+msgid "X"
+msgstr ""
+
+#. Key:	BFF312FD433A843B0DBB1CA770B5F184
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_38.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_38.ToolTipText
+msgctxt ",BFF312FD433A843B0DBB1CA770B5F184"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	C4CBE2064AC663482395F4B2CE9F58B0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_resetView.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_resetView.ToolTipText
+msgctxt ",C4CBE2064AC663482395F4B2CE9F58B0"
+msgid "Move the viewport perspective to the front of the character's face."
+msgstr "視点をキャラクターの正面に移動します"
+
+#. Key:	C6F4DE2240818CB3AB498AB7AC1752E7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:stopCoordCalib [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:stopCoordCalib [Script Bytecode]
+msgctxt ",C6F4DE2240818CB3AB498AB7AC1752E7"
+msgid "Align coord. to VR"
+msgstr "座標をVRに合わせる"
+
+#. Key:	C85F226C4C32B0B819AF8394F02948E3
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_hmdSerial.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_hmdSerial.Text
+msgctxt ",C85F226C4C32B0B819AF8394F02948E3"
+msgid "HMD"
+msgstr ""
+
+#. Key:	C8B64D904DC1D57B9CAB8783DD2D1A40
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_CalibrationSaveDialogue.WBP_CalibrationSaveDialogue_C:ExecuteUbergraph_WBP_CalibrationSaveDialogue [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_CalibrationSaveDialogue.WBP_CalibrationSaveDialogue_C:ExecuteUbergraph_WBP_CalibrationSaveDialogue [Script Bytecode]
+msgctxt ",C8B64D904DC1D57B9CAB8783DD2D1A40"
+msgid "Save"
+msgstr "保存"
+
+#. Key:	CAA041A940FBCB70256B38A157C2EC84
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:setWarningMessage [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:setWarningMessage [Script Bytecode]
+msgctxt ",CAA041A940FBCB70256B38A157C2EC84"
+msgid "- The cy is more than 20% away from the center of the camera image."
+msgstr "・cyの値が画像の中心から20%以上離れています。"
+
+#. Key:	CAC6DE9B41563BC4D59D749C47737662
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_Positioning.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_Positioning.Text
+msgctxt ",CAC6DE9B41563BC4D59D749C47737662"
+msgid "Scan markers"
+msgstr "マーカをスキャン"
+
+#. Key:	CBB6B6804DF98770B62E4EA58A442052
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_isCameraReady.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_isCameraReady.Text
+msgctxt ",CBB6B6804DF98770B62E4EA58A442052"
+msgid "Not ready"
+msgstr "要設定"
+
+#. Key:	CC039BD447610777D29F7391DD5A1B08
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_125.Text
+#: /MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_125.Text
+msgctxt ",CC039BD447610777D29F7391DD5A1B08"
+msgid "X: "
+msgstr ""
+
+#. Key:	CC11853D41F09F9A3D516683FBE2FB64
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_isIntrinsicCalibrated_2.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_isIntrinsicCalibrated_2.Text
+msgctxt ",CC11853D41F09F9A3D516683FBE2FB64"
+msgid "Warning"
+msgstr "警告"
+
+#. Key:	CC78DBC141E3078105D7ADAD86916DD9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+msgctxt ",CC78DBC141E3078105D7ADAD86916DD9"
+msgid "0"
+msgstr ""
+
+#. Key:	CE120DFA4CF37CAADE6052BA60A9C36D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_OefFreq.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_OefFreq.Text
+msgctxt ",CE120DFA4CF37CAADE6052BA60A9C36D"
+msgid "20"
+msgstr ""
+
+#. Key:	CE2BAFB6400212CDEBD2DA9E4CBA6BD7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_Video.WBP_Camera_Video_C:ExecuteUbergraph_WBP_Camera_Video [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_Video.WBP_Camera_Video_C:ExecuteUbergraph_WBP_Camera_Video [Script Bytecode]
+msgctxt ",CE2BAFB6400212CDEBD2DA9E4CBA6BD7"
+msgid "Video"
+msgstr "動画"
+
+#. Key:	CE46E9C942C5B25D8A5A3A8D9A2B9945
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_Height.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_Height.Text
+msgctxt ",CE46E9C942C5B25D8A5A3A8D9A2B9945"
+msgid "480"
+msgstr ""
+
+#. Key:	CF7A42A4496EA0AE43BF7E963FEE5BE9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_9.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_9.Text
+msgctxt ",CF7A42A4496EA0AE43BF7E963FEE5BE9"
+msgid "Capture face ("
+msgstr "顔のキャプチャ("
+
+#. Key:	D14C727345206316CC8F078300B6D776
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.PositioningButton.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.PositioningButton.ToolTipText
+msgctxt ",D14C727345206316CC8F078300B6D776"
+msgid "Start/Stop scanning of ArUco or Diamond markers."
+msgstr "ArUcoまたはDiamondマーカーのスキャンを開始/停止します。"
+
+#. Key:	D150AAAD480C2D1C65513E812C1BF0F2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_2.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_2.Text
+msgctxt ",D150AAAD480C2D1C65513E812C1BF0F2"
+msgid "  Reset view  "
+msgstr " 視点をリセット "
+
+#. Key:	D1BEEEC640FB80503878B78541C1FB8E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Stop Calibration Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Stop Calibration Intrinsic [Script Bytecode]
+msgctxt ",D1BEEEC640FB80503878B78541C1FB8E"
+msgid "Start"
+msgstr "開始"
+
+#. Key:	D24D8E964CE626308E7CB69D104B8979
+#. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllCharacterComponent.MocapForAllCharacterComponent_C:Stop Bvh Recording [Script Bytecode]
+#: /MultiWebcam3dPose/BP/MocapForAllCharacterComponent.MocapForAllCharacterComponent_C:Stop Bvh Recording [Script Bytecode]
+msgctxt ",D24D8E964CE626308E7CB69D104B8979"
+msgid "BVH file exported."
+msgstr "BVHファイルの出力が完了しました。"
+
+#. Key:	D2577093470C549155C5628D8A0C1BD6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_90.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_90.Text
+msgctxt ",D2577093470C549155C5628D8A0C1BD6"
+msgid "Advanced"
+msgstr "高度な設定"
+
+#. Key:	D2BB57CA4A0FFD2EDD3B55A9666E90B9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.VideoOpenButton.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.VideoOpenButton.ToolTipText
+msgctxt ",D2BB57CA4A0FFD2EDD3B55A9666E90B9"
+msgid "Open"
+msgstr "開く"
+
+#. Key:	D2D36DC343DC31790E0E6A8D0D53AA11
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
+msgctxt ",D2D36DC343DC31790E0E6A8D0D53AA11"
+msgid "1080"
+msgstr ""
+
+#. Key:	D38E4C9F4642A6B1EBA994B6C50E1F9D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",D38E4C9F4642A6B1EBA994B6C50E1F9D"
+msgid "r23"
+msgstr ""
+
+#. Key:	D44B2FB94C95F8FE5648DF8BDBAE833E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic21_1.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic21_1.Text
+msgctxt ",D44B2FB94C95F8FE5648DF8BDBAE833E"
+msgid "0"
+msgstr ""
+
+#. Key:	D4A4752444D1C8F17BDC0B95F7DFB5A0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",D4A4752444D1C8F17BDC0B95F7DFB5A0"
+msgid "ty"
+msgstr ""
+
+#. Key:	D52AD0334130AB237FB5F1963DA3CEA0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_64.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_64.ToolTipText
+msgctxt ",D52AD0334130AB237FB5F1963DA3CEA0"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	D5F158A842E603D148AFAEAF1674333B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.ExpandableArea_Advanced.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.ExpandableArea_Advanced.ToolTipText
+msgctxt ",D5F158A842E603D148AFAEAF1674333B"
+msgid "Advanced settings"
+msgstr "高度な設定"
+
+#. Key:	D69EF586475EAD48B80F7F817B6F65B8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_125.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_125.ToolTipText
+msgctxt ",D69EF586475EAD48B80F7F817B6F65B8"
+msgid "The tracking positions of chest, neck, head, shoulder, elbows, and hands are scaled by this value."
+msgstr "胸、首、頭、肩、肘、手のトラッキング位置は、この値によってスケーリングされます。"
+
+#. Key:	D799E76D48F7F5ECF78E229F5B4663C8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumVmcReceive.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumVmcReceive.Text
+msgctxt ",D799E76D48F7F5ECF78E229F5B4663C8"
+msgid "39540"
+msgstr ""
+
+#. Key:	D7C3D1E943636BB43C3B7891DE78B467
+#. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+#: /MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
+msgctxt ",D7C3D1E943636BB43C3B7891DE78B467"
+msgid "Failed to switch to GPU mode. Fall back to CPU mode."
+msgstr "GPUモードへの切り替えに失敗しました。CPUモードにフォールバックします。"
+
+#. Key:	D8B9FF3446DDAC7BAC3CABA3E13F7E4D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_7.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_7.Text
+msgctxt ",D8B9FF3446DDAC7BAC3CABA3E13F7E4D"
+msgid "Intrinsic"
+msgstr "内部パラメータ"
+
+#. Key:	DA2DA0D84DD7B8B5EE0C768986D11373
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_89.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_89.ToolTipText
+msgctxt ",DA2DA0D84DD7B8B5EE0C768986D11373"
+msgid "Whether to show the tracking points of your face in separated windows."
+msgstr "顔のトラッキング位置を別ウィンドウで表示"
+
+#. Key:	DAAAC8EF4BBA14EA740ED280DA5C7B63
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_6.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_6.Text
+msgctxt ",DAAAC8EF4BBA14EA740ED280DA5C7B63"
+msgid "Calibration"
+msgstr "カメラ校正"
+
+#. Key:	DBBE3C7640057A2EBF98CC9FD415AD97
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_9.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_9.ToolTipText
+msgctxt ",DBBE3C7640057A2EBF98CC9FD415AD97"
+msgid "Whether to capture facial expressions. It is recommended not to wear glasses for accurate capture.\r\nNote that this is an experimental feature. The accuracy is low and CPU / GPU usage is high."
+msgstr "顔の表情をキャプチャするかどうか。より正確なキャプチャのためには眼鏡をかけないことをお勧めします。\r\nこれは実験的な機能であることに注意してください。精度は低く、CPU / GPUの使用率は高くなります。"
+
+#. Key:	DBFA112041227245528ADABC8FE59F81
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.MultiLineEditableText_1.Text
+#: /MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.MultiLineEditableText_1.Text
+msgctxt ",DBFA112041227245528ADABC8FE59F81"
+msgid "本利用規約（以下「本規約」と言います。）には、本サービスの提供条件及び当社とユーザーの皆様との間の権利義務関係が定められています。本サービスの利用に際しては、本規約の全文をお読みいただいたうえで、本規約に同意いただく必要があります。\r\n\r\n第1条.\t（適用）\r\n第1項.\t本規約は、本サービスの提供条件及び本サービスの利用に関する当社とユーザーとの間の権利義務関係を定めることを目的とし、ユーザーと当社との間の本サービスの利用に関わる一切の関係に適用されます。\r\n第2項.\t本規約の内容と、前項のルールその他の本規約外における本サービスの説明等とが異なる場合は、本規約の規定が優先して適用されるものとします。\r\n\r\n第2条.\t（言葉の定義）\r\n本規約において使用する以下の用語は、各々以下に定める意味を有するものとします。\r\n第1号.\t「サービス利用契約」とは、本規約を契約条件として当社とユーザーの間で締結される、本サービスの利用契約を意味します。\r\n第2号.\t「知的財産権」とは、著作権、特許権、実用新案権、意匠権、商標権その他の知的財産権（それらの権利を取得し、またはそれらの権利につき登録等を出願する権利を含みます。）を意味します。\r\n第3号.\t「作成データ」とは、ユーザーが本サービスを利用して作成するコンテンツ（文章、画像、動画その他のデータを含みますがこれらに限りません。）を意味します。\r\n第4号.\t「当社」とは、株式会社空き家総合研究所を意味します。\r\n第5号.\t「当社ウェブサイト」とは、そのドメインが「akiya-souken.co.jp」である、当社が運営するウェブサイト（理由の如何を問わず、当社のウェブサイトのドメインまたは内容が変更された場合は、当該変更後のウェブサイトを含みます。）を意味します。\r\n第6号.\t「ユーザー」とは、第4条（本サービスの利用）に基づいて本サービスの利用者となった個人または法人等の組織に所属する利用者を意味します。\r\n第7号.\t「本サービス」とは、当社が提供する「MocapForAll」という名称のサービス（理由の如何を問わずサービスの名称または内容が変更された場合は、当該変更後のサービスを含みます。）を意味します。無償版や最新版でないサービスもこれに含みます。\r\n\r\n第3条.\t（個人情報の取り扱い）\r\n第1項.\t当社は、ユーザーが本サービスを利用する際に取得した利用者情報（以下、「利用者情報」といいます）については、公式サイト上に別途提示する「プライバシーポリシー」(https://akiya-souken.co.jp/privacy_policy.html)をご参照ください。\r\n第2項.\tお客様が本サービスを利用される時点において、「プライバシーポリシー」に基づく個人情報等の取扱いについて同意するものとします。\r\n第3項.\t当社は、ユーザーが当社に提供した情報、データ等を、個人を特定できない形での統計的な情報として、当社の裁量で、利用及び公開することができるものとし、ユーザーはこれに異議を唱えないものとします。\r\n\r\n第4条.\t（本サービスの利用）\r\n第1項.\t本サービスの利用を希望する者は、本サービスを当社の定める方法により、ダウンロードすることによって、本サービスの利用者となります。\r\n第2項.\t前項に定める本サービスの利用者となった時に、サービス利用契約がユーザーと当社の間に成立し、ユーザーは本サービスを本規約に従い利用することができるようになります。\r\n第3項.\t本条第1項の定めによらず、本サービスをダウンロード等により取得したものは、本サービスを利用することはできません。\r\n第4項.\tユーザーが組織に所属する利用者である場合、組織内の本サービスの各使用者をそれぞれユーザーとみなします。\r\n第5項.\t本サービスのユーザーの内、第5条第1項または第5条第2項に従い利用料金を支払ったものに限り、自身で作成した作成データの公開や商用目的での利用をユーザーの責任の下、自由に行うことができます。\r\n第6項.\t本サービスの無償版は、評価・試験目的のみでの使用でき、実際の製品への利用や商用目的での利用は認められません。\r\n第7項.\t当社は、サービス利用者が、以下の各号のいずれかの事由に該当する場合は、サービスの利用を拒否することがあり、またその理由について一切開示義務を負いません。\r\n第1号.\t未成年者、成年被後見人、被保佐人または被補助人のいずれかであり、法定代理人、後見人、保佐人または補助人の同意等を得ていなかった場合\r\n第2号.\t反社会的勢力等（暴力団、暴力団員、右翼団体、反社会的勢力、その他これに準ずる者を意味します。以下同じ。）である、または資金提供その他を通じて反社会的勢力等の維持、運営もしくは経営に協力もしくは関与する等反社会的勢力等との何らかの交流もしくは関与を行っていると当社が判断した場合\r\n第3号.\t過去当社との契約に違反した者またはその関係者であると当社が判断した場合\r\n第4号.\tその他、サービスの利用が適当でないと当社が判断した場合\r\n\r\n第5条.\t（料金及び支払方法、返金について）\r\n第1項.\tユーザーは、本サービスの有料部分の利用を希望する場合は対価として、別途当社が定める利用料金を、当社が指定する支払方法により支払い、サービスの利用開始を行うものとします。\r\n第2項.\t法人等の組織は、本サービスの有料部分の利用を希望する場合は対価として、組織内での本サービス利用者の人数分の利用料金を前項に従い支払うものとします。\r\n第3項.\tユーザーは、当社に対し、ユーザーおよびその動作環境の責に帰さない事由によって本サービスが正常に起動しない場合、返金を求めることができます。\r\n第4項.\t前項の返金をユーザーが求める場合は、当社指定の方法により、購入費用等の全部もしくは一部をユーザーへ返金するものとします。\r\n第5項.\tユーザーおよびその動作環境の責に帰する事由によって、本サービスの全部または一部が正常に動作しない場合は、返金を求めることはできません。\r\n\r\n第6条.\t（免責事項）\r\n第1項.\t本サービスに関する知的財産権は全て当社または当社にライセンスを許諾している者に帰属しており、本規約に基づく本サービスの利用許諾は、本サービスに関する当社または当社にライセンスを許諾している者の知的財産権の使用許諾を意味するものではありません。\r\n第2項.\t当社は、本サービスがユーザーの特定の目的に適合すること、期待する機能・商品的価値・正確性・有用性を有すること、ユーザーによる本サービスの利用がユーザーに適用のある法令または業界団体の内部規則等に適合すること、継続的に利用できること、及び不具合が生じないことについて、明示又は黙示を問わず何ら保証するものではありません。\r\n第3項.\t当社は、本サービスに関してユーザーが被った損害につき、過去12ヶ間にユーザーが当社に支払った対価の金額を超えて賠償する責任を負わないものとし、また、付随的損害、間接損害、特別損害、将来の損害及び逸失利益にかかる損害については、賠償する責任を負わないものとします。\r\n第4項.\t当社は、ユーザーによって作成されたコンテンツの情報を管理・保存する義務を負いません。\r\n第5項.\tユーザーは、作成データについて、自らが保持・投稿その他送信することについての適法な権利を有していること、及び作成データが第三者の権利を侵害していないことについて、当社に対し表明し、保証するものとします。\r\n第6項.\t当社は、ユーザーによって利用されるコンテンツの情報について、適法性、正確性等に関し一切の責任を負いません。\r\n第7項.\t当社は、ユーザーに対し、本サービスを利用するために使用するハードウェア及び他社システム等をサポートする責任を負いません。\r\n\r\n第7条.\t（禁止行為）\r\nユーザーは、本サービスの利用にあたり、以下の各号のいずれかに該当する行為または該当すると当社が判断する行為をしてはなりません。\r\n第1号.\t法令に違反する行為または犯罪行為に関連する行為\r\n第2号.\t当社、本サービスの他の利用者またはその他の第三者に対する詐欺または脅迫行為\r\n第3号.\t公序良俗に反する行為\r\n第4号.\t当社、本サービスの他の利用者またはその他の第三者の知的財産権、肖像権、プライバシーの権利、名誉、その他の権利または利益を侵害する行為\r\n第5号.\t本サービスまたはその一部を用いて、以下に該当し、または該当すると当社が判断する情報を当社または本サービスの他の利用者に送信すること\r\n5号.1.\tコンピューター・ウィルスその他の有害なコンピューター・プログラムを含む情報\r\n5号.2.\t当社、本サービスの他の利用者またはその他の第三者の名誉または信用を毀損する表現を含む情報\r\n5号.3.\t差別を助長する表現を含む情報\r\n5号.4.\t自殺、自傷行為を助長する表現を含む情報\r\n5号.5.\t薬物の不適切な利用を助長する表現を含む情報\r\n5号.6.\t反社会的な表現を含む情報\r\n5号.7.\tチェーンメール等の第三者への情報の拡散を求める情報\r\n5号.8.\t他人に不快感を与える表現を含む情報\r\n第6号.\t本サービスを逆アセンブル、逆コンパイル、リバースエンジニアリング、その他本アプリのソースコード、構造、アイデア等を解析するような行為\r\n第7号.\t本サービスの運営を妨害するおそれのある行為\r\n第8号.\t当社の承諾なく、本サービスを第三者に再頒布する行為\r\n第9号.\t第三者に成りすます行為\r\n第10号.\t当社、本サービスの他の利用者またはその他の第三者に不利益、損害、不快感を与える行為\r\n第11号.\t反社会的勢力等への利益供与\r\n第12号.\t前各号の行為を直接または間接に惹起し、または容易にする行為\r\n第13号.\t前各号の行為を試みること\r\n第14号.\tその他、当社が不適切と判断する行為\r\n\r\n第8条.\t（本規約の変更）\r\n第1項.\t本規約は、当社の判断により、いつでも任意に変更することができるものとします。変更後の利用規約は、当社が別途定める場合を除き、変更後の本規約の施行時期及び内容を当社ウェブサイト上での掲示その他の適切な方法により周知し、またはユーザーに通知します。\r\n第2項.\t法令上ユーザーの同意が必要となるような内容の変更の場合は、当社所定の方法でユーザーの同意を得るものとします。\r\n第3項.\t本規約の変更の効力が生じた後にユーザーが本サービス及び関連サービスを利用した場合には、変更後の利用規約の全てにつき、同意したものとみなします。\r\n\r\n第9条.\t（サービスの中断・停止）\r\n第1項.\t当社は、事前の予告なくして、本サービス及び関連サービスをいつでも任意の理由で追加、変更、またはサポートの終了をすることができます。\r\n第2項.\t当社が本サービスのサポートを終了する場合、当社のウェブサイト上でユーザーに事前に通知するものとします。\r\n\r\n第10条.\t（分離可能性）\r\n第1項.\t本規約のいずれかの条項またはその一部が、消費者契約法その他の法令等により無効または執行不能と判断された場合であっても、本規約の残りの規定及び一部が無効または執行不能と判断された規定の残りの部分は、継続して完全に効力を有するものとします。\r\n第2項.\t利用規約等の規定の一部があるユーザーとの関係で無効とされ、又は取り消された場合でも、利用規約等はその他のユーザーとの関係では有効とします。\r\n\r\n第11条.\t（準拠法及び管轄裁判所）\r\n第1項.\t本規約の準拠法は、日本法とします。\r\n第2項.\tユーザーと当社の間で訴訟の必要が生じた場合、当社の所在地を管轄する裁判所を第一審の合意管轄裁判所とします。\r\n\r\n第12条.\t（Epic Games, Inc.の免責事項および責任の制限）\r\n第1項.\tMocapForAll includes the Unreal® Engine code and other code, materials, and information (the “Epic Materials”) from Epic Games, Inc. (“Epic”).  All Epic Materials are provided on an “as is” and “as available” basis, “with all faults” and without warranty of any kind.  Akiya Research Institute, Epic, and Epic’s affiliates disclaim all warranties, conditions, common law duties, and representations (express, implied, oral, and written) with respect to the Epic Materials, including without limitation all express, implied, and statutory warranties and conditions of any kind, such as title, non-interference with your enjoyment, authority, non-infringement, merchantability, fitness or suitability for any purpose (whether or not Epic knows or has reason to know of any such purpose), system integration, accuracy or completeness, results, reasonable care, workmanlike effort, lack of negligence, and lack of viruses, whether alleged to arise under law, by reason of custom or usage in the trade, or by course of dealing.  Without limiting the generality of the foregoing, Akiya Research Institute, Epic, and Epic’s affiliates make no warranty that (1) any of the Epic Materials will operate properly, including as integrated in the MocapForAll, (2) that the Epic Materials will meet your requirements, (3) that the operation of the Epic Materials will be uninterrupted, bug free, or error free in any or all circumstances, (4) that any defects in the Epic Materials can or will be corrected, (5) that the Epic Materials are or will be in compliance with a platform manufacturer’s rules or requirements, or (6) that a platform manufacturer has approved or will approve this MocapForAll, or will not revoke approval of this MocapForAll for any or no reason.  Any warranty against infringement that may be provided in Section 2-312 of the Uniform Commercial Code or in any other comparable statute is expressly disclaimed by Akiya Research Institute and Epic.  Akiya Research Institute, Epic, and Epic’s affiliates do not guarantee continuous, error-free, virus-free, or secure operation of or access to the Epic Materials.  This paragraph will apply to the maximum extent permitted by applicable law. \r\n第2項.\tTo the maximum extent permitted by applicable law, neither Akiya Research Institute, Epic, Epic’s licensors, nor its or their affiliates, nor any of Akiya Research Institute’s or Epic’s service providers, shall be liable in any way for loss or damage of any kind resulting from the use or inability to use the Epic Materials or otherwise in connection with this agreement, including but not limited to loss of goodwill, work stoppage, computer failure, or malfunction, or any and all other commercial damages or losses.  In no event will Akiya Research Institute, Epic, Epic’s licensors, nor its or their affiliates, nor any of Akiya Research Institute’s or Epic’s service providers be liable for any loss of profits or any indirect, incidental, consequential, special, punitive, or exemplary damages, or any other damages arising out of or in connection with this agreement or the Epic Materials, or the delay or inability to use or lack of functionality of the Epic Materials, even in the event of Akiya Research Institute’s, Epic’s, or Epic’s affiliates’ fault, tort (including negligence), strict liability, indemnity, product liability, breach of contract, breach of warranty, or otherwise and even if Akiya Research Institute, Epic or Epic’s affiliates have been advised of the possibility of such damages.  These limitations and exclusions regarding damages apply even if any remedy fails to provide adequate compensation.\r\n第3項.\tBecause some states or jurisdictions do not allow the exclusion or the limitation of liability for consequential or incidental damages, in such states or jurisdictions, the liability of Akiya Research Institute, Epic, Epic’s licensors, its and their affiliates, and any of Akiya Research Institute’s or Epic’s service providers shall be limited to the full extent permitted by law.\r\n\r\n第13条.\t（附則）\r\n第1項.\t本規約は、2021年6月5日から施行します。\r\n第2項.\t本規約の施行前にユーザーによって行われた行為についても本規約が適用されます。\r\n第3項.\t本規則の制定・改定履歴は下記号のとおりです。\r\n第1号.\t【2021年6月5日　本規則制定】\r\n"
+msgstr ""
+
+#. Key:	DDF398DD4B221D6E0BE9559BD92EFDA9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_27.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_27.Text
+msgctxt ",DDF398DD4B221D6E0BE9559BD92EFDA9"
+msgid "Data export"
+msgstr "データ出力"
+
+#. Key:	DEE8D8394DE62182B4A2E1891A47056F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_126.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_126.ToolTipText
+msgctxt ",DEE8D8394DE62182B4A2E1891A47056F"
+msgid "The tracking positions of pelvis, hips, knees, and feet are scaled by this value."
+msgstr "腰、股関節、膝、足のトラッキング位置は、この値によってスケーリングされます。"
+
+#. Key:	DF6FB7BA43DEF29946CAD4AFD9B9C9F5
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_28.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_28.ToolTipText
+msgctxt ",DF6FB7BA43DEF29946CAD4AFD9B9C9F5"
+msgid "Check this to send tracking points of your body.\r\nThis is used when you just need raw value of positions and rotations of \"trackers\", without animation retargetting done by this app.\r\n(For example, turn this on to use with VRChat.)"
+msgstr "体のトラッキング位置を送信します。\r\nこれは、このアプリでアニメーションのリターゲティングを行わずに、「トラッカー」の位置と回転の生の値が必要な場合に使用します。\r\n（たとえば、VRChatで使用するにはこれをオンにします）"
+
+#. Key:	DF7B69064E199174229B25A5ACC3277A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",DF7B69064E199174229B25A5ACC3277A"
+msgid "r22"
+msgstr ""
+
+#. Key:	DFBD942F4A902570B06A18A317FAFEC0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_16.Text
+#: /MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_16.Text
+msgctxt ",DFBD942F4A902570B06A18A317FAFEC0"
+msgid "Position offset"
+msgstr "位置のオフセット"
+
+#. Key:	E006FC7A438B2A90E85572A6167D9F1B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_27.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_27.ToolTipText
+msgctxt ",E006FC7A438B2A90E85572A6167D9F1B"
+msgid "BVH, VMC, and VMT settings"
+msgstr "BVH、VMC、VMTの設定"
+
+#. Key:	E02B5A2B4DD73C9040B9D2BAA372860D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_15.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_15.ToolTipText
+msgctxt ",E02B5A2B4DD73C9040B9D2BAA372860D"
+msgid "Foot IK and smoothing settings"
+msgstr "足のIKとスムージングの設定"
+
+#. Key:	E03BC33E45A310651990938BA362CE20
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_66.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_66.ToolTipText
+msgctxt ",E03BC33E45A310651990938BA362CE20"
+msgid "You can choose Precision-oriented mode (more CPU / GPU usage) or Speed-oriented mode (less CPU / GPU usage). It is recommended to use GPU for Precision-oriented mode.\r\nTo use Precision-oriented mode, \"Appendix1_Precision_mode\" needs to be installed. See 2 of \"How to install\" section of readme."
+msgstr "精度重視モード (CPU/GPU 使用率が高い) または速度重視モード (CPU/GPU 使用率が低い) を選択できます。精度指向モードには GPU を使用することをお勧めします。\r\n精度指向モードを使用するには、「Appendix1_Precision_mode」をインストールする必要があります。Readmeの「インストール方法」セクションの2を参照してください。"
+
+#. Key:	E09CC278421EA4BE3DC0A1A36E087868
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_75.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_75.ToolTipText
+msgctxt ",E09CC278421EA4BE3DC0A1A36E087868"
+msgid "Check this to send tracker positions as relative positions to the head.\r\nWhen used with SteamVR and \"Virtual Motion Tracker\", it is recommended to check this to make the latency of the virtual trackers less noticeable."
+msgstr "頭との相対位置としてトラッカー位置を送信します。\r\nSteamVRとVirtualMotionTrackerで使用する場合は、これをチェックして、HMDに対する仮想トラッカーのレイテンシーを目立たなくすることをお勧めします。"
+
+#. Key:	E0DBBD4A4FEFD44DFA6F578CEF8B95D2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic33.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic33.Text
+msgctxt ",E0DBBD4A4FEFD44DFA6F578CEF8B95D2"
+msgid "r33"
+msgstr ""
+
+#. Key:	E0E29A39404D8B6894F3FDBC540D06C7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_OefBeta.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_OefBeta.Text
+msgctxt ",E0E29A39404D8B6894F3FDBC540D06C7"
+msgid "5"
+msgstr ""
+
+#. Key:	E18CD8BC44B8507367CF89A0FC038BD4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_43.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_43.Text
+msgctxt ",E18CD8BC44B8507367CF89A0FC038BD4"
+msgid "Knees"
+msgstr "膝"
+
+#. Key:	E1DA39904192720569C33E825C5D6177
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+msgctxt ",E1DA39904192720569C33E825C5D6177"
+msgid "0"
+msgstr ""
+
+#. Key:	E1FEA06F4469E6CD986343A0B565BD0E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_4.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_4.Text
+msgctxt ",E1FEA06F4469E6CD986343A0B565BD0E"
+msgid "faceBboxInterpolateRation"
+msgstr ""
+
+#. Key:	E32CFF9547FBCBE130669CA5F4FEFAB9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_isIntrinsicCalibrated_1.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_isIntrinsicCalibrated_1.Text
+msgctxt ",E32CFF9547FBCBE130669CA5F4FEFAB9"
+msgid "Warning"
+msgstr "警告"
+
+#. Key:	E46FF7954C6D304B6BA78B9A18D1C678
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic31.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic31.Text
+msgctxt ",E46FF7954C6D304B6BA78B9A18D1C678"
+msgid "0"
+msgstr ""
+
+#. Key:	E4CFA7BB481BD45FD8AA53BABFB77E3D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.ComboBox_CameraLib.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.ComboBox_CameraLib.ToolTipText
+msgctxt ",E4CFA7BB481BD45FD8AA53BABFB77E3D"
+msgid "Select the framework for camera control.\r\nDirect show: Microsoft's media framework. Compatible with OBS-VirtualCam plugin.\r\nUE4 media player: UE4's media framework. Better performance for high resolution cameras."
+msgstr "カメラ操作のライブラリを選択\r\nDirect show: Microsoftのメディアフレームワーク。OBS-VirtualCamプラグインが使えます。\r\nUE4 media player: UE4のメディアフレームワーク。高解像度での性能に優れています。"
+
+#. Key:	E558A0564E3BD76BC137658F656906B0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_29.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_29.Text
+msgctxt ",E558A0564E3BD76BC137658F656906B0"
+msgid "Draw tracking points"
+msgstr "トラッキング位置を描画"
+
+#. Key:	E56935BD4D24AA831C562B83E9EB17F7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
+msgctxt ",E56935BD4D24AA831C562B83E9EB17F7"
+msgid "tx"
+msgstr ""
+
+#. Key:	E5C2E94A46E1AC317BE873980CA07BEC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_73.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_73.Text
+msgctxt ",E5C2E94A46E1AC317BE873980CA07BEC"
+msgid "Limit frame rate to:"
+msgstr "フレームレートを制限:"
+
+#. Key:	E5E06CE048C86E0E9A1600B18AF903CB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_100.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_100.Text
+msgctxt ",E5E06CE048C86E0E9A1600B18AF903CB"
+msgid "Eye Blink L"
+msgstr "瞬き 左"
+
+#. Key:	E601C3F044D309D5859240A8C050B0E5
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_11_handR.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_11_handR.Text
+msgctxt ",E601C3F044D309D5859240A8C050B0E5"
+msgid "11"
+msgstr ""
+
+#. Key:	E6B9DC7449EB222AE3074DBEBFE50125
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_55.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_55.Text
+msgctxt ",E6B9DC7449EB222AE3074DBEBFE50125"
+msgid "Hands("
+msgstr "手("
+
+#. Key:	E758BF89493C2C3EC4CFA08FB8E1B32A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimer_s.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimer_s.Text
+msgctxt ",E758BF89493C2C3EC4CFA08FB8E1B32A"
+msgid "s"
+msgstr ""
+
+#. Key:	E795875445B74BB5ABAB589DBED28A47
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_eyeMorphName_R.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_eyeMorphName_R.Text
+msgctxt ",E795875445B74BB5ABAB589DBED28A47"
+msgid "Face.M_F00_000_00_Fcl_EYE_Close_R"
+msgstr ""
+
+#. Key:	E7E5992342540C41232E95A7B470E1FC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName_3.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName_3.Text
+msgctxt ",E7E5992342540C41232E95A7B470E1FC"
+msgid "Face.M_F00_000_00_Fcl_BRW_Fun"
+msgstr ""
+
+#. Key:	E84776F44783C308E97DBF8C76A941EC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic21.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic21.Text
+msgctxt ",E84776F44783C308E97DBF8C76A941EC"
+msgid "r12"
+msgstr ""
+
+#. Key:	E849258C4E06A0DB19899BB5ECA12629
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:setWarningMessage [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:setWarningMessage [Script Bytecode]
+msgctxt ",E849258C4E06A0DB19899BB5ECA12629"
+msgid "The calibration result may be incorrect because:"
+msgstr "カメラ校正結果が下記の理由から正しくないかもしれません:"
+
+#. Key:	E897520945A4FBB66A65F38C82AE9BB4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_49.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_49.Text
+msgctxt ",E897520945A4FBB66A65F38C82AE9BB4"
+msgid "Chest"
+msgstr "胸"
+
+#. Key:	E8E3FB784FF5CA08BC35F6BE6671C7FE
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic31.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic31.Text
+msgctxt ",E8E3FB784FF5CA08BC35F6BE6671C7FE"
+msgid "r13"
+msgstr ""
+
+#. Key:	E989C5FD43075F29F8EDB28B8EB8C7B7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_103.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_103.Text
+msgctxt ",E989C5FD43075F29F8EDB28B8EB8C7B7"
+msgid "Foot R"
+msgstr "足 右"
+
+#. Key:	E9BBD8F642C6DD3C343D918B4AF2E170
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_80.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_80.Text
+msgctxt ",E9BBD8F642C6DD3C343D918B4AF2E170"
+msgid "%"
+msgstr ""
+
+#. Key:	EA01D84B4982EE50A53DE8BB7797580D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_37.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_37.Text
+msgctxt ",EA01D84B4982EE50A53DE8BB7797580D"
+msgid "Tracking points to be sent"
+msgstr "送信するトラッキング位置"
+
+#. Key:	EA7304C4429F51E3A734ECB29BDB79F7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.StartCalibButton.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.StartCalibButton.ToolTipText
+msgctxt ",EA7304C4429F51E3A734ECB29BDB79F7"
+msgid "Starts calibration for extrinsic paramters of cameras using human motion.\r\nWalk around on the floor where the cameras can see your whole body after pressing this.\r\nYou can press \"Find Ground\" button at the same time to adjust the floor level automatically."
+msgstr "カメラの外部パラメータのキャリブレーションを人間の動きを使用する形式で実行/停止します。\r\nこれを押した後、各カメラから全身が映る床の上を歩き回ってください。\r\n「地面を自動検出」ボタンを同時に押すと、地面の位置・向きの自動検出もそのまま実行できます。"
+
+#. Key:	EAA857A04C422ACBE261CAB864D0D89C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_10_handL.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_10_handL.Text
+msgctxt ",EAA857A04C422ACBE261CAB864D0D89C"
+msgid "10"
+msgstr ""
+
+#. Key:	EB9A9F334B3D7EE172CDAC9684AEEF54
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.Text
+msgctxt ",EB9A9F334B3D7EE172CDAC9684AEEF54"
+msgid "ArUco marker [m]"
+msgstr "ArUcoマーカ [m]"
+
+#. Key:	EBCA8C034B09448932439494927D96AC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName.Text
+msgctxt ",EBCA8C034B09448932439494927D96AC"
+msgid "Face.M_F00_000_00_Fcl_MTH_Fun"
+msgstr ""
+
+#. Key:	EBE6325440FBD95D45EFD6B4A106F6C4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.IntrinsicCalibrationStartButton_1.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.IntrinsicCalibrationStartButton_1.ToolTipText
+msgctxt ",EBE6325440FBD95D45EFD6B4A106F6C4"
+msgid "Start/Stop calibration of intrinsic parameters."
+msgstr "カメラ内部パラメータの校正を開始/停止します。"
+
+#. Key:	EC130D0F4E9DE9BDDAF12D97E1A42C56
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_58.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_58.ToolTipText
+msgctxt ",EC130D0F4E9DE9BDDAF12D97E1A42C56"
+msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
+msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	ECA53A7442FF30789DCB57A50118D3DB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:ExecuteUbergraph_WBP_Camera [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:ExecuteUbergraph_WBP_Camera [Script Bytecode]
+msgctxt ",ECA53A7442FF30789DCB57A50118D3DB"
+msgid "Calibrated"
+msgstr "カメラ校正済"
+
+#. Key:	ECE20F33446E72E3082D0D9950555143
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.ToolTipText
+msgctxt ",ECE20F33446E72E3082D0D9950555143"
+msgid "Enlish and Japanese are supported."
+msgstr "英語と日本語に対応しています。"
+
+#. Key:	ED09C1B74A654F25E75DE6B658C26BC2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_67.Text
+#: /MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_67.Text
+msgctxt ",ED09C1B74A654F25E75DE6B658C26BC2"
+msgid "Orientation offset"
+msgstr "向きのオフセット"
+
+#. Key:	ED38413645C9E4BD8F22C6AD150B4C11
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_MakerSize_aruco.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_MakerSize_aruco.Text
+msgctxt ",ED38413645C9E4BD8F22C6AD150B4C11"
+msgid "0.17100"
+msgstr ""
+
+#. Key:	ED4F90D24FB5C36C72577282249C61DA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_4_kneeR.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_4_kneeR.Text
+msgctxt ",ED4F90D24FB5C36C72577282249C61DA"
+msgid "4"
+msgstr ""
+
+#. Key:	EDAF69714B9C819059289A93D2BDA1BB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:setWarningMessage [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:setWarningMessage [Script Bytecode]
+msgctxt ",EDAF69714B9C819059289A93D2BDA1BB"
+msgid "- The cx is more than 20% away from the center of the camera image."
+msgstr "・cxの値が画像の中心から20%以上離れています。"
+
+#. Key:	EE3621434D51B427745D009776E2461E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_32.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_32.Text
+msgctxt ",EE3621434D51B427745D009776E2461E"
+msgid "Destination IP address for VMT and VMC  "
+msgstr "VMTとVMCの宛先IPアドレス"
+
+#. Key:	EFB22F8B4ACF22FFDE2D92B32645056C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_DialogueOpenVideo.WBP_DialogueOpenVideo_C:WidgetTree.WBP_FileDialogue.Button Title
+#: /MultiWebcam3dPose/UI/WBP_DialogueOpenVideo.WBP_DialogueOpenVideo_C:WidgetTree.WBP_FileDialogue.Button Title
+msgctxt ",EFB22F8B4ACF22FFDE2D92B32645056C"
+msgid "Open"
+msgstr "開く"
+
+#. Key:	F0119226491C67A83E1CB0BF6A55D5D4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_67.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_67.Text
+msgctxt ",F0119226491C67A83E1CB0BF6A55D5D4"
+msgid "Hip R"
+msgstr "右股関節"
+
+#. Key:	F0B40ED048D1141771767DBEBA73DF62
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_1.Text
+#: /MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_1.Text
+msgctxt ",F0B40ED048D1141771767DBEBA73DF62"
+msgid "利用規約に同意します。"
+msgstr ""
+
+#. Key:	F1208CB04DFDA8276D32DB98DFD16F11
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_10.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_10.Text
+msgctxt ",F1208CB04DFDA8276D32DB98DFD16F11"
+msgid "handExtrapolateRatio"
+msgstr ""
+
+#. Key:	F1B83B5D4D2386F8814E3A9688DC43A9
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_2.Text
+#: /MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_2.Text
+msgctxt ",F1B83B5D4D2386F8814E3A9688DC43A9"
+msgid "MocapForAll 利用規約"
+msgstr ""
+
+#. Key:	F1D792B048D89CA36A2443B45D1BF82D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_LoadAllCameras.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_LoadAllCameras.ToolTipText
+msgctxt ",F1D792B048D89CA36A2443B45D1BF82D"
+msgid "Load the camera settings.\r\nNote that this button does not close already opened cameras. If the same cameras are already opened, it will fail to open new cameras."
+msgstr "全カメラ設定をロードします。\r\nこのボタンは、すでに開いているカメラを閉じないことに注意してください。同じカメラがすでに開かれている場合、新しいカメラを開くことができません。"
+
+#. Key:	F24C95BF4E5655A0EB662F9BAD17D925
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumFma.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumFma.Text
+msgctxt ",F24C95BF4E5655A0EB662F9BAD17D925"
+msgid "39570"
+msgstr ""
+
+#. Key:	F455319D40EA71B8D91DC785D80A94AE
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_107.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_107.ToolTipText
+msgctxt ",F455319D40EA71B8D91DC785D80A94AE"
+msgid "The unit is meters. This value is used to calculate the camera extrinsic parameters and to define the scale of captured motion."
+msgstr "単位はメートルです。この値はカメラの外部パラメータの計算に使われ、それによってキャプチャされたモーションのスケールが決まります。"
+
+#. Key:	F49A548F4457973B4A50D29B438C9D96
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_84.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_84.ToolTipText
+msgctxt ",F49A548F4457973B4A50D29B438C9D96"
+msgid "ChArUco board (default): \r\n\tA method of calibrating external parameters by placing a single ChArUco board on the floor. \r\n\tIf the ChArUco image is printed large enough, this method gives the easiest and most stable result.\r\nArUco cluster: \r\n\tA method in which multiple ArUco markers are placed and their relative positions are also used to calibrate external parameters. \r\n\tBy placing some markers on the wall, calibration is possible even if the camera cannot capture the floor. \r\n\tHowever, since the ArUco marker has lower precision (especially in its orientation), calibration sometimes fails.\r\nDiamond cluster: \r\n\tA method in which multiple ChArUco Diamond markers are placed and their relative positions are also used to calibrate external parameters. \r\n\tBy placing some markers on the wall, calibration is possible even if the camera cannot capture the floor. \r\n\tThe ChArUco Diamond marker gives more precision than the ArUco marker, but requires printing on larger sizes of paper.\r\nHuman motion:\r\n\tA method which does not require AR markers. Instead, it uses the positions of your joints to find the cameras relative positions.\r\n\tSee 1.8 of \"How to use\" section of readme."
+msgstr "ChArUco board (default): \r\n\t単一のChArUcoボードを床面に置いて外部パラメータのキャリブレーションを行う方式。\r\n\tChArUcoの画像を十分大きく印刷すれば、最も簡単に安定した結果が得られる。\r\nArUco cluster: \r\n\t複数のArUcoマーカを配置して、それらの相対位置も使って外部パラメータのキャリブレーションを行う方式。\r\n\t一部のマーカを壁面に設置することで、カメラが床面を捉えられなくてもキャリブレーションができる。\r\n\tただし、ArUcoマーカは向きの精度が低いため、キャリブレーションに失敗しやすい。\r\nDiamond cluster: \r\n\t複数のChArUco Diamondマーカを配置して、それらの相対位置も使って外部パラメータのキャリブレーションを行う方式。\r\n\t一部のマーカを壁面に設置することで、カメラが床面を捉えられなくてもキャリブレーションができる。\r\n\tChArUco DiamondマーカはArUcoマーカより向きの精度が高いが、大きなサイズの紙に印刷する必要がある。\r\nHuman motion:\r\n\tARマーカーを必要としない方式。代わりに、関節の位置を使用してカメラの相対位置を決定します。\r\n\tReadmeの\"How to use\"セクションの1.8を参照してください。"
+
+#. Key:	F4F03E17491F28F7A1216B9FCF809C3A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_120.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_120.ToolTipText
+msgctxt ",F4F03E17491F28F7A1216B9FCF809C3A"
+msgid "Turn on this if you are receiving data from other device."
+msgstr "他のデバイスからデータを受信する場合は、これをオンにします。"
+
+#. Key:	F55C0ECE4CCE8AF323269892418FCC08
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_111.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_111.ToolTipText
+msgctxt ",F55C0ECE4CCE8AF323269892418FCC08"
+msgid "Whether to follow the movement of the character"
+msgstr "視点がキャラクターを追跡します"
+
+#. Key:	F5CFF77D4A3D1173F3F389937815F470
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_8.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_8.Text
+msgctxt ",F5CFF77D4A3D1173F3F389937815F470"
+msgid "("
+msgstr ""
+
+#. Key:	F6D2EB464759CB989B0468ACBCC5211C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_125.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_125.ToolTipText
+msgctxt ",F6D2EB464759CB989B0468ACBCC5211C"
+msgid "The tracking positions of chest, neck, head, shoulder, elbows, and hands are scaled by this value."
+msgstr "胸、首、頭、肩、肘、手、指のトラッキング位置がこの値でスケーリングされます。"
+
+#. Key:	F730C66C4EA3441044C5288F906C2C5D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ComboBox_CameraID.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ComboBox_CameraID.ToolTipText
+msgctxt ",F730C66C4EA3441044C5288F906C2C5D"
+msgid "Select camera"
+msgstr "カメラを選択"
+
+#. Key:	F73273ED4F9F4ECDB45C1CA05FDC38FB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_20.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_20.Text
+msgctxt ",F73273ED4F9F4ECDB45C1CA05FDC38FB"
+msgid "Hip L"
+msgstr "左股関節"
+
+#. Key:	F8C62EAD42E4F119EA3D98B408F24C65
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_23.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_23.Text
+msgctxt ",F8C62EAD42E4F119EA3D98B408F24C65"
+msgid "fc0 (Cutoff frequency at speed=0)"
+msgstr "fc0 (速さ=0の時のカットオフ周波数)"
+
+#. Key:	FB026FC34B807A00E65B099A52741FF2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_105.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_105.ToolTipText
+msgctxt ",FB026FC34B807A00E65B099A52741FF2"
+msgid "Whether to show positions of cameras and markers in 3D viewport.\r\nNote that the camera may appear below the floor (in this case, the calibration has failed)."
+msgstr "カメラとマーカーの位置を3Dビューポートに表示します。\r\nカメラが床より下の位置に表示される場合があることに注意してください（この場合、キャリブレーションが失敗しています）。"
+
+#. Key:	FB51AC034B87F0ECCABD16BB2CB96092
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_113.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_113.Text
+msgctxt ",FB51AC034B87F0ECCABD16BB2CB96092"
+msgid "Load All Cameras"
+msgstr "全カメラ設定をロード"
+
+#. Key:	FB6301FB48013FE86AE5A1A0EE0CA9D3
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_3_kneeL.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_3_kneeL.Text
+msgctxt ",FB6301FB48013FE86AE5A1A0EE0CA9D3"
+msgid "3"
+msgstr ""
+
+#. Key:	FB920563497FE74E59BBE58B8FEDE825
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
+msgctxt ",FB920563497FE74E59BBE58B8FEDE825"
+msgid "Stop finding ground"
+msgstr "地面の検出を停止"
+
+#. Key:	FBF1BCD24C5F7917DCE8F7859F36679E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.AddCameraButton.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.AddCameraButton.ToolTipText
+msgctxt ",FBF1BCD24C5F7917DCE8F7859F36679E"
+msgid "Add camera.\r\nAt least two camera are required to start motion capture.\r\nBy clicking the small tirangle next to this button, you can change the framework for camera control."
+msgstr "カメラを追加します。\r\nモーションキャプチャを開始するには少なくとも２つのカメラが必要です。\r\nこのボタンの横にある小さな三角形をクリックすると、カメラ制御のフレームワークを変更できます。"
+
+#. Key:	FC658A474AC7BE7F64AB83AE018FD763
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
+msgctxt ",FC658A474AC7BE7F64AB83AE018FD763"
+msgid "1"
+msgstr ""
+
+#. Key:	FE5EC03B4F7C51978FD4208CB88C635D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_handExpolatedRatioRecrop.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_handExpolatedRatioRecrop.Text
+msgctxt ",FE5EC03B4F7C51978FD4208CB88C635D"
+msgid "0.15"
+msgstr ""
+
+#. Key:	FE8B72D94B61ED04EFD8BDA3BB508756
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_121.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_121.Text
+msgctxt ",FE8B72D94B61ED04EFD8BDA3BB508756"
+msgid "Human height [m]"
+msgstr "身長 [m]"
+
+#. Key:	FFC1BA8248ED5FC2E3986AA1124742C5
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_83.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_83.Text
+msgctxt ",FFC1BA8248ED5FC2E3986AA1124742C5"
+msgid "VMT index: 100-567 (fixed)"
+msgstr "VMT番号: 100-567 (固定)"
+
