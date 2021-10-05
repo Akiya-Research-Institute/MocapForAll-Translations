@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Game\n"
-"POT-Creation-Date: 2021-09-29 06:20\n"
-"PO-Revision-Date: 2021-09-29 06:20\n"
+"POT-Creation-Date: 2021-10-05 00:57\n"
+"PO-Revision-Date: 2021-10-05 00:57\n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -139,13 +139,6 @@ msgctxt ",0B523E5141F7E790B034CCA46D7E4C53"
 msgid "Use main thread"
 msgstr "メインスレッドを使用"
 
-#. Key:	0B8FA050444E330E0145F59AEC6FBD88
-#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.Text
-#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.Text
-msgctxt ",0B8FA050444E330E0145F59AEC6FBD88"
-msgid "Language / 言語"
-msgstr ""
-
 #. Key:	0BB388A1400447724EE7DF87C8F36B79
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_11.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_11.ToolTipText
@@ -243,6 +236,13 @@ msgstr "マニュアル"
 msgctxt ",15FB125F4F16798B02F94D95B5043D9D"
 msgid "Feet"
 msgstr "足"
+
+#. Key:	160985284D7F146C552F319158D65737
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.ToolTipText
+msgctxt ",160985284D7F146C552F319158D65737"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-425: (float[]) Transforms of fingers of hand.\r\n15(bones)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         -----0--"
+msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-425: (float[]) 指の位置と向き\r\n15(下記図のボーン)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         -----0--"
 
 #. Key:	16138BFC4E80A830C51C239057717F32
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
@@ -367,7 +367,7 @@ msgstr ""
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_versionNum.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_versionNum.Text
 msgctxt ",1F16EB78459A8440F03899B9123276E9"
-msgid "1.12"
+msgid "1.13"
 msgstr ""
 
 #. Key:	1F2909384231B47739708286D7D8467F
@@ -892,8 +892,15 @@ msgstr "・検出されたカメラの位置が床より下になっています
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_1.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_1.Text
 msgctxt ",444713C94C085A68611E7EA601E59BF1"
-msgid "  Reset markers  "
-msgstr " マーカをリセット "
+msgid "Reset markers"
+msgstr "マーカをリセット"
+
+#. Key:	4459E4A841A64008D2397DBFA6485277
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.Text
+msgctxt ",4459E4A841A64008D2397DBFA6485277"
+msgid "Face"
+msgstr "顔"
 
 #. Key:	453E494A4422E46D43644CBD1D7AB778
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_107.Text
@@ -1098,6 +1105,13 @@ msgctxt ",56657A10409FC8B71ABF44928008DD75"
 msgid "Face.M_F00_000_00_Fcl_BRW_Fun"
 msgstr ""
 
+#. Key:	591D0A2741715A34ED99A49FC4C5E068
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.ToolTipText
+msgctxt ",591D0A2741715A34ED99A49FC4C5E068"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-425: (float[]) Transforms of fingers of hand.\r\n15(bones)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         -----0--"
+msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-425: (float[]) 指の位置と向き\r\n15(下記図のボーン)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         -----0--"
+
 #. Key:	594F78AE41DCA3A74B3C9CA95782953A
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_115.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_115.Text
@@ -1195,6 +1209,13 @@ msgstr "カメラ外部パラメータの求め方が「ChArUco board (default)�
 msgctxt ",6072DD9442D6ACA76CC365B41A653C6F"
 msgid "Check this to send bone transforms as trackers via VMC protocol.\r\nThis allows some apps such as VirtualMotionCapture to receive data from MocapForAll as trackers."
 msgstr "VMCプロトコルでトラッカーとしてボーンのトランスフォームを送信します。\r\nこれにより、VirtualMotionCaptureなどの一部のアプリがMocapForAllからトラッカとしてデータを受信できるようになります。"
+
+#. Key:	60FB7C13485CB8E64DC8DFA15DDADA5D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_132.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_132.ToolTipText
+msgctxt ",60FB7C13485CB8E64DC8DFA15DDADA5D"
+msgid "Check this to export bone transforms and facial capture data to shared memory."
+msgstr "共有メモリにボーンの位置と向きおよび表情データをエクスポートするには、これをチェックしてください"
 
 #. Key:	60FFA13141405CDF74200AA7B687D662
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_64.Text
@@ -1385,6 +1406,13 @@ msgctxt ",6ED4C7424DF57F1BBAA9F8A800344624"
 msgid "r23"
 msgstr ""
 
+#. Key:	700965634CB73B0AE5EAABB9550586BA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.Text
+msgctxt ",700965634CB73B0AE5EAABB9550586BA"
+msgid "Hand (Right)"
+msgstr "右手"
+
 #. Key:	70F1858242F68D99ADFE699A8DB6268D
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimerExplanation.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimerExplanation.ToolTipText
@@ -1490,6 +1518,13 @@ msgctxt ",795F931245A4F4F9D488DAADEE6A75CC"
 msgid "r12"
 msgstr ""
 
+#. Key:	79CF3BA6423C0BC718D0548CE1729DF7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Translation.WBP_Translation_C:WidgetTree.ComboBoxString_lang.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Translation.WBP_Translation_C:WidgetTree.ComboBoxString_lang.ToolTipText
+msgctxt ",79CF3BA6423C0BC718D0548CE1729DF7"
+msgid "Language"
+msgstr ""
+
 #. Key:	7C36132644CEB18A6E6728A6E2480805
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_3.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_3.ToolTipText
@@ -1553,6 +1588,20 @@ msgctxt ",7E0EA94B4BF398CE672ED482CEF53440"
 msgid "30"
 msgstr ""
 
+#. Key:	7E3CEA2543B998F2613A5E8D3D3DF0C6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_face.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_face.Text
+msgctxt ",7E3CEA2543B998F2613A5E8D3D3DF0C6"
+msgid "MocapForAllFaceRaw"
+msgstr ""
+
+#. Key:	7E47AB354B880CF36C18E7AC34E4682C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_hand_r.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_hand_r.Text
+msgctxt ",7E47AB354B880CF36C18E7AC34E4682C"
+msgid "MocapForAllHandR"
+msgstr ""
+
 #. Key:	7E6A85AA4852A6A63EC9478536455353
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:Togle Capture [Script Bytecode]
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:Togle Capture [Script Bytecode]
@@ -1601,6 +1650,13 @@ msgstr ""
 msgctxt ",82AA23A64AEA0066A48E668D0249C0E5"
 msgid "Animation Post Process"
 msgstr "アニメーション加工"
+
+#. Key:	82C1ACCB49CD9B0E291CB6934BE65464
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.Text
+msgctxt ",82C1ACCB49CD9B0E291CB6934BE65464"
+msgid "Hand (Left)"
+msgstr "左手"
 
 #. Key:	84308EA643ED7AFD138E998617C19DA8
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_18.Text
@@ -1672,6 +1728,13 @@ msgctxt ",8ABA791C4AEC9883A393AAA5F2409C98"
 msgid "Y: "
 msgstr ""
 
+#. Key:	8C68EE3F450CC77621BCAFA653F8B7D7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_136.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_136.Text
+msgctxt ",8C68EE3F450CC77621BCAFA653F8B7D7"
+msgid "Eye"
+msgstr "目"
+
 #. Key:	8D2D4991431DA090FC4D5B985D71C44B
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic11.Text
 #: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic11.Text
@@ -1741,6 +1804,13 @@ msgstr "VMCプロトコルを介したデータ送受信の設定。\r\nメッ�
 msgctxt ",915902F24B3CD1E0A546D780BCB850F0"
 msgid "Select image size.\r\nPress \"Apply\" after changing the value."
 msgstr "画像サイズを選択\r\n値変更後は「適用」を押してください。"
+
+#. Key:	91EE3BE942FA695F10935797F736CFEC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_131.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_131.ToolTipText
+msgctxt ",91EE3BE942FA695F10935797F736CFEC"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-453: (float[]) Body transforms.\r\n16(pelvis, chest, neck, head, shloulderL, elbowL, handL, shloulderR, elbowR, handR, hipL, kneeL, footL, hipR, kneeR, footR)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)"
+msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-453: (float[]) 体のボーンの位置と向き。\r\n16(腰, 胸, 首, 頭, 左肩, 左肘, 左手, 右肩, 右肘, 右手, 左股関節, 左膝, 左足, 右股関節, 右膝, 右足)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)"
 
 #. Key:	92B5E56342FA1A1058F941920EDB946E
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_purchase_2.Text
@@ -1889,6 +1959,13 @@ msgctxt ",9FD4C1C34DAC96C4DEEE1D9C8F7A7789"
 msgid "VMT index  L:"
 msgstr "VMT番号 左:"
 
+#. Key:	A06DE7394BA4E1938C2840906ABDAAC4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_135.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_135.Text
+msgctxt ",A06DE7394BA4E1938C2840906ABDAAC4"
+msgid "Names of shared meomories"
+msgstr "共有メモリの名前"
+
 #. Key:	A15BC2C0413A6008A1AB4AA19EB361BE
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_34.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_34.Text
@@ -2015,6 +2092,13 @@ msgctxt ",AB51514A4608222EF5D4F982F0E7DD9B"
 msgid "2160"
 msgstr ""
 
+#. Key:	ABAB0C3540BAD5C7712B5D861B764D20
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_hand_l.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_hand_l.Text
+msgctxt ",ABAB0C3540BAD5C7712B5D861B764D20"
+msgid "MocapForAllHandL"
+msgstr ""
+
 #. Key:	ABDC166F488FD93712D78C9C61286910
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic32.Text
 #: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic32.Text
@@ -2078,6 +2162,13 @@ msgctxt ",AF69E58448F8837779BC1EAC1C61F8FA"
 msgid "About MocapForAll"
 msgstr "MocapForAllについて"
 
+#. Key:	B1E94B8F43A8663AFE6F9E81BE333264
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.Text
+msgctxt ",B1E94B8F43A8663AFE6F9E81BE333264"
+msgid "Shared Meomory"
+msgstr "共有メモリ"
+
 #. Key:	B202E164460A217A45D81EB7F0D08CE7
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_CoordCalib.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_CoordCalib.Text
@@ -2134,6 +2225,13 @@ msgctxt ",B3DDC9F240C3F9C07EA9FD8E6C008F12"
 msgid "Adjust the scales of the captured motion. These values depend on the marker size used in the calibration of camera extrinsic parameters."
 msgstr "キャプチャしたモーションのスケールを調整します。これらの値はカメラ外部パラメータのキャリブレーションで使用するマーカサイズに依存します。"
 
+#. Key:	B42CF4E348964C52E6FD7D9B674A26E7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_eye.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_eye.Text
+msgctxt ",B42CF4E348964C52E6FD7D9B674A26E7"
+msgid "MocapForAllEyeRaw"
+msgstr ""
+
 #. Key:	B47E6B2A4F88C0D2B0AFBB81B1DE36AF
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_12_elbowL.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_12_elbowL.Text
@@ -2166,8 +2264,8 @@ msgstr "ロード"
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_22.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_22.ToolTipText
 msgctxt ",B8E4AE5843214C0EB0E4699E3C04FEB6"
-msgid "AI, Character, Map, Language, etc."
-msgstr "AI、キャラクター、背景、言語等"
+msgid "AI, Character, Map, etc."
+msgstr "AI、キャラクター、背景等"
 
 #. Key:	B972366840728DEDB2AF37A84608CEA7
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_12.Text
@@ -2211,6 +2309,13 @@ msgctxt ",BEDAB71248797EE520BD1E82FB736DF9"
 msgid "ChArUco board [m]"
 msgstr "ChArUco ボード [m]"
 
+#. Key:	BF874DCC4287F43CCDEBFEA26AA4523A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_body.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_body.Text
+msgctxt ",BF874DCC4287F43CCDEBFEA26AA4523A"
+msgid "MocapForAllBody"
+msgstr ""
+
 #. Key:	BFCA66FD4DDC385F6A5391879A227C87
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_DialogueFile.WBP_DialogueFile_C:WidgetTree.TextBlock_1.Text
 #: /MultiWebcam3dPose/UI/WBP_DialogueFile.WBP_DialogueFile_C:WidgetTree.TextBlock_1.Text
@@ -2224,6 +2329,13 @@ msgstr ""
 msgctxt ",BFF312FD433A843B0DBB1CA770B5F184"
 msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
 msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	C037BF4841CED26363BA17AA33F796D0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_132.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_132.Text
+msgctxt ",C037BF4841CED26363BA17AA33F796D0"
+msgid "Export to shared memory"
+msgstr "共有メモリにエクスポート"
 
 #. Key:	C4CBE2064AC663482395F4B2CE9F58B0
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_resetView.ToolTipText
@@ -2334,8 +2446,8 @@ msgstr "ArUcoまたはDiamondマーカーのスキャンを開始/停止しま�
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_2.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_2.Text
 msgctxt ",D150AAAD480C2D1C65513E812C1BF0F2"
-msgid "  Reset view  "
-msgstr " 視点をリセット "
+msgid "Reset view"
+msgstr "視点をリセット"
 
 #. Key:	D1BEEEC640FB80503878B78541C1FB8E
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Stop Calibration Intrinsic [Script Bytecode]
@@ -2399,6 +2511,13 @@ msgstr ""
 msgctxt ",D52AD0334130AB237FB5F1963DA3CEA0"
 msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
 msgstr "送信するトラッキング位置と、仮想トラッカーの番号を指定できます。"
+
+#. Key:	D5F0DA4546877BEB2582BB810E11C1F8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.ToolTipText
+msgctxt ",D5F0DA4546877BEB2582BB810E11C1F8"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-5621: (float[]) Landmarks of face\r\n468 (landmarks)\r\nx\r\n3(Position.X, Position.Y, Position.Z)\r\n\r\nSee \"mesh_map.jpg\" for the visualization of the landmark positions."
+msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-5621: (float[]) 顔のランドマーク\r\n468(ランドマーク)\r\nx\r\n3(Position.X, Position.Y, Position.Z)\r\n\r\nランドマークの位置の詳細は、\"mesh_map.jpg\"を参照してください。"
 
 #. Key:	D5F158A842E603D148AFAEAF1674333B
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.ExpandableArea_Advanced.ToolTipText
@@ -2469,6 +2588,13 @@ msgstr ""
 msgctxt ",DDF398DD4B221D6E0BE9559BD92EFDA9"
 msgid "Data export"
 msgstr "データ出力"
+
+#. Key:	DE99E584486AD68A4F070F80CA7EBADE
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_translationNotice.Text
+#: /MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_translationNotice.Text
+msgctxt ",DE99E584486AD68A4F070F80CA7EBADE"
+msgid "This English translation is a reference translation for confirming the contract details, not the original text.\r\nPlease note that if there are any inconsistencies or differences between this translation and the original text, \r\nthe meaning of the original text always prevails."
+msgstr ""
 
 #. Key:	DEE8D8394DE62182B4A2E1891A47056F
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_126.ToolTipText
@@ -2617,6 +2743,13 @@ msgctxt ",E601C3F044D309D5859240A8C050B0E5"
 msgid "11"
 msgstr ""
 
+#. Key:	E669DAD0494B7267B40B4DA5D27C2BB2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_136.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_136.ToolTipText
+msgctxt ",E669DAD0494B7267B40B4DA5D27C2BB2"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-: (float[]) Landmarks\r\n(5(iris) + 71(eye))(landmarks)\r\nx\r\n3(Position.X, Position.Y, Position.Z)"
+msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-5621: (float[]) 顔のランドマーク\r\n5-: (float[]) ランドマーク\r\n(5(瞳) + 71(目の周り))(ランドマーク)\r\nx\r\n3(Position.X, Position.Y, Position.Z)"
+
 #. Key:	E6B9DC7449EB222AE3074DBEBFE50125
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_55.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_55.Text
@@ -2708,6 +2841,13 @@ msgctxt ",EAA857A04C422ACBE261CAB864D0D89C"
 msgid "10"
 msgstr ""
 
+#. Key:	EADF135B4C777E6094D6AEB19D5E6913
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_131.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_131.Text
+msgctxt ",EADF135B4C777E6094D6AEB19D5E6913"
+msgid "Body"
+msgstr "体"
+
 #. Key:	EB9A9F334B3D7EE172CDAC9684AEEF54
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.Text
@@ -2742,13 +2882,6 @@ msgstr "送信するトラッキング位置と、仮想トラッカーの番号
 msgctxt ",ECA53A7442FF30789DCB57A50118D3DB"
 msgid "Calibrated"
 msgstr "カメラ校正済"
-
-#. Key:	ECE20F33446E72E3082D0D9950555143
-#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.ToolTipText
-#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.ToolTipText
-msgctxt ",ECE20F33446E72E3082D0D9950555143"
-msgid "Enlish and Japanese are supported."
-msgstr "英語と日本語に対応しています。"
 
 #. Key:	ED09C1B74A654F25E75DE6B658C26BC2
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_67.Text
@@ -2832,6 +2965,13 @@ msgstr "全カメラ設定をロードします。\r\nこのボタンは、す�
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumFma.Text
 msgctxt ",F24C95BF4E5655A0EB662F9BAD17D925"
 msgid "39570"
+msgstr ""
+
+#. Key:	F336E5834C41B55AE7C45C8B515BD48E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Translation.WBP_Translation_C:WidgetTree.Image_.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Translation.WBP_Translation_C:WidgetTree.Image_.ToolTipText
+msgctxt ",F336E5834C41B55AE7C45C8B515BD48E"
+msgid "Language"
 msgstr ""
 
 #. Key:	F455319D40EA71B8D91DC785D80A94AE

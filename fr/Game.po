@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Game\n"
-"POT-Creation-Date: 2021-10-01 01:04\n"
-"PO-Revision-Date: 2021-10-01 01:04\n"
+"POT-Creation-Date: 2021-10-05 00:57\n"
+"PO-Revision-Date: 2021-10-05 00:57\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -139,13 +139,6 @@ msgctxt ",0B523E5141F7E790B034CCA46D7E4C53"
 msgid "Use main thread"
 msgstr "Utiliser le thread principal"
 
-#. Key:	0B8FA050444E330E0145F59AEC6FBD88
-#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.Text
-#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.Text
-msgctxt ",0B8FA050444E330E0145F59AEC6FBD88"
-msgid "Language / 言語"
-msgstr "Langage / Language / 言語"
-
 #. Key:	0BB388A1400447724EE7DF87C8F36B79
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_11.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_11.ToolTipText
@@ -243,6 +236,13 @@ msgstr "Manuel"
 msgctxt ",15FB125F4F16798B02F94D95B5043D9D"
 msgid "Feet"
 msgstr "Pied"
+
+#. Key:	160985284D7F146C552F319158D65737
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.ToolTipText
+msgctxt ",160985284D7F146C552F319158D65737"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-425: (float[]) Transforms of fingers of hand.\r\n15(bones)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         -----0--"
+msgstr ""
 
 #. Key:	16138BFC4E80A830C51C239057717F32
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
@@ -367,8 +367,8 @@ msgstr "r22"
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_versionNum.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_versionNum.Text
 msgctxt ",1F16EB78459A8440F03899B9123276E9"
-msgid "1.12"
-msgstr "1.12"
+msgid "1.13"
+msgstr ""
 
 #. Key:	1F2909384231B47739708286D7D8467F
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock.Text
@@ -424,7 +424,7 @@ msgstr "Épaule D"
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_81.ToolTipText
 msgctxt ",22113EC24202B73F8BCB289A5AE95391"
 msgid "\"Empty\": No character drawn. This is recommended to use to achieve the best performance.\r\n\"MetaHuman Sex_Height_Weight\": Simple character which has Epic games' MetaHuman bone. Note that facial capture is not supported on this model.\r\n\tSex: male(M) or female(F)\r\n\tHeight: tall(tal), medium(Med), or short(Srt)\r\n\tWeitht: underweight(Unw), normal(Nrm), overweight(Ovw)\r\n\"MetaHuman Sample\": A character created by Epic games' MetaHuman Creator. \"Appendix3_MetaHuman_character\" needs to be installed. See 2 of \"How to install\" section.\r\n\"VRM runtime load\": Automatically selected when using VRM model. To use your VRM model, simply drag and drop the VRM file into the app's window. (This is an experimental feature. There is no warranty that all VRM files work properly.)"
-msgstr "\"Vide\": Aucun personnage n'est dessiné. Il est recommandé d'utiliser cette option pour obtenir les meilleures performances.\r\n\"MetaHuman Sex_Height_Weight\": Personnage simple qui possède l'os MetaHuman d'Epic games. Notez que la capture faciale n'est pas supportée sur ce modèle.\r\n\tSexe: homme(H) ou femme(F)\r\n\tHauteur: grand(Gra), moyen(Moy), ou court(Cou)\r\n\tPoids: sous-poids(Sod), normal(Nrm), surpoids(Sud)\r\n\"Extrait de MetaHuman\": Un personnage créé par MetaHuman Creator d'Epic games. \"Appendix3_MetaHuman_character\" doit être installé. Voir 2 des \"Comment installer\" la section.\r\n\"Chargement d'exécution du VRM\": Automatiquement sélectionné lors de l'utilisation d'un modèle VRM. Pour utiliser votre modèle VRM, il suffit de glisser et de déposer le fichier VRM dans la fenêtre de l'application. (Il s'agit d'une fonctionnalité expérimentale. Il n'y a aucune garantie que tous les fichiers VRM fonctionnent correctement.)"
+msgstr "\"Empty\": Aucun personnage n'est dessiné. Il est recommandé d'utiliser cette option pour obtenir les meilleures performances.\r\n\"MetaHuman Sex_Height_Weight\": Personnage simple qui possède l'os MetaHuman d'Epic games. Notez que la capture faciale n'est pas supportée sur ce modèle.\r\n\tSexe: homme(H) ou femme(F)\r\n\tHauteur: grand(Gra), moyen(Moy), ou court(Cou)\r\n\tPoids: sous-poids(Sod), normal(Nrm), surpoids(Sud)\r\n\"MetaHuman Sample\": Un personnage créé par MetaHuman Creator d'Epic games. \"Appendix3_MetaHuman_character\" doit être installé. Voir 2 des \"Comment installer\" la section.\r\n\"VRM runtime load\": Automatiquement sélectionné lors de l'utilisation d'un modèle VRM. Pour utiliser votre modèle VRM, il suffit de glisser et de déposer le fichier VRM dans la fenêtre de l'application. (Il s'agit d'une fonctionnalité expérimentale. Il n'y a aucune garantie que tous les fichiers VRM fonctionnent correctement.)"
 
 #. Key:	229BB26C4FD1486980F0118EAE6167E4
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
@@ -892,8 +892,15 @@ msgstr "- La position de la caméra détectée est en dessous du sol."
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_1.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_1.Text
 msgctxt ",444713C94C085A68611E7EA601E59BF1"
-msgid "  Reset markers  "
-msgstr "  Réinitialiser les marqueurs  "
+msgid "Reset markers"
+msgstr "Réinitialiser les marqueurs"
+
+#. Key:	4459E4A841A64008D2397DBFA6485277
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.Text
+msgctxt ",4459E4A841A64008D2397DBFA6485277"
+msgid "Face"
+msgstr ""
 
 #. Key:	453E494A4422E46D43644CBD1D7AB778
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_107.Text
@@ -1098,6 +1105,13 @@ msgctxt ",56657A10409FC8B71ABF44928008DD75"
 msgid "Face.M_F00_000_00_Fcl_BRW_Fun"
 msgstr "Face.M_F00_000_00_Fcl_BRW_Fun"
 
+#. Key:	591D0A2741715A34ED99A49FC4C5E068
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.ToolTipText
+msgctxt ",591D0A2741715A34ED99A49FC4C5E068"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-425: (float[]) Transforms of fingers of hand.\r\n15(bones)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         -----0--"
+msgstr ""
+
 #. Key:	594F78AE41DCA3A74B3C9CA95782953A
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_115.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_115.Text
@@ -1195,6 +1209,13 @@ msgstr "Utilisé quand \"la Méthode de la calibration Extrinsic\" est \"ChArUco
 msgctxt ",6072DD9442D6ACA76CC365B41A653C6F"
 msgid "Check this to send bone transforms as trackers via VMC protocol.\r\nThis allows some apps such as VirtualMotionCapture to receive data from MocapForAll as trackers."
 msgstr "Vérifiez cette option pour envoyer les transForms d'os en tant que trackers via le protocole VMC.\r\nCela permet à certaines applications telles que VirtualMotionCapture de recevoir des données de MocapForAll en tant que trackers."
+
+#. Key:	60FB7C13485CB8E64DC8DFA15DDADA5D
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_132.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_132.ToolTipText
+msgctxt ",60FB7C13485CB8E64DC8DFA15DDADA5D"
+msgid "Check this to export bone transforms and facial capture data to shared memory."
+msgstr ""
 
 #. Key:	60FFA13141405CDF74200AA7B687D662
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_64.Text
@@ -1385,6 +1406,13 @@ msgctxt ",6ED4C7424DF57F1BBAA9F8A800344624"
 msgid "r23"
 msgstr "r23"
 
+#. Key:	700965634CB73B0AE5EAABB9550586BA
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.Text
+msgctxt ",700965634CB73B0AE5EAABB9550586BA"
+msgid "Hand (Right)"
+msgstr "Main D"
+
 #. Key:	70F1858242F68D99ADFE699A8DB6268D
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimerExplanation.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_TrialTimerExplanation.ToolTipText
@@ -1490,6 +1518,13 @@ msgctxt ",795F931245A4F4F9D488DAADEE6A75CC"
 msgid "r12"
 msgstr "r12"
 
+#. Key:	79CF3BA6423C0BC718D0548CE1729DF7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Translation.WBP_Translation_C:WidgetTree.ComboBoxString_lang.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Translation.WBP_Translation_C:WidgetTree.ComboBoxString_lang.ToolTipText
+msgctxt ",79CF3BA6423C0BC718D0548CE1729DF7"
+msgid "Language"
+msgstr ""
+
 #. Key:	7C36132644CEB18A6E6728A6E2480805
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_3.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_3.ToolTipText
@@ -1553,6 +1588,20 @@ msgctxt ",7E0EA94B4BF398CE672ED482CEF53440"
 msgid "30"
 msgstr "30"
 
+#. Key:	7E3CEA2543B998F2613A5E8D3D3DF0C6
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_face.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_face.Text
+msgctxt ",7E3CEA2543B998F2613A5E8D3D3DF0C6"
+msgid "MocapForAllFaceRaw"
+msgstr ""
+
+#. Key:	7E47AB354B880CF36C18E7AC34E4682C
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_hand_r.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_hand_r.Text
+msgctxt ",7E47AB354B880CF36C18E7AC34E4682C"
+msgid "MocapForAllHandR"
+msgstr ""
+
 #. Key:	7E6A85AA4852A6A63EC9478536455353
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:Togle Capture [Script Bytecode]
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:Togle Capture [Script Bytecode]
@@ -1601,6 +1650,13 @@ msgstr "1"
 msgctxt ",82AA23A64AEA0066A48E668D0249C0E5"
 msgid "Animation Post Process"
 msgstr "Animation Post-Process"
+
+#. Key:	82C1ACCB49CD9B0E291CB6934BE65464
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.Text
+msgctxt ",82C1ACCB49CD9B0E291CB6934BE65464"
+msgid "Hand (Left)"
+msgstr "Main G"
 
 #. Key:	84308EA643ED7AFD138E998617C19DA8
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_18.Text
@@ -1663,7 +1719,7 @@ msgstr "Trouver un terrain"
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_147.Text
 msgctxt ",88D3070D4A4B802951AC3D9D82C272AA"
 msgid "1 euro filter settings: "
-msgstr "1 paramètres du filtre euro: "
+msgstr "Paramètres de 1 euro filtre: "
 
 #. Key:	8ABA791C4AEC9883A393AAA5F2409C98
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock.Text
@@ -1671,6 +1727,13 @@ msgstr "1 paramètres du filtre euro: "
 msgctxt ",8ABA791C4AEC9883A393AAA5F2409C98"
 msgid "Y: "
 msgstr "Y: "
+
+#. Key:	8C68EE3F450CC77621BCAFA653F8B7D7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_136.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_136.Text
+msgctxt ",8C68EE3F450CC77621BCAFA653F8B7D7"
+msgid "Eye"
+msgstr "Œil"
 
 #. Key:	8D2D4991431DA090FC4D5B985D71C44B
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic11.Text
@@ -1741,6 +1804,13 @@ msgstr "Paramètres pour l'envoi et la réception de données via le protocole V
 msgctxt ",915902F24B3CD1E0A546D780BCB850F0"
 msgid "Select image size.\r\nPress \"Apply\" after changing the value."
 msgstr "Select Taille de l'image.\r\nAppuyez sur \"Appliquer\" après avoir modifié la valeur."
+
+#. Key:	91EE3BE942FA695F10935797F736CFEC
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_131.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_131.ToolTipText
+msgctxt ",91EE3BE942FA695F10935797F736CFEC"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-453: (float[]) Body transforms.\r\n16(pelvis, chest, neck, head, shloulderL, elbowL, handL, shloulderR, elbowR, handR, hipL, kneeL, footL, hipR, kneeR, footR)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)"
+msgstr ""
 
 #. Key:	92B5E56342FA1A1058F941920EDB946E
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_purchase_2.Text
@@ -1889,6 +1959,13 @@ msgctxt ",9FD4C1C34DAC96C4DEEE1D9C8F7A7789"
 msgid "VMT index  L:"
 msgstr "index L VMT :"
 
+#. Key:	A06DE7394BA4E1938C2840906ABDAAC4
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_135.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_135.Text
+msgctxt ",A06DE7394BA4E1938C2840906ABDAAC4"
+msgid "Names of shared meomories"
+msgstr "Noms des mémoire partagée"
+
 #. Key:	A15BC2C0413A6008A1AB4AA19EB361BE
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_34.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_34.Text
@@ -2015,6 +2092,13 @@ msgctxt ",AB51514A4608222EF5D4F982F0E7DD9B"
 msgid "2160"
 msgstr "2160"
 
+#. Key:	ABAB0C3540BAD5C7712B5D861B764D20
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_hand_l.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_hand_l.Text
+msgctxt ",ABAB0C3540BAD5C7712B5D861B764D20"
+msgid "MocapForAllHandL"
+msgstr ""
+
 #. Key:	ABDC166F488FD93712D78C9C61286910
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic32.Text
 #: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Intrinsic32.Text
@@ -2078,6 +2162,13 @@ msgctxt ",AF69E58448F8837779BC1EAC1C61F8FA"
 msgid "About MocapForAll"
 msgstr "À propos de MocapForAll"
 
+#. Key:	B1E94B8F43A8663AFE6F9E81BE333264
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.Text
+msgctxt ",B1E94B8F43A8663AFE6F9E81BE333264"
+msgid "Shared Meomory"
+msgstr "Mémoire partagée"
+
 #. Key:	B202E164460A217A45D81EB7F0D08CE7
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_CoordCalib.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_CoordCalib.Text
@@ -2134,6 +2225,13 @@ msgctxt ",B3DDC9F240C3F9C07EA9FD8E6C008F12"
 msgid "Adjust the scales of the captured motion. These values depend on the marker size used in the calibration of camera extrinsic parameters."
 msgstr "Ajustez les échelles du motion capturé. Ces valeurs dépendent de la taille du marqueur utilisé dans la calibration des paramètres extrinsic de la caméra."
 
+#. Key:	B42CF4E348964C52E6FD7D9B674A26E7
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_eye.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_eye.Text
+msgctxt ",B42CF4E348964C52E6FD7D9B674A26E7"
+msgid "MocapForAllEyeRaw"
+msgstr ""
+
 #. Key:	B47E6B2A4F88C0D2B0AFBB81B1DE36AF
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_12_elbowL.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_VmtIndex_12_elbowL.Text
@@ -2166,8 +2264,8 @@ msgstr "Chargement"
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_22.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_22.ToolTipText
 msgctxt ",B8E4AE5843214C0EB0E4699E3C04FEB6"
-msgid "AI, Character, Map, Language, etc."
-msgstr "IA, personnage, carte, langage, etc."
+msgid "AI, Character, Map, etc."
+msgstr "IA, personnage, carte, etc."
 
 #. Key:	B972366840728DEDB2AF37A84608CEA7
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_12.Text
@@ -2211,6 +2309,13 @@ msgctxt ",BEDAB71248797EE520BD1E82FB736DF9"
 msgid "ChArUco board [m]"
 msgstr "ChArUco board [m]"
 
+#. Key:	BF874DCC4287F43CCDEBFEA26AA4523A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_body.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_sharedMemoryName_body.Text
+msgctxt ",BF874DCC4287F43CCDEBFEA26AA4523A"
+msgid "MocapForAllBody"
+msgstr ""
+
 #. Key:	BFCA66FD4DDC385F6A5391879A227C87
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_DialogueFile.WBP_DialogueFile_C:WidgetTree.TextBlock_1.Text
 #: /MultiWebcam3dPose/UI/WBP_DialogueFile.WBP_DialogueFile_C:WidgetTree.TextBlock_1.Text
@@ -2224,6 +2329,13 @@ msgstr "X"
 msgctxt ",BFF312FD433A843B0DBB1CA770B5F184"
 msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
 msgstr "Vous pouvez sélectionner la jointure de votre corps à être envoyé, et spécifier l'index du tracker virtuel."
+
+#. Key:	C037BF4841CED26363BA17AA33F796D0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_132.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_132.Text
+msgctxt ",C037BF4841CED26363BA17AA33F796D0"
+msgid "Export to shared memory"
+msgstr "Exporter vers mémoire partagée"
 
 #. Key:	C4CBE2064AC663482395F4B2CE9F58B0
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Button_resetView.ToolTipText
@@ -2334,8 +2446,8 @@ msgstr "Démarrer/arrêter le scan des marqueurs ArUco ou Diamond."
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_2.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.Text_StartEval_2.Text
 msgctxt ",D150AAAD480C2D1C65513E812C1BF0F2"
-msgid "  Reset view  "
-msgstr "  Réinitialiser la vue  "
+msgid "Reset view"
+msgstr "Réinitialiser la vue"
 
 #. Key:	D1BEEEC640FB80503878B78541C1FB8E
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Stop Calibration Intrinsic [Script Bytecode]
@@ -2400,6 +2512,13 @@ msgctxt ",D52AD0334130AB237FB5F1963DA3CEA0"
 msgid "You can select which joint of your body to be sent, and specify the index of the virtual tracker."
 msgstr "Vous pouvez sélectionner la jointure de votre corps à être envoyé, et spécifier l'index du tracker virtuel."
 
+#. Key:	D5F0DA4546877BEB2582BB810E11C1F8
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.ToolTipText
+msgctxt ",D5F0DA4546877BEB2582BB810E11C1F8"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-5621: (float[]) Landmarks of face\r\n468 (landmarks)\r\nx\r\n3(Position.X, Position.Y, Position.Z)\r\n\r\nSee \"mesh_map.jpg\" for the visualization of the landmark positions."
+msgstr ""
+
 #. Key:	D5F158A842E603D148AFAEAF1674333B
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.ExpandableArea_Advanced.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.ExpandableArea_Advanced.ToolTipText
@@ -2461,7 +2580,7 @@ msgstr "Possibilité de capturer les expressions faciales. Il est recommandé de
 #: /MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.MultiLineEditableText_1.Text
 msgctxt ",DBFA112041227245528ADABC8FE59F81"
 msgid "本利用規約（以下「本規約」と言います。）には、本サービスの提供条件及び当社とユーザーの皆様との間の権利義務関係が定められています。本サービスの利用に際しては、本規約の全文をお読みいただいたうえで、本規約に同意いただく必要があります。\r\n\r\n第1条.\t（適用）\r\n第1項.\t本規約は、本サービスの提供条件及び本サービスの利用に関する当社とユーザーとの間の権利義務関係を定めることを目的とし、ユーザーと当社との間の本サービスの利用に関わる一切の関係に適用されます。\r\n第2項.\t本規約の内容と、前項のルールその他の本規約外における本サービスの説明等とが異なる場合は、本規約の規定が優先して適用されるものとします。\r\n\r\n第2条.\t（言葉の定義）\r\n本規約において使用する以下の用語は、各々以下に定める意味を有するものとします。\r\n第1号.\t「サービス利用契約」とは、本規約を契約条件として当社とユーザーの間で締結される、本サービスの利用契約を意味します。\r\n第2号.\t「知的財産権」とは、著作権、特許権、実用新案権、意匠権、商標権その他の知的財産権（それらの権利を取得し、またはそれらの権利につき登録等を出願する権利を含みます。）を意味します。\r\n第3号.\t「作成データ」とは、ユーザーが本サービスを利用して作成するコンテンツ（文章、画像、動画その他のデータを含みますがこれらに限りません。）を意味します。\r\n第4号.\t「当社」とは、株式会社空き家総合研究所を意味します。\r\n第5号.\t「当社ウェブサイト」とは、そのドメインが「akiya-souken.co.jp」である、当社が運営するウェブサイト（理由の如何を問わず、当社のウェブサイトのドメインまたは内容が変更された場合は、当該変更後のウェブサイトを含みます。）を意味します。\r\n第6号.\t「ユーザー」とは、第4条（本サービスの利用）に基づいて本サービスの利用者となった個人または法人等の組織に所属する利用者を意味します。\r\n第7号.\t「本サービス」とは、当社が提供する「MocapForAll」という名称のサービス（理由の如何を問わずサービスの名称または内容が変更された場合は、当該変更後のサービスを含みます。）を意味します。無償版や最新版でないサービスもこれに含みます。\r\n\r\n第3条.\t（個人情報の取り扱い）\r\n第1項.\t当社は、ユーザーが本サービスを利用する際に取得した利用者情報（以下、「利用者情報」といいます）については、公式サイト上に別途提示する「プライバシーポリシー」(https://akiya-souken.co.jp/privacy_policy.html)をご参照ください。\r\n第2項.\tお客様が本サービスを利用される時点において、「プライバシーポリシー」に基づく個人情報等の取扱いについて同意するものとします。\r\n第3項.\t当社は、ユーザーが当社に提供した情報、データ等を、個人を特定できない形での統計的な情報として、当社の裁量で、利用及び公開することができるものとし、ユーザーはこれに異議を唱えないものとします。\r\n\r\n第4条.\t（本サービスの利用）\r\n第1項.\t本サービスの利用を希望する者は、本サービスを当社の定める方法により、ダウンロードすることによって、本サービスの利用者となります。\r\n第2項.\t前項に定める本サービスの利用者となった時に、サービス利用契約がユーザーと当社の間に成立し、ユーザーは本サービスを本規約に従い利用することができるようになります。\r\n第3項.\t本条第1項の定めによらず、本サービスをダウンロード等により取得したものは、本サービスを利用することはできません。\r\n第4項.\tユーザーが組織に所属する利用者である場合、組織内の本サービスの各使用者をそれぞれユーザーとみなします。\r\n第5項.\t本サービスのユーザーの内、第5条第1項または第5条第2項に従い利用料金を支払ったものに限り、自身で作成した作成データの公開や商用目的での利用をユーザーの責任の下、自由に行うことができます。\r\n第6項.\t本サービスの無償版は、評価・試験目的のみでの使用でき、実際の製品への利用や商用目的での利用は認められません。\r\n第7項.\t当社は、サービス利用者が、以下の各号のいずれかの事由に該当する場合は、サービスの利用を拒否することがあり、またその理由について一切開示義務を負いません。\r\n第1号.\t未成年者、成年被後見人、被保佐人または被補助人のいずれかであり、法定代理人、後見人、保佐人または補助人の同意等を得ていなかった場合\r\n第2号.\t反社会的勢力等（暴力団、暴力団員、右翼団体、反社会的勢力、その他これに準ずる者を意味します。以下同じ。）である、または資金提供その他を通じて反社会的勢力等の維持、運営もしくは経営に協力もしくは関与する等反社会的勢力等との何らかの交流もしくは関与を行っていると当社が判断した場合\r\n第3号.\t過去当社との契約に違反した者またはその関係者であると当社が判断した場合\r\n第4号.\tその他、サービスの利用が適当でないと当社が判断した場合\r\n\r\n第5条.\t（料金及び支払方法、返金について）\r\n第1項.\tユーザーは、本サービスの有料部分の利用を希望する場合は対価として、別途当社が定める利用料金を、当社が指定する支払方法により支払い、サービスの利用開始を行うものとします。\r\n第2項.\t法人等の組織は、本サービスの有料部分の利用を希望する場合は対価として、組織内での本サービス利用者の人数分の利用料金を前項に従い支払うものとします。\r\n第3項.\tユーザーは、当社に対し、ユーザーおよびその動作環境の責に帰さない事由によって本サービスが正常に起動しない場合、返金を求めることができます。\r\n第4項.\t前項の返金をユーザーが求める場合は、当社指定の方法により、購入費用等の全部もしくは一部をユーザーへ返金するものとします。\r\n第5項.\tユーザーおよびその動作環境の責に帰する事由によって、本サービスの全部または一部が正常に動作しない場合は、返金を求めることはできません。\r\n\r\n第6条.\t（免責事項）\r\n第1項.\t本サービスに関する知的財産権は全て当社または当社にライセンスを許諾している者に帰属しており、本規約に基づく本サービスの利用許諾は、本サービスに関する当社または当社にライセンスを許諾している者の知的財産権の使用許諾を意味するものではありません。\r\n第2項.\t当社は、本サービスがユーザーの特定の目的に適合すること、期待する機能・商品的価値・正確性・有用性を有すること、ユーザーによる本サービスの利用がユーザーに適用のある法令または業界団体の内部規則等に適合すること、継続的に利用できること、及び不具合が生じないことについて、明示又は黙示を問わず何ら保証するものではありません。\r\n第3項.\t当社は、本サービスに関してユーザーが被った損害につき、過去12ヶ間にユーザーが当社に支払った対価の金額を超えて賠償する責任を負わないものとし、また、付随的損害、間接損害、特別損害、将来の損害及び逸失利益にかかる損害については、賠償する責任を負わないものとします。\r\n第4項.\t当社は、ユーザーによって作成されたコンテンツの情報を管理・保存する義務を負いません。\r\n第5項.\tユーザーは、作成データについて、自らが保持・投稿その他送信することについての適法な権利を有していること、及び作成データが第三者の権利を侵害していないことについて、当社に対し表明し、保証するものとします。\r\n第6項.\t当社は、ユーザーによって利用されるコンテンツの情報について、適法性、正確性等に関し一切の責任を負いません。\r\n第7項.\t当社は、ユーザーに対し、本サービスを利用するために使用するハードウェア及び他社システム等をサポートする責任を負いません。\r\n\r\n第7条.\t（禁止行為）\r\nユーザーは、本サービスの利用にあたり、以下の各号のいずれかに該当する行為または該当すると当社が判断する行為をしてはなりません。\r\n第1号.\t法令に違反する行為または犯罪行為に関連する行為\r\n第2号.\t当社、本サービスの他の利用者またはその他の第三者に対する詐欺または脅迫行為\r\n第3号.\t公序良俗に反する行為\r\n第4号.\t当社、本サービスの他の利用者またはその他の第三者の知的財産権、肖像権、プライバシーの権利、名誉、その他の権利または利益を侵害する行為\r\n第5号.\t本サービスまたはその一部を用いて、以下に該当し、または該当すると当社が判断する情報を当社または本サービスの他の利用者に送信すること\r\n5号.1.\tコンピューター・ウィルスその他の有害なコンピューター・プログラムを含む情報\r\n5号.2.\t当社、本サービスの他の利用者またはその他の第三者の名誉または信用を毀損する表現を含む情報\r\n5号.3.\t差別を助長する表現を含む情報\r\n5号.4.\t自殺、自傷行為を助長する表現を含む情報\r\n5号.5.\t薬物の不適切な利用を助長する表現を含む情報\r\n5号.6.\t反社会的な表現を含む情報\r\n5号.7.\tチェーンメール等の第三者への情報の拡散を求める情報\r\n5号.8.\t他人に不快感を与える表現を含む情報\r\n第6号.\t本サービスを逆アセンブル、逆コンパイル、リバースエンジニアリング、その他本アプリのソースコード、構造、アイデア等を解析するような行為\r\n第7号.\t本サービスの運営を妨害するおそれのある行為\r\n第8号.\t当社の承諾なく、本サービスを第三者に再頒布する行為\r\n第9号.\t第三者に成りすます行為\r\n第10号.\t当社、本サービスの他の利用者またはその他の第三者に不利益、損害、不快感を与える行為\r\n第11号.\t反社会的勢力等への利益供与\r\n第12号.\t前各号の行為を直接または間接に惹起し、または容易にする行為\r\n第13号.\t前各号の行為を試みること\r\n第14号.\tその他、当社が不適切と判断する行為\r\n\r\n第8条.\t（本規約の変更）\r\n第1項.\t本規約は、当社の判断により、いつでも任意に変更することができるものとします。変更後の利用規約は、当社が別途定める場合を除き、変更後の本規約の施行時期及び内容を当社ウェブサイト上での掲示その他の適切な方法により周知し、またはユーザーに通知します。\r\n第2項.\t法令上ユーザーの同意が必要となるような内容の変更の場合は、当社所定の方法でユーザーの同意を得るものとします。\r\n第3項.\t本規約の変更の効力が生じた後にユーザーが本サービス及び関連サービスを利用した場合には、変更後の利用規約の全てにつき、同意したものとみなします。\r\n\r\n第9条.\t（サービスの中断・停止）\r\n第1項.\t当社は、事前の予告なくして、本サービス及び関連サービスをいつでも任意の理由で追加、変更、またはサポートの終了をすることができます。\r\n第2項.\t当社が本サービスのサポートを終了する場合、当社のウェブサイト上でユーザーに事前に通知するものとします。\r\n\r\n第10条.\t（分離可能性）\r\n第1項.\t本規約のいずれかの条項またはその一部が、消費者契約法その他の法令等により無効または執行不能と判断された場合であっても、本規約の残りの規定及び一部が無効または執行不能と判断された規定の残りの部分は、継続して完全に効力を有するものとします。\r\n第2項.\t利用規約等の規定の一部があるユーザーとの関係で無効とされ、又は取り消された場合でも、利用規約等はその他のユーザーとの関係では有効とします。\r\n\r\n第11条.\t（準拠法及び管轄裁判所）\r\n第1項.\t本規約の準拠法は、日本法とします。\r\n第2項.\tユーザーと当社の間で訴訟の必要が生じた場合、当社の所在地を管轄する裁判所を第一審の合意管轄裁判所とします。\r\n\r\n第12条.\t（Epic Games, Inc.の免責事項および責任の制限）\r\n第1項.\tMocapForAll includes the Unreal® Engine code and other code, materials, and information (the “Epic Materials”) from Epic Games, Inc. (“Epic”).  All Epic Materials are provided on an “as is” and “as available” basis, “with all faults” and without warranty of any kind.  Akiya Research Institute, Epic, and Epic’s affiliates disclaim all warranties, conditions, common law duties, and representations (express, implied, oral, and written) with respect to the Epic Materials, including without limitation all express, implied, and statutory warranties and conditions of any kind, such as title, non-interference with your enjoyment, authority, non-infringement, merchantability, fitness or suitability for any purpose (whether or not Epic knows or has reason to know of any such purpose), system integration, accuracy or completeness, results, reasonable care, workmanlike effort, lack of negligence, and lack of viruses, whether alleged to arise under law, by reason of custom or usage in the trade, or by course of dealing.  Without limiting the generality of the foregoing, Akiya Research Institute, Epic, and Epic’s affiliates make no warranty that (1) any of the Epic Materials will operate properly, including as integrated in the MocapForAll, (2) that the Epic Materials will meet your requirements, (3) that the operation of the Epic Materials will be uninterrupted, bug free, or error free in any or all circumstances, (4) that any defects in the Epic Materials can or will be corrected, (5) that the Epic Materials are or will be in compliance with a platform manufacturer’s rules or requirements, or (6) that a platform manufacturer has approved or will approve this MocapForAll, or will not revoke approval of this MocapForAll for any or no reason.  Any warranty against infringement that may be provided in Section 2-312 of the Uniform Commercial Code or in any other comparable statute is expressly disclaimed by Akiya Research Institute and Epic.  Akiya Research Institute, Epic, and Epic’s affiliates do not guarantee continuous, error-free, virus-free, or secure operation of or access to the Epic Materials.  This paragraph will apply to the maximum extent permitted by applicable law. \r\n第2項.\tTo the maximum extent permitted by applicable law, neither Akiya Research Institute, Epic, Epic’s licensors, nor its or their affiliates, nor any of Akiya Research Institute’s or Epic’s service providers, shall be liable in any way for loss or damage of any kind resulting from the use or inability to use the Epic Materials or otherwise in connection with this agreement, including but not limited to loss of goodwill, work stoppage, computer failure, or malfunction, or any and all other commercial damages or losses.  In no event will Akiya Research Institute, Epic, Epic’s licensors, nor its or their affiliates, nor any of Akiya Research Institute’s or Epic’s service providers be liable for any loss of profits or any indirect, incidental, consequential, special, punitive, or exemplary damages, or any other damages arising out of or in connection with this agreement or the Epic Materials, or the delay or inability to use or lack of functionality of the Epic Materials, even in the event of Akiya Research Institute’s, Epic’s, or Epic’s affiliates’ fault, tort (including negligence), strict liability, indemnity, product liability, breach of contract, breach of warranty, or otherwise and even if Akiya Research Institute, Epic or Epic’s affiliates have been advised of the possibility of such damages.  These limitations and exclusions regarding damages apply even if any remedy fails to provide adequate compensation.\r\n第3項.\tBecause some states or jurisdictions do not allow the exclusion or the limitation of liability for consequential or incidental damages, in such states or jurisdictions, the liability of Akiya Research Institute, Epic, Epic’s licensors, its and their affiliates, and any of Akiya Research Institute’s or Epic’s service providers shall be limited to the full extent permitted by law.\r\n\r\n第13条.\t（附則）\r\n第1項.\t本規約は、2021年6月5日から施行します。\r\n第2項.\t本規約の施行前にユーザーによって行われた行為についても本規約が適用されます。\r\n第3項.\t本規則の制定・改定履歴は下記号のとおりです。\r\n第1号.\t【2021年6月5日　本規則制定】\r\n"
-msgstr ""
+msgstr "Les présentes conditions d'utilisation (les \"conditions\") Les présentes conditions d'utilisation (\"Conditions\") définissent les conditions dans lesquelles le Service est fourni et les droits et obligations entre vous et nous. En utilisant le service, vous acceptez d'être lié par les présentes conditions d'utilisation, que vous devez lire dans leur intégralité.\r\n\r\nArticle 1.\t(Applicable)\r\nParagraphe 1.\tLes présentes conditions d'utilisation ont pour objet de définir les modalités de fourniture du service et les relations de droits et d'obligations entre la société et l'utilisateur dans le cadre de l'utilisation du service, et s'appliquent à toutes les relations entre l'utilisateur et la société dans le cadre de l'utilisation du service.\r\nParagraphe 2.\tEn cas de divergence entre le contenu des présentes conditions générales et les règles énoncées au paragraphe précédent ou toute autre explication du service en dehors des présentes conditions générales, les dispositions des présentes conditions générales prévaudront.\r\n\r\nArticle 2.\t(Définition du mot)\r\nDans les présentes conditions générales, les termes suivants ont la signification indiquée ci-dessous.\r\nN° 1.\tLe terme \"Contrat de service\" désigne l'accord entre la société et l'utilisateur pour l'utilisation du service, sous réserve des conditions générales du présent contrat.\r\nNo. 2.\t\" Droits de propriété intellectuelle \" désigne les droits d'auteur, les droits de brevet, les droits de modèle d'utilité, les droits de conception, les droits de marque et autres droits de propriété intellectuelle (y compris le droit d'acquérir ces droits ou de demander l'enregistrement de ces droits). (y compris le droit d'obtenir ces droits ou de demander l'enregistrement de ces droits).\r\nNo. 3.\t\" Données créées \" désigne tout contenu (y compris, mais sans s'y limiter, du texte, des images, des vidéos et d'autres données) que vous créez en utilisant le service. (y compris, mais sans s'y limiter, les textes, images, vidéos et autres données) créés par l'utilisateur en utilisant le service.。\r\nNo. 4.\tLe terme \"nous\" fait référence au Vacant Houses Research Institute Ltd.\r\nNo. 5.\tLe \" Site Internet de la Société \" désigne le site Internet exploité par la Société sous le nom de domaine \" akiya-souken.co.jp \" (y compris le site Internet après toute modification du nom de domaine ou du contenu du Site Internet de la Société pour quelque raison que ce soit). Si le domaine ou le contenu du site web de la société est modifié pour une raison quelconque, le site web après cette modification sera inclus.\r\nNo. 6.\tLe terme \"Utilisateur\" désigne un individu ou une personne appartenant à une organisation, telle qu'une société, qui est devenu un utilisateur du Service conformément à l'article 4 (Utilisation du Service).\r\nNo. 7.\tLe \"Service\" désigne le service fourni par la Société sous le nom de \"MocapForAll\" (y compris le service après toute modification du nom ou du contenu du service pour quelque raison que ce soit). Le terme \"MocapForAll\" signifie Cela inclut les services qui ne sont pas gratuits ou actualisés.\r\n\r\nArticle 3.\t(Traitement des données personnelles)\r\nParagraphe 1.\tLa Société n'utilisera pas les informations relatives à l'utilisateur (ci-après dénommées \"informations relatives à l'utilisateur\") obtenues lorsque l'utilisateur utilise le Service, à l'exception de la \"Politique de confidentialité\" présentée séparément sur le site officiel.(https://akiya-souken.co.jp/privacy_policy.html)をご参照ください。\r\nParagraphe 2.\tEn utilisant le service, vous acceptez que vos informations personnelles soient traitées conformément à la politique de confidentialité.\r\nParagraphe 3.\tLa Société peut, à sa discrétion, utiliser et publier les informations, données, etc. fournies par l'Utilisateur à la Société en tant qu'informations statistiques sous une forme qui n'identifie pas les individus, et l'Utilisateur ne s'y opposera pas.\r\n\r\nArticle 4.\t(Utilisation du service)\r\nParagraphe 1.\tUne personne qui souhaite utiliser le Service devient un utilisateur du Service en téléchargeant le Service de la manière prescrite par la Société.\r\nParagraphe 2.\tLorsque vous devenez un utilisateur du Service comme spécifié dans le paragraphe précédent, un contrat d'utilisation du service sera formé entre vous et la Société, et vous pourrez utiliser le Service conformément aux présentes Conditions.\r\nParagraphe 3.\tNonobstant les dispositions du paragraphe 1 du présent article, ceux qui ont obtenu le Service par téléchargement ou autrement ne sont pas autorisés à utiliser le Service.\r\nParagraphe 4.\tSi vous êtes un utilisateur appartenant à une organisation, chaque utilisateur des services au sein de votre organisation sera considéré comme un utilisateur.\r\nParagraphe 5.\tSeuls les utilisateurs du Service qui ont payé l'abonnement conformément à l'article 5.1 ou 5.2 Paragraphe sont libres de publier leurs propres créations et de les utiliser à des fins commerciales à leurs propres risques.\r\nParagraphe 6.\tLa version gratuite de ce service ne peut être utilisée qu'à des fins d'évaluation et de test et ne peut être utilisée dans des produits réels ou à des fins commerciales.\r\nParagraphe 7.\tunited se réserve le droit de refuser de permettre aux Utilisateurs du Service d'utiliser le Service pour l'une des raisons suivantes, et n'est pas obligé de divulguer les raisons d'un tel refus.\r\nN° 1.\tVous êtes mineur, majeur, en curatelle ou en assistance et vous n'avez pas obtenu le consentement de votre représentant légal, tuteur, curateur ou assistant.\r\nNo. 2.\tForces antisociales, etc. (c'est-à-dire les groupes de criminalité organisée, les membres de groupes de criminalité organisée, les groupes de droite, les forces antisociales et autres parties similaires. Il en est de même pour la suite. La Société considère que la personne est une force antisociale, etc. (c'est-à-dire une personne qui est membre d'un syndicat du crime, d'une organisation d'extrême droite, d'une force antisociale ou d'une autre personne similaire ; les mêmes termes s'appliquent ci-après), ou que la personne a une certaine forme d'interaction ou d'implication avec des forces antisociales, etc.\r\nNo. 3.\tSi nous considérons que vous êtes une personne qui a rompu un contrat avec nous dans le passé, ou une personne liée à une telle personne.\r\nNo. 4.\tDans tout autre cas où la société estime que l'utilisation du service est inadaptée.\r\n\r\nArticle 5.\t(Frais, modes de paiement et remboursements)\r\nParagraphe 1.\tL'utilisateur doit, en contrepartie de l'utilisation de la partie payante du service, payer séparément les frais d'utilisation spécifiés par la société, par la méthode de paiement spécifiée par la société, et commencer à utiliser le service.\r\nParagraphe 2.\tDans le cas où une organisation telle qu'une société souhaite utiliser la partie payante du Service, elle devra, à titre de compensation, payer les frais d'utilisation pour le nombre d'utilisateurs du Service au sein de l'organisation conformément au paragraphe précédent.\r\nParagraphe 3.\tVous pouvez nous demander un remboursement si le service ne démarre pas correctement pour des raisons qui ne sont pas imputables à vous ou à votre environnement d'exploitation.\r\nParagraphe 4.\tDans le cas où l'Utilisateur demande un remboursement en vertu du paragraphe précédent, la Société remboursera à l'Utilisateur tout ou partie du prix d'achat, etc. de la manière indiquée par la Société.\r\nParagraphe 5.\tSi le Service ne fonctionne pas correctement en tout ou en partie pour des raisons imputables à l'utilisateur et à son environnement d'exploitation, aucun remboursement ne pourra être demandé.\r\n\r\nArticle 6.\t(Avertissement)\r\nParagraphe 1.\tTous les droits de propriété intellectuelle relatifs au Service appartiennent à la Société ou à ses concédants, et l'octroi d'une licence d'utilisation du Service en vertu des présentes Conditions n'implique pas une licence d'utilisation des droits de propriété intellectuelle de la Société ou de ses concédants en relation avec le Service.\r\nParagraphe 2.\tnous ne garantissons pas, expressément ou implicitement, que le service sera adapté à votre usage particulier, qu'il aura les fonctions, la valeur marchande, l'exactitude ou l'utilité que vous attendez, que votre utilisation du service sera conforme aux lois, réglementations ou règles internes applicables de toute association industrielle, qu'il sera ininterrompu ou sans erreur, ou qu'il sera exempt de défauts. Aucune garantie, expresse ou implicite, n'est donnée que le service sera exempt de défauts.\r\nParagraphe 3.\tLa Société ne sera pas tenue d'indemniser les dommages subis par l'Utilisateur dans le cadre du Service au-delà du montant de la rémunération versée par l'Utilisateur à la Société au cours des 12 derniers mois, et ne sera pas tenue d'indemniser les dommages accessoires, les dommages indirects, les dommages spéciaux, les dommages futurs, ou les dommages pour manque à gagner. En aucun cas, la société ne peut être tenue responsable de tout bénéfice accessoire, indirect, spécial, futur ou perdu.\r\nParagraphe 4.\tNous ne sommes pas tenus de gérer ou de stocker des informations sur le contenu que vous avez créé.\r\nParagraphe 5.\tVous déclarez et garantissez que vous avez le droit légal de conserver, de publier et de transmettre les données que vous avez créées, et que ces données ne portent pas atteinte aux droits d'un tiers.\r\nParagraphe 6.\tLa société n'assume aucune responsabilité quant à la légalité ou à l'exactitude des informations contenues dans les contenus utilisés par les utilisateurs.\r\nParagraphe 7.\tLa société n'est pas tenue de fournir une assistance aux utilisateurs pour le matériel et les systèmes tiers utilisés pour utiliser le service.\r\n\r\nArticle 7.\t(Actes interdits)\r\nDans le cadre de l'utilisation du Service, l'Utilisateur ne doit pas se livrer à l'un des actes suivants, ou à des actes que la Société considère comme relevant de l'une des catégories suivantes\r\nN° 1.\tActes en violation de la loi ou en rapport avec des activités criminelles\r\nNo. 2.\tFraude ou menaces à l'encontre de la Société, des autres utilisateurs du Service ou d'autres tiers.\r\nNo. 3.\tInfractions à l'ordre public et aux bonnes mœurs\r\nNo. 4.\tViolation des droits de propriété intellectuelle, des droits de portrait, des droits à la vie privée, de l'honneur ou d'autres droits ou intérêts de cette société, d'autres utilisateurs de ce service ou d'autres tiers.\r\nNo. 5.\tUtiliser le Service, ou toute partie de celui-ci, pour transmettre à la Société ou à d'autres utilisateurs du Service toute information que la Société considère comme relevant de, ou correspondant à, l'un des éléments suivants\r\nNo. 5.1.\tInformations contenant des virus informatiques ou d'autres programmes informatiques nuisibles\r\nNo. 5.2.\tLes informations qui contiennent des expressions qui diffament la réputation ou la crédibilité de la Société, des autres utilisateurs du Service ou d'autres tiers.\r\nNo. 5.3.\tInformations contenant des expressions qui encouragent la discrimination\r\nNo. 5.4.\tInformations contenant des expressions qui encouragent le suicide ou l'automutilation\r\nNo. 5.5.\tInformations contenant des expressions qui encouragent l'usage inapproprié de drogues\r\nNo. 5.6.\tInformations contenant des expressions antisociales\r\nNo. 5.7.\tLa recherche d'informations pour diffuser l'information à des tiers, comme le courrier en chaîne.\r\nNo. 5.8.\tInformations contenant des expressions qui peuvent être offensantes pour d'autres personnes\r\nNo. 6.\tDésassembler, décompiler, faire de l'ingénierie inverse ou analyser de toute autre manière le code source, la structure ou les idées de l'Application.\r\nNo. 7.\tToute action susceptible d'interférer avec le fonctionnement du service.\r\nNo. 8.\tRedistribuer le service à des tiers sans notre consentement.\r\nNo. 9.\tUsurper l'identité d'un tiers\r\nNo. 10.\tLes actions qui peuvent causer des désavantages, des dommages ou des désagréments à la Société, aux autres utilisateurs du Service ou à d'autres tiers.\r\nNo. 11.\tOctroi de prestations aux forces antisociales, etc.\r\nNo. 12.\tTout acte qui, directement ou indirectement, cause ou facilite l'un des actes susmentionnés.\r\nNo. 13.\tTenter de faire l'une des choses ci-dessus\r\nNo. 14.\tToute autre activité que nous jugeons inappropriée.\r\n\r\nArticle 8.\t(Modifications de ces termes et conditions)\r\nParagraphe 1.\tLes présentes conditions d'utilisation peuvent être modifiées à tout moment et à notre discrétion. Sauf indication contraire de la Société, la Société fera connaître ou notifiera aux utilisateurs les conditions générales révisées en publiant un avis sur le site Web de la Société ou par d'autres moyens appropriés, indiquant la date et le contenu des conditions générales révisées.\r\nParagraphe 2.\tEn cas de modification du contenu du site qui nécessiterait légalement le consentement de l'utilisateur, ce dernier sera obtenu de la manière prescrite par la société.\r\nParagraphe 3.\tVotre utilisation des services et des services connexes après la date d'entrée en vigueur de toute modification des présentes conditions d'utilisation constitue votre accord avec toutes ces modifications.\r\n\r\nArticle 9.\t(Interruption ou suspension du service)\r\nParagraphe 1.\tNous pouvons ajouter, modifier ou cesser de soutenir le service et les services connexes à tout moment et pour toute raison sans préavis.\r\nParagraphe 2.\tSi nous décidons de cesser de soutenir le service, nous vous en informerons à l'avance sur notre site web.\r\n\r\nArticle 10.\t(Possibilité de séparation)\r\nParagraphe 1.\tSi une disposition des présentes Conditions générales, ou une partie de celle-ci, est jugée invalide ou inapplicable en vertu de la Loi sur les contrats de consommation ou de toute autre loi ou réglementation, les autres dispositions des présentes Conditions générales, et le reste de toute disposition jugée invalide ou inapplicable, resteront pleinement en vigueur.\r\nParagraphe 2.\tSi une partie des conditions d'utilisation est jugée invalide ou révoquée à l'égard d'un utilisateur, les conditions d'utilisation restent valables à l'égard des autres utilisateurs.\r\n\r\nArticle 11.\t(Loi applicable et juridiction compétente)\r\nParagraphe 1.\tLes présentes conditions générales sont régies par les lois du Japon.\r\nParagraphe 2.\tEn cas d'action en justice entre l'utilisateur et la société, le tribunal compétent pour le siège de la société sera le tribunal de première instance.\r\n\r\nArticle 12.\t(Exclusion et limitation de la responsabilité d'Epic Games, Inc)\r\nParagraphe 1.\tMocapForAll comprend le code du moteur Unreal® et d'autres codes, matériaux et informations (les \"matériaux Epic\") d'Epic Games, Inc. (\"Epic\").  Tous les matériaux Epic sont fournis \" tels quels \" et \" tels que disponibles \", \" avec tous les défauts \" et sans garantie d'aucune sorte.  L'Akiya Research Institute, Epic et les sociétés affiliées à Epic déclinent toute garantie, condition, obligation de droit commun et représentation (expresse, implicite, orale et écrite) concernant le Matériel Epic, y compris, sans s'y limiter, toutes les garanties et conditions expresses, implicites et légales de toute nature, telles que le titre, la non-interférence avec votre jouissance, l'autorité, l'absence de contrefaçon, la qualité marchande, l'adéquation à un usage quelconque (qu'Epic ait ou non connaissance ou raison d'avoir connaissance d'un tel usage), l'intégration du système, l'exactitude ou l'exhaustivité, les résultats, l'attention raisonnable, l'effort professionnel, l'absence de négligence et l'absence de virus, qu'ils soient présumés découler de la loi, de la coutume ou de l'usage du commerce, ou de la pratique commerciale.  Sans limiter la généralité de ce qui précède, l'Akiya Research Institute, Epic et les sociétés affiliées à Epic ne garantissent pas que (1) tout matériel Epic fonctionnera correctement, y compris lorsqu'il est intégré à MocapForAll, (2) que le matériel Epic répondra à vos besoins, (3) que le fonctionnement du matériel Epic sera ininterrompu, sans bogue, (3) que le fonctionnement des matériaux épiques sera ininterrompu, sans bogue ou sans erreur dans toutes les circonstances, (4) que tout défaut dans les matériaux épiques peut être ou sera corrigé, (5) que les matériaux épiques sont ou seront conformes aux règles ou exigences d'un fabricant de plate-forme, ou (6) qu'un fabricant de plate-forme a approuvé ou approuvera cette MocapForAll, ou ne retirera pas son approbation de cette MocapForAll pour une raison quelconque ou sans raison.  Toute garantie contre la contrefaçon qui pourrait être fournie dans la Section 2-312 du Code Commercial Uniforme ou dans toute autre loi comparable est expressément rejetée par Akiya Research Institute et Epic.  L'Akiya Research Institute, Epic et les sociétés affiliées à Epic ne garantissent pas un fonctionnement ou un accès continu, sans erreur, sans virus ou sécurisé au Matériel Epic.  Ce paragraphe s'appliquera dans la mesure maximale autorisée par la loi applicable. \r\nParagraphe 2.\tDans la mesure maximale permise par la loi applicable, ni l'Akiya Research Institute, ni Epic, ni les concédants de licence d'Epic, ni ses ou leurs affiliés, ni aucun des fournisseurs de services de l'Akiya Research Institute ou d'Epic, ne pourront être tenus responsables de quelque manière que ce soit des pertes ou dommages de toute nature résultant de l'utilisation ou de l'incapacité à utiliser le Matériel Epic ou autrement en relation avec le présent accord, y compris, mais sans s'y limiter, la perte de clientèle, l'arrêt de travail, la panne d'ordinateur ou le dysfonctionnement, ou tout autre dommage ou perte commerciale.  En aucun cas, l'Akiya Research Institute, Epic, les concédants de licence d'Epic, ni ses sociétés affiliées, ni aucun des fournisseurs de services de l'Akiya Research Institute ou d'Epic ne pourront être tenus responsables de toute perte de bénéfices ou de tout dommage indirect, accessoire, consécutif, spécial, punitif ou exemplaire, ou de tout autre dommage découlant de ou en rapport avec le présent accord ou le Matériel Epic, ou le retard ou l'incapacité à utiliser ou le manque de fonctionnalité des Matériaux Epic, même en cas de faute de l'Akiya Research Institute, d'Epic ou des sociétés affiliées d'Epic, de délit (y compris la négligence), de responsabilité stricte, d'indemnisation, de responsabilité du fait des produits, de rupture de contrat, de rupture de garantie ou autre et même si l'Akiya Research Institute, Epic ou les sociétés affiliées d'Epic ont été informés de la possibilité de tels dommages.  Ces limitations et exclusions concernant les dommages s'appliquent même si tout recours ne permet pas d'obtenir une compensation adéquate.\r\nParagraphe 3.\tÉtant donné que certains États ou juridictions n'autorisent pas l'exclusion ou la limitation de la responsabilité pour les dommages indirects ou accessoires, dans ces États ou juridictions, la responsabilité de l'Akiya Research Institute, d'Epic, des concédants de licence d'Epic, de ses sociétés affiliées et de tout fournisseur de services de l'Akiya Research Institute ou d'Epic sera limitée dans toute la mesure permise par la loi.\r\n\r\nArticle 13.\t(avec règles)\r\nParagraphe 1.\tLes présentes conditions générales entreront en vigueur le 5 juin 2021.\r\nParagraphe 2.\tLes présentes conditions générales s'appliquent également à toute action entreprise par vous avant l'entrée en vigueur des présentes conditions générales.\r\nParagraphe 3.\tL'historique de la promulgation et de la révision de ces règles est présenté dans le numéro suivant.\r\nN° 1.\t[Le présent règlement a été promulgué le 5 juin 2021].\r\n"
 
 #. Key:	DDF398DD4B221D6E0BE9559BD92EFDA9
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_27.Text
@@ -2469,6 +2588,13 @@ msgstr ""
 msgctxt ",DDF398DD4B221D6E0BE9559BD92EFDA9"
 msgid "Data export"
 msgstr "Exportation de données"
+
+#. Key:	DE99E584486AD68A4F070F80CA7EBADE
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_translationNotice.Text
+#: /MultiWebcam3dPose/UI/WBP_EULA.WBP_EULA_C:WidgetTree.TextBlock_translationNotice.Text
+msgctxt ",DE99E584486AD68A4F070F80CA7EBADE"
+msgid "This English translation is a reference translation for confirming the contract details, not the original text.\r\nPlease note that if there are any inconsistencies or differences between this translation and the original text, \r\nthe meaning of the original text always prevails."
+msgstr "Cette traduction française est une traduction de référence pour confirmer les détails du contrat, et non le texte original. \r\nVeuillez noter qu'en cas d'incohérences ou de différences entre cette traduction et le texte original, le sens du texte original prévaut toujours."
 
 #. Key:	DEE8D8394DE62182B4A2E1891A47056F
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_126.ToolTipText
@@ -2617,6 +2743,13 @@ msgctxt ",E601C3F044D309D5859240A8C050B0E5"
 msgid "11"
 msgstr "11"
 
+#. Key:	E669DAD0494B7267B40B4DA5D27C2BB2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_136.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_136.ToolTipText
+msgctxt ",E669DAD0494B7267B40B4DA5D27C2BB2"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-: (float[]) Landmarks\r\n(5(iris) + 71(eye))(landmarks)\r\nx\r\n3(Position.X, Position.Y, Position.Z)"
+msgstr ""
+
 #. Key:	E6B9DC7449EB222AE3074DBEBFE50125
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_55.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_55.Text
@@ -2708,6 +2841,13 @@ msgctxt ",EAA857A04C422ACBE261CAB864D0D89C"
 msgid "10"
 msgstr "10"
 
+#. Key:	EADF135B4C777E6094D6AEB19D5E6913
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_131.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_131.Text
+msgctxt ",EADF135B4C777E6094D6AEB19D5E6913"
+msgid "Body"
+msgstr "Corps"
+
 #. Key:	EB9A9F334B3D7EE172CDAC9684AEEF54
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.Text
@@ -2742,13 +2882,6 @@ msgstr "Vous pouvez sélectionner la jointure de votre corps à être envoyé, e
 msgctxt ",ECA53A7442FF30789DCB57A50118D3DB"
 msgid "Calibrated"
 msgstr "Calibré"
-
-#. Key:	ECE20F33446E72E3082D0D9950555143
-#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.ToolTipText
-#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_124.ToolTipText
-msgctxt ",ECE20F33446E72E3082D0D9950555143"
-msgid "Enlish and Japanese are supported."
-msgstr "L'Anglais,le Français et le Japonais sont pris en charge."
 
 #. Key:	ED09C1B74A654F25E75DE6B658C26BC2
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_OffsetTweak.WBP_OffsetTweak_C:WidgetTree.TextBlock_67.Text
@@ -2833,6 +2966,13 @@ msgstr "Chargement des paramètres de la caméra.\r\nNotez que ce bouton ne ferm
 msgctxt ",F24C95BF4E5655A0EB662F9BAD17D925"
 msgid "39570"
 msgstr "39570"
+
+#. Key:	F336E5834C41B55AE7C45C8B515BD48E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Translation.WBP_Translation_C:WidgetTree.Image_.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_Translation.WBP_Translation_C:WidgetTree.Image_.ToolTipText
+msgctxt ",F336E5834C41B55AE7C45C8B515BD48E"
+msgid "Language"
+msgstr ""
 
 #. Key:	F455319D40EA71B8D91DC785D80A94AE
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_107.ToolTipText
