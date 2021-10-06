@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Game\n"
-"POT-Creation-Date: 2021-10-05 00:57\n"
-"PO-Revision-Date: 2021-10-05 00:57\n"
+"POT-Creation-Date: 2021-10-06 07:04\n"
+"PO-Revision-Date: 2021-10-06 07:04\n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -241,8 +241,8 @@ msgstr "足"
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.ToolTipText
 msgctxt ",160985284D7F146C552F319158D65737"
-msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-425: (float[]) Transforms of fingers of hand.\r\n15(bones)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         -----0--"
-msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-425: (float[]) 指の位置と向き\r\n15(下記図のボーン)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         -----0--"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-425: (float[]) Transforms of fingers of hand.\r\n15(bones)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         --------"
+msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-425: (float[]) 指の位置と向き\r\n15(下記図のボーン)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         --------"
 
 #. Key:	16138BFC4E80A830C51C239057717F32
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
@@ -1014,13 +1014,6 @@ msgctxt ",4C94671C41A694E379FF199966681F2A"
 msgid "Image height.\r\nPress \"Apply\" after changing the value."
 msgstr "画像の高さ\r\n値変更後は「適用」を押してください。"
 
-#. Key:	4DE3718F47FEBC62D267E78EEC7A0E31
-#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_117.ToolTipText
-#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_117.ToolTipText
-msgctxt ",4DE3718F47FEBC62D267E78EEC7A0E31"
-msgid "Settings for data sending via VMT protocol.\r\nSee \"https://gpsnmeajp.github.io/VirtualMotionTrackerDocument/api/\" for the details of the message definition."
-msgstr "VMTプロトコルを介してデータを送信するための設定。\r\nメッセージ定義の詳細については、「https://gpsnmeajp.github.io/VirtualMotionTrackerDocument/api/」を参照してください。"
-
 #. Key:	4EAC7E3040E322595727B18909C11945
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
 #: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
@@ -1109,8 +1102,8 @@ msgstr ""
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.ToolTipText
 msgctxt ",591D0A2741715A34ED99A49FC4C5E068"
-msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-425: (float[]) Transforms of fingers of hand.\r\n15(bones)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         -----0--"
-msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-425: (float[]) 指の位置と向き\r\n15(下記図のボーン)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         -----0--"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-425: (float[]) Transforms of fingers of hand.\r\n15(bones)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         --------"
+msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-425: (float[]) 指の位置と向き\r\n15(下記図のボーン)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         --------"
 
 #. Key:	594F78AE41DCA3A74B3C9CA95782953A
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_115.Text
@@ -2516,8 +2509,8 @@ msgstr "送信するトラッキング位置と、仮想トラッカーの番号
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.ToolTipText
 msgctxt ",D5F0DA4546877BEB2582BB810E11C1F8"
-msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-5621: (float[]) Landmarks of face\r\n468 (landmarks)\r\nx\r\n3(Position.X, Position.Y, Position.Z)\r\n\r\nSee \"mesh_map.jpg\" for the visualization of the landmark positions."
-msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-5621: (float[]) 顔のランドマーク\r\n468(ランドマーク)\r\nx\r\n3(Position.X, Position.Y, Position.Z)\r\n\r\nランドマークの位置の詳細は、\"mesh_map.jpg\"を参照してください。"
+msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-5621: (float[]) Landmarks of face\r\n468 (landmarks)\r\nx\r\n3(Position.X, Position.Y, Position.Z)\r\n\r\nSee the manual for the visualization of the landmark positions."
+msgstr "下記のデータがこの名前の共有メモリに書き込まれます。\r\n\r\nバイト単位でのインデックス： 内容\r\n---------------------------------------\r\n\r\n0: (int8) 更新カウンタ\r\n1-4: (int32) データ長\r\n5-5621: (float[]) 顔のランドマーク\r\n468(ランドマーク)\r\nx\r\n3(Position.X, Position.Y, Position.Z)\r\n\r\nランドマークの位置の詳細は、マニュアルを参照してください。"
 
 #. Key:	D5F158A842E603D148AFAEAF1674333B
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.ExpandableArea_Advanced.ToolTipText
