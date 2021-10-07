@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Game\n"
-"POT-Creation-Date: 2021-10-06 07:04\n"
-"PO-Revision-Date: 2021-10-06 07:04\n"
+"POT-Creation-Date: 2021-10-07 05:29\n"
+"PO-Revision-Date: 2021-10-07 05:29\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -235,14 +235,14 @@ msgstr "Manuel"
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_38.Text
 msgctxt ",15FB125F4F16798B02F94D95B5043D9D"
 msgid "Feet"
-msgstr "Pied"
+msgstr "Pieds"
 
 #. Key:	160985284D7F146C552F319158D65737
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_137.ToolTipText
 msgctxt ",160985284D7F146C552F319158D65737"
 msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-425: (float[]) Transforms of fingers of hand.\r\n15(bones)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         --------"
-msgstr ""
+msgstr "Les données ci-dessous seront écrites dans la mémoire partagée de ce nom.\r\n\r\nIndex en bytes: Contenu\r\n------------------------\r\n0: (int8) Mise à jour du compteur\r\n1-4: (int32) Longueur des données\r\n5-425: (float[]) Transforms les doigts de la main.\r\n15(os)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         --------"
 
 #. Key:	16138BFC4E80A830C51C239057717F32
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
@@ -774,7 +774,7 @@ msgstr "Vous pouvez sélectionner la jointure de votre corps à être envoyé, e
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_35.ToolTipText
 msgctxt ",3B2A391C417A1F11CBA004A326113FCC"
 msgid "Check this to send bone transforms via VMC protocol.\r\nAlso, facial morphs are sent when \"Receive facial morphs\" is turned on and morph data is received."
-msgstr "Vérifiez ceci pour envoyer les transForms d'os via le protocole VMC.\r\nDe même, les morphes faciales sont envoyés lorsque l'option \"Recevoir des morphes faciales\" est activée et que des données de morphes sont reçues."
+msgstr "Cochez cette case pour envoyer les transForms d'os via le protocole VMC.\r\nDe même, les morphes faciales sont envoyés lorsque l'option \"Recevoir des morphes faciales\" est activée et que des données de morphes sont reçues."
 
 #. Key:	3B6F122A47081D6DFFAF60B33D61BC4C
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_ScreenPercentage.Text
@@ -1012,7 +1012,7 @@ msgstr "0"
 #: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_Height.ToolTipText
 msgctxt ",4C94671C41A694E379FF199966681F2A"
 msgid "Image height.\r\nPress \"Apply\" after changing the value."
-msgstr "Image height.\r\nPress \"Apply\" after changing the value."
+msgstr "Hauteur de l'image.\r\nAppuyez sur \"Appliquer\" après avoir modifié la valeur."
 
 #. Key:	4EAC7E3040E322595727B18909C11945
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
@@ -1103,7 +1103,7 @@ msgstr "Face.M_F00_000_00_Fcl_BRW_Fun"
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_134.ToolTipText
 msgctxt ",591D0A2741715A34ED99A49FC4C5E068"
 msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-425: (float[]) Transforms of fingers of hand.\r\n15(bones)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         --------"
-msgstr ""
+msgstr "Les données ci-dessous seront écrites dans la mémoire partagée de ce nom.\r\n\r\nIndex en bytes: Contenu\r\n------------------------\r\n0: (int8) Mise à jour du compteur\r\n1-4: (int32) Longueur des données\r\n5-425: (float[]) Transforms les doigts de la main.\r\n15(os)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)\r\n\r\n         |      |      |      |\r\n        6     9     12    15\r\n         |      |      |      |\r\n    |   5     8     11    14\r\n   3    |      |      |      |\r\n    |   4---7---10--13\r\n    2    \\                 /\r\n     \\    \\               /\r\n      1    \\            /\r\n       \\    \\         /\r\n         --------"
 
 #. Key:	594F78AE41DCA3A74B3C9CA95782953A
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_115.Text
@@ -1201,21 +1201,21 @@ msgstr "Utilisé quand \"la Méthode de la calibration Extrinsic\" est \"ChArUco
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_122.ToolTipText
 msgctxt ",6072DD9442D6ACA76CC365B41A653C6F"
 msgid "Check this to send bone transforms as trackers via VMC protocol.\r\nThis allows some apps such as VirtualMotionCapture to receive data from MocapForAll as trackers."
-msgstr "Vérifiez cette option pour envoyer les transForms d'os en tant que trackers via le protocole VMC.\r\nCela permet à certaines applications telles que VirtualMotionCapture de recevoir des données de MocapForAll en tant que trackers."
+msgstr "Cochez cette case pour envoyer les transForms d'os en tant que trackers via le protocole VMC.\r\nCela permet à certaines applications telles que VirtualMotionCapture de recevoir des données de MocapForAll en tant que trackers."
 
 #. Key:	60FB7C13485CB8E64DC8DFA15DDADA5D
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_132.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_132.ToolTipText
 msgctxt ",60FB7C13485CB8E64DC8DFA15DDADA5D"
 msgid "Check this to export bone transforms and facial capture data to shared memory."
-msgstr ""
+msgstr "Cochez cette case pour exporter les transformations d'os et les données de capture faciale vers la mémoire partagée."
 
 #. Key:	60FFA13141405CDF74200AA7B687D662
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_64.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_64.Text
 msgctxt ",60FFA13141405CDF74200AA7B687D662"
 msgid "Fingers"
-msgstr "doigts"
+msgstr "Doigts"
 
 #. Key:	6155882042C1520FC1879CA87248D141
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_editableTextSliderButton.WBP_editableTextSliderButton_C:WidgetTree.EditableText.Text
@@ -1306,7 +1306,7 @@ msgstr "Options"
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_118.ToolTipText
 msgctxt ",67DFF314402731A093810089F04D01A8"
 msgid "Check this to received morph data from other apps.\r\nNote that you need to load the same VRM file that you use in other apps. To load a VRM file, simply drag and drop the VRM file into the MocapForAll window."
-msgstr "Vérifiez cette option pour recevoir les données de morphes à partir d'autres applications.\r\nNotez que vous devez charger le même fichier VRM que vous utilisez dans d'autres applications. Pour charger un fichier VRM, il suffit de le glisser et de le déposer dans la fenêtre de MocapForAll."
+msgstr "Cochez cette case pour recevoir les données de morphes à partir d'autres applications.\r\nNotez que vous devez charger le même fichier VRM que vous utilisez dans d'autres applications. Pour charger un fichier VRM, il suffit de le glisser et de le déposer dans la fenêtre de MocapForAll."
 
 #. Key:	68ABB975430EE5E632AE1DB6E5CB551F
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
@@ -1418,7 +1418,7 @@ msgstr "Dans la version d'essai gratuite, l'envoi de données via le protocole V
 #: /MultiWebcam3dPose/UI/WBP_CalibrationSaveDialogue.WBP_CalibrationSaveDialogue_C:ExecuteUbergraph_WBP_CalibrationSaveDialogue [Script Bytecode]
 msgctxt ",712054CB467E26495534199F66A556D6"
 msgid "Load"
-msgstr "Chargement"
+msgstr "Charger"
 
 #. Key:	71FEC0A344E1802B6A49159ED0304EF5
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic12.Text
@@ -1516,7 +1516,7 @@ msgstr "r12"
 #: /MultiWebcam3dPose/UI/WBP_Translation.WBP_Translation_C:WidgetTree.ComboBoxString_lang.ToolTipText
 msgctxt ",79CF3BA6423C0BC718D0548CE1729DF7"
 msgid "Language"
-msgstr ""
+msgstr "Language/Langage"
 
 #. Key:	7C36132644CEB18A6E6728A6E2480805
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_3.ToolTipText
@@ -1796,14 +1796,14 @@ msgstr "Paramètres pour l'envoi et la réception de données via le protocole V
 #: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.ComboBox_resolution.ToolTipText
 msgctxt ",915902F24B3CD1E0A546D780BCB850F0"
 msgid "Select image size.\r\nPress \"Apply\" after changing the value."
-msgstr "Select Taille de l'image.\r\nAppuyez sur \"Appliquer\" après avoir modifié la valeur."
+msgstr "Sélectionnez la taille de l'image.\r\nAppuyez sur \"Appliquer\" après avoir modifié la valeur."
 
 #. Key:	91EE3BE942FA695F10935797F736CFEC
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_131.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_131.ToolTipText
 msgctxt ",91EE3BE942FA695F10935797F736CFEC"
 msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-453: (float[]) Body transforms.\r\n16(pelvis, chest, neck, head, shloulderL, elbowL, handL, shloulderR, elbowR, handR, hipL, kneeL, footL, hipR, kneeR, footR)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)"
-msgstr ""
+msgstr "Les données ci-dessous seront écrites dans la mémoire partagée de ce nom.\r\n\r\nIndex en bytes: Contenu\r\n------------------------\r\n0: (int8) Mise à jour du compteur\r\n1-4: (int32) Longueur des données\r\n5-453: (float[]) Transforms du corps.\r\n16(bassin, poitrine, cou, tête, épauleG, coudeG, mainG, épauleD, coudeD, mainD, hancheG, genouG, piedG, hancheD, genouD, piedD)\r\nx\r\n7(Rotation.X, Rotation.Y, Rotation.Z, Rotation.W, Position.X, Position.Y, Position.Z)"
 
 #. Key:	92B5E56342FA1A1058F941920EDB946E
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_purchase_2.Text
@@ -2111,7 +2111,7 @@ msgstr "Taille du cadrage pour la main"
 #: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_width.ToolTipText
 msgctxt ",ACBA407243DA2BD3A853F7ACEA789B11"
 msgid "Image width.\r\nPress \"Apply\" after changing the value."
-msgstr "Image width.\r\nAppuyez sur \"Apply\" après avoir modifié la valeur."
+msgstr "Largeur de l'image.\r\nAppuyez sur \"Appliquer\" après avoir modifié la valeur."
 
 #. Key:	AD40F2294A88DF23E6714E904E90E2D4
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_mspf.Text
@@ -2251,7 +2251,7 @@ msgstr "Épaules"
 #: /MultiWebcam3dPose/UI/WBP_CalibrationSaveDialogue.WBP_CalibrationSaveDialogue_C:WidgetTree.TextBlock_saveLoad.Text
 msgctxt ",B7A728B74F5E6D004D9BFE9DAB916F1A"
 msgid "Load"
-msgstr "Chargement"
+msgstr "Charger"
 
 #. Key:	B8E4AE5843214C0EB0E4699E3C04FEB6
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_22.ToolTipText
@@ -2272,7 +2272,7 @@ msgstr "Version:"
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_39.Text
 msgctxt ",BB9848AA474A0A5F635D5B816ED56A40"
 msgid "Pelvis"
-msgstr "Pelvis"
+msgstr "Bassin"
 
 #. Key:	BBC8484B411164E6CA3CAEABC7DC17E7
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.CameraRemoveButton.ToolTipText
@@ -2510,7 +2510,7 @@ msgstr "Vous pouvez sélectionner la jointure de votre corps à être envoyé, e
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_133.ToolTipText
 msgctxt ",D5F0DA4546877BEB2582BB810E11C1F8"
 msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-5621: (float[]) Landmarks of face\r\n468 (landmarks)\r\nx\r\n3(Position.X, Position.Y, Position.Z)\r\n\r\nSee the manual for the visualization of the landmark positions."
-msgstr ""
+msgstr "Les données ci-dessous seront écrites dans la mémoire partagée de ce nom.\r\n\r\nIndex en bytes: Contenu\r\n------------------------\r\n0: (int8) Mise à jour du compteur\r\n1-4: (int32) Longueur des données\r\n5-5621: (float[]) Points de repère du visage\r\n468 (points de repère)\r\nx\r\n3(Position.X, Position.Y, Position.Z)\r\n\r\nVoir le manuel pour la visualisation des positions des points de repère."
 
 #. Key:	D5F158A842E603D148AFAEAF1674333B
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.ExpandableArea_Advanced.ToolTipText
@@ -2601,7 +2601,7 @@ msgstr "Les positions de tracking du bassin, des hanches, des genoux et des pied
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_28.ToolTipText
 msgctxt ",DF6FB7BA43DEF29946CAD4AFD9B9C9F5"
 msgid "Check this to send tracking points of your body.\r\nThis is used when you just need raw value of positions and rotations of \"trackers\", without animation retargetting done by this app.\r\n(For example, turn this on to use with VRChat.)"
-msgstr "Vérifiez ceci pour envoyer des points de tracking de votre corps.\r\nCeci est utilisé lorsque vous avez juste besoin de la valeur brute des positions et des rotations du \"traceurs\", sans le repositionnement de l'animation effectué par cette application.\r\n(Par exemple, activez cette option pour l'utiliser avec VRChat.)"
+msgstr "Cochez cette case pour envoyer des points de tracking de votre corps.\r\nCeci est utilisé lorsque vous avez juste besoin de la valeur brute des positions et des rotations du \"traceurs\", sans le repositionnement de l'animation effectué par cette application.\r\n(Par exemple, activez cette option pour l'utiliser avec VRChat.)"
 
 #. Key:	DF7B69064E199174229B25A5ACC3277A
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Extrinsic [Script Bytecode]
@@ -2643,7 +2643,7 @@ msgstr "Vous pouvez choisir le mode Précision orienté (qui utilise davantage l
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_75.ToolTipText
 msgctxt ",E09CC278421EA4BE3DC0A1A36E087868"
 msgid "Check this to send tracker positions as relative positions to the head.\r\nWhen used with SteamVR and \"Virtual Motion Tracker\", it is recommended to check this to make the latency of the virtual trackers less noticeable."
-msgstr "Vérifiez cette option pour envoyer les positions des traceurs comme positions relatives à la tête.\r\nWhen used with SEquipeVR and \"Virtual Motion Tracker\", il est recommandé de vérifier cette option pour rendre la latence des traceurs virtuels moins perceptible."
+msgstr "Cochez cette case pour envoyer les positions des traceurs comme positions relatives à la tête.\r\nWhen used with SEquipeVR and \"Virtual Motion Tracker\", il est recommandé de vérifier cette option pour rendre la latence des traceurs virtuels moins perceptible."
 
 #. Key:	E0DBBD4A4FEFD44DFA6F578CEF8B95D2
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic33.Text
@@ -2741,7 +2741,7 @@ msgstr "11"
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_136.ToolTipText
 msgctxt ",E669DAD0494B7267B40B4DA5D27C2BB2"
 msgid "Data below will be written in the shared memory of this name.\r\n\r\nIndex in bytes: Contents\r\n------------------------\r\n0: (int8) Update counter\r\n1-4: (int32) Data length\r\n5-: (float[]) Landmarks\r\n(5(iris) + 71(eye))(landmarks)\r\nx\r\n3(Position.X, Position.Y, Position.Z)"
-msgstr ""
+msgstr "Les données ci-dessous seront écrites dans la mémoire partagée de ce nom.\r\n\r\nIndex en bytes: Contenu\r\n------------------------\r\n0: (int8) Mise à jour du compteur\r\n1-4: (int32) Longueur des données\r\n5-: (float[]) Points de repère\r\n(5(iris) + 71(eye))(Points de repère)\r\nx\r\n3(Position.X, Position.Y, Position.Z)"
 
 #. Key:	E6B9DC7449EB222AE3074DBEBFE50125
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_55.Text
@@ -2846,7 +2846,7 @@ msgstr "Corps"
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.Text
 msgctxt ",EB9A9F334B3D7EE172CDAC9684AEEF54"
 msgid "ArUco marker [m]"
-msgstr "ArUco marker [m]"
+msgstr "Marqueur ArUco [m]"
 
 #. Key:	EBCA8C034B09448932439494927D96AC
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_faceMorphName.Text
@@ -2965,7 +2965,7 @@ msgstr "39570"
 #: /MultiWebcam3dPose/UI/WBP_Translation.WBP_Translation_C:WidgetTree.Image_.ToolTipText
 msgctxt ",F336E5834C41B55AE7C45C8B515BD48E"
 msgid "Language"
-msgstr ""
+msgstr "Language/Langage"
 
 #. Key:	F455319D40EA71B8D91DC785D80A94AE
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_107.ToolTipText
