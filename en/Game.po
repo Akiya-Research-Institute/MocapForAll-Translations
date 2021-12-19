@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Game\n"
-"POT-Creation-Date: 2021-10-06 07:04\n"
-"PO-Revision-Date: 2021-10-06 07:04\n"
+"POT-Creation-Date: 2021-12-19 07:13\n"
+"PO-Revision-Date: 2021-12-19 07:13\n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -27,6 +27,13 @@ msgctxt ",00B4B2064EC49D46680BC9A8DE939DFC"
 msgid "Save calibration result"
 msgstr "Save calibration result"
 
+#. Key:	00D1EBBD42062F6548A7E28B844F2A0F
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_4.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_4.Text
+msgctxt ",00D1EBBD42062F6548A7E28B844F2A0F"
+msgid "Preview"
+msgstr "Preview"
+
 #. Key:	014EB83E4365DC39D19AD98E3E036BC4
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_17.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_17.Text
@@ -45,8 +52,8 @@ msgstr "Save calibration result"
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_66.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_66.Text
 msgctxt ",0280B8B546856E0083A2AB8CF6FBB6E4"
-msgid "Priority on"
-msgstr "Priority on"
+msgid "Capture body ("
+msgstr "Capture body ("
 
 #. Key:	028749294CA8B0EA943814804389F5E3
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_53.ToolTipText
@@ -132,6 +139,13 @@ msgctxt ",0816BACF4A300BD4970B95B98AE7DAE0"
 msgid "0.04275"
 msgstr "0.04275"
 
+#. Key:	083D2CBC40FB805FFEE9789E8874903A
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_14.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_14.Text
+msgctxt ",083D2CBC40FB805FFEE9789E8874903A"
+msgid "+"
+msgstr "+"
+
 #. Key:	0B523E5141F7E790B034CCA46D7E4C53
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_0.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_0.Text
@@ -187,6 +201,13 @@ msgstr "fx"
 msgctxt ",1088D21D4503493B2CAEC7B6C054DE2E"
 msgid "GPU: "
 msgstr "GPU: "
+
+#. Key:	10A066B644CE51DC9506DDB27D264875
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_delayMs.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.EditableText_delayMs.Text
+msgctxt ",10A066B644CE51DC9506DDB27D264875"
+msgid "0"
+msgstr "0"
 
 #. Key:	11D3389D489F86A6F971B39B3EDD18C7
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_eyeMorphName_L.Text
@@ -367,8 +388,8 @@ msgstr "r22"
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_versionNum.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_versionNum.Text
 msgctxt ",1F16EB78459A8440F03899B9123276E9"
-msgid "1.13"
-msgstr "1.13"
+msgid "1.13.3"
+msgstr "1.13.3"
 
 #. Key:	1F2909384231B47739708286D7D8467F
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock.Text
@@ -812,8 +833,8 @@ msgid "Extrinsic"
 msgstr "Extrinsic"
 
 #. Key:	3CB8262C44B7CF0F4C84349A8A68B327
-#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_89.Text
-#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_89.Text
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_140.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_140.Text
 msgctxt ",3CB8262C44B7CF0F4C84349A8A68B327"
 msgid "Preview)"
 msgstr "Preview)"
@@ -936,6 +957,13 @@ msgstr "FPS"
 msgctxt ",460FF23942E4B412191AAC9B0048A8C8"
 msgid "Load calibration result"
 msgstr "Load calibration result"
+
+#. Key:	465024F641E89C83E891B0858CFB78E2
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_142.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_142.ToolTipText
+msgctxt ",465024F641E89C83E891B0858CFB78E2"
+msgid "Whether to apply the tracking points of your lower body to the character."
+msgstr "Whether to apply the tracking points of your lower body to the character."
 
 #. Key:	472A34F645376BCBE50925A857178890
 #. SourceLocation:	/MultiWebcam3dPose/BP/MocapForAllComponent.MocapForAllComponent_C:ExecuteUbergraph_MocapForAllComponent [Script Bytecode]
@@ -1161,6 +1189,13 @@ msgctxt ",5CA4239046513957F58B45BE54D3D3E5"
 msgid "Used when \"Extrinsic calibration method\" is \"Diamond cluster\".\r\nSee \"Which_side_to_measure_-_Diamond_marker.png\"."
 msgstr "Used when \"Extrinsic calibration method\" is \"Diamond cluster\".\r\nSee \"Which_side_to_measure_-_Diamond_marker.png\"."
 
+#. Key:	5CE465EE40365E9C6DAEB792984CD740
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_143.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_143.Text
+msgctxt ",5CE465EE40365E9C6DAEB792984CD740"
+msgid "Apply to upper body"
+msgstr "Apply to upper body"
+
 #. Key:	5D21939E41DB91D32CF63F92FFB49952
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.ToolTipText
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_109.ToolTipText
@@ -1186,8 +1221,8 @@ msgstr "Face.M_F00_000_00_Fcl_BRW_Sorrow"
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_7.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_7.Text
 msgctxt ",5FAF92434B0DF76FD25F4090BAE4A06C"
-msgid "Capture hand"
-msgstr "Capture hand"
+msgid "Capture hand ("
+msgstr "Capture hand ("
 
 #. Key:	5FB6B995422D6E1330B5DDBFB3F7253B
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_108.ToolTipText
@@ -1749,6 +1784,13 @@ msgctxt ",8D8EC53A48DAEBE1A6D8B09894106C55"
 msgid "Start"
 msgstr "Start"
 
+#. Key:	8E5E3BFA4D859474E9E8E497D3340CB5
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_139.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_139.Text
+msgctxt ",8E5E3BFA4D859474E9E8E497D3340CB5"
+msgid "Check pose flipping"
+msgstr "Check pose flipping"
+
 #. Key:	8EBCAA804BB9B1D65675B0B676E71546
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
@@ -2134,6 +2176,13 @@ msgctxt ",ADFCC9824161D1DF3C1177BD2629286F"
 msgid "Load calibration result"
 msgstr "Load calibration result"
 
+#. Key:	AE1A47A64702CE1B8B006B852076BBB0
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_140.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_140.ToolTipText
+msgctxt ",AE1A47A64702CE1B8B006B852076BBB0"
+msgid "Whether to show the tracking points of your body in separated windows."
+msgstr "Whether to show the tracking points of your body in separated windows."
+
 #. Key:	AE5D98E34CE2EF00C74FD987EEC961C6
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:ExecuteUbergraph_WBP_main [Script Bytecode]
@@ -2232,6 +2281,13 @@ msgctxt ",B47E6B2A4F88C0D2B0AFBB81B1DE36AF"
 msgid "12"
 msgstr "12"
 
+#. Key:	B4851C9A4036F7402CE08A9DD2F76D9E
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_141.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_141.Text
+msgctxt ",B4851C9A4036F7402CE08A9DD2F76D9E"
+msgid "Render the viewport"
+msgstr "Render the viewport"
+
 #. Key:	B6C30B96440676B2DF3A818B189522CF
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
 #: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Change Resolution [Script Bytecode]
@@ -2287,6 +2343,13 @@ msgstr "Close"
 msgctxt ",BC3FA0154A77A030B411CC9BA9EF61DD"
 msgid "Apply"
 msgstr "Apply"
+
+#. Key:	BE25F75B485B877D2431198CC7FB72E1
+#. SourceLocation:	/MultiWebcam3dPose/BP/BP_dropActor_mod.BP_dropActor_mod_C:ExecuteUbergraph_BP_dropActor_mod [Script Bytecode]
+#: /MultiWebcam3dPose/BP/BP_dropActor_mod.BP_dropActor_mod_C:ExecuteUbergraph_BP_dropActor_mod [Script Bytecode]
+msgctxt ",BE25F75B485B877D2431198CC7FB72E1"
+msgid "Stop capturing before changing the character."
+msgstr "Stop capturing before changing the character."
 
 #. Key:	BE3DAFDD45D1A14506C146A9C449DFF2
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_116.Text
@@ -2526,6 +2589,13 @@ msgctxt ",D69EF586475EAD48B80F7F817B6F65B8"
 msgid "The tracking positions of chest, neck, head, shoulder, elbows, and hands are scaled by this value."
 msgstr "The tracking positions of chest, neck, head, shoulder, elbows, and hands are scaled by this value."
 
+#. Key:	D6FA692D4489DEFBD47EBFA8994D4829
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_32.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_32.Text
+msgctxt ",D6FA692D4489DEFBD47EBFA8994D4829"
+msgid "Delay [ms]"
+msgstr "Delay [ms]"
+
 #. Key:	D799E76D48F7F5ECF78E229F5B4663C8
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumVmcReceive.Text
 #: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.EditableText_portNumVmcReceive.Text
@@ -2548,8 +2618,8 @@ msgid "Intrinsic"
 msgstr "Intrinsic"
 
 #. Key:	DA2DA0D84DD7B8B5EE0C768986D11373
-#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_89.ToolTipText
-#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_89.ToolTipText
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_138.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_138.ToolTipText
 msgctxt ",DA2DA0D84DD7B8B5EE0C768986D11373"
 msgid "Whether to show the tracking points of your face in separated windows."
 msgstr "Whether to show the tracking points of your face in separated windows."
@@ -2645,6 +2715,13 @@ msgctxt ",E09CC278421EA4BE3DC0A1A36E087868"
 msgid "Check this to send tracker positions as relative positions to the head.\r\nWhen used with SteamVR and \"Virtual Motion Tracker\", it is recommended to check this to make the latency of the virtual trackers less noticeable."
 msgstr "Check this to send tracker positions as relative positions to the head.\r\nWhen used with SteamVR and \"Virtual Motion Tracker\", it is recommended to check this to make the latency of the virtual trackers less noticeable."
 
+#. Key:	E0D0AAE44394617A01ADF89665BEA5C3
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_11.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_11.Text
+msgctxt ",E0D0AAE44394617A01ADF89665BEA5C3"
+msgid "Advanced"
+msgstr "Advanced"
+
 #. Key:	E0DBBD4A4FEFD44DFA6F578CEF8B95D2
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic33.Text
 #: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.Text_Extrinsic33.Text
@@ -2665,6 +2742,13 @@ msgstr "5"
 msgctxt ",E18CD8BC44B8507367CF89A0FC038BD4"
 msgid "Knees"
 msgstr "Knees"
+
+#. Key:	E199F72D43E10EFA6F703FB1AC2F9BFB
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_13.Text
+#: /MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:WidgetTree.TextBlock_13.Text
+msgctxt ",E199F72D43E10EFA6F703FB1AC2F9BFB"
+msgid "-"
+msgstr "-"
 
 #. Key:	E1DA39904192720569C33E825C5D6177
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_Camera_1.WBP_Camera_C:Reset Intrinsic [Script Bytecode]
@@ -2784,6 +2868,13 @@ msgstr "r12"
 msgctxt ",E849258C4E06A0DB19899BB5ECA12629"
 msgid "The calibration result may be incorrect because:"
 msgstr "The calibration result may be incorrect because:"
+
+#. Key:	E878D01B4EA966EBFAA28BBFB3956602
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_143.ToolTipText
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_143.ToolTipText
+msgctxt ",E878D01B4EA966EBFAA28BBFB3956602"
+msgid "Whether to apply the tracking points of your upper body to the character."
+msgstr "Whether to apply the tracking points of your upper body to the character."
 
 #. Key:	E897520945A4FBB66A65F38C82AE9BB4
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_49.Text
@@ -3078,6 +3169,13 @@ msgstr "1"
 msgctxt ",FE5EC03B4F7C51978FD4208CB88C635D"
 msgid "0.15"
 msgstr "0.15"
+
+#. Key:	FE7C74BC469FB137A753998B1B0F505B
+#. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_142.Text
+#: /MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_142.Text
+msgctxt ",FE7C74BC469FB137A753998B1B0F505B"
+msgid "Apply to lower body"
+msgstr "Apply to lower body"
 
 #. Key:	FE8B72D94B61ED04EFD8BDA3BB508756
 #. SourceLocation:	/MultiWebcam3dPose/UI/WBP_main.WBP_main_C:WidgetTree.TextBlock_121.Text
